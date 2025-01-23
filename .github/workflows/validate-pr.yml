@@ -22,4 +22,4 @@ jobs:
           python ${{ runner.temp }}/spec-parser/main.py --version
       - name: Run spec-parser to validate
         run: |
-          python ${{ runner.temp }}/spec-parser/main.py --debug --no-output model
+          python ${{ runner.temp }}/spec-parser/main.py --verbose --no-output model
