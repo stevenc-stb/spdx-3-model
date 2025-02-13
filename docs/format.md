@@ -29,6 +29,7 @@ specifications.
   - [Vocabularies](#vocabularies)
 - [Writing style](#writing-style)
 - [Translation](#translation)
+- [Checking if everything is ok](#checking-if-everything-is-ok)
 
 ## Overview
 
@@ -38,7 +39,7 @@ is defined in a distinct file.
 Specific headings and formatting are used to provide information for the
 generation of a machine-readable specification, in
 [Resource Description Framework (RDF)](https://en.wikipedia.org/wiki/Resource_Description_Framework)
-data model, by the [spec-parser](https://github.com/spdx/spec-parser/).
+data model, by the [spec-parser][].
 
 For instance, a summary listed under the "Summary" heading will be represented
 as a `rdfs:comment` in the RDF file. Likewise, a value specified for the
@@ -527,3 +528,22 @@ recommendations when writing paragraph text and incorporating links.
 
 Model summaries, descriptions, and vocabulary entry descriptions can be
 translated. Please see [translation.md](./translation.md) for details.
+
+## Checking if everything is ok
+
+Use [spec-parser][] to check if your additions or edits are correctly
+formatted.
+
+Install:
+
+```shell
+git clone https://github.com/spdx/spec-parser.git
+```
+
+Check format:
+
+```shell
+python3 spec-parser/main.py --no-output <MODEL_MARKDOWN_DIR>
+```
+
+[spec-parser]: https://github.com/spdx/spec-parser/
