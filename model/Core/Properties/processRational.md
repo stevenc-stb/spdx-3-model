@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# processRationale
+# processRational
 
 ## Summary
 
@@ -12,6 +12,6 @@ The reason a process exists.
 
 ## Metadata
 
-- name: processRationale
+- name: processRational
 - Nature: DataProperty
 - Range: xsd:string
