@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# organizationalEntity
+# productAgent
 
 ## Summary
 
@@ -12,6 +12,6 @@ The Agent is responsible for defining the PartNumber, batchNumber or serialNumbe
 
 ## Metadata
 
-- name: organizationalEntity
+- name: productAgent
 - Nature: ObjectProperty
 - Range: /Core/Agent
