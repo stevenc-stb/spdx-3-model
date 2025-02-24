@@ -16,7 +16,10 @@ Mailing, street and description define location. GPS coordinates are used to loc
 - Instantiability: Concrete
 
 ## Properties
-
+- locationTime
+  - type: /Core/DateTime
+  - minCount: 1
+  - maxCount: 1
 - mailingAddress
   - type: xsd:string
   - maxCount: 1
