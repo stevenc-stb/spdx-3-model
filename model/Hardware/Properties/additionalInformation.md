@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# informationElementList
+# additionalInformation
 
 ## Summary
 
@@ -12,6 +12,6 @@ This elemtent provides relevant information to the product.
 
 ## Metadata
 
-- name: informationElementList
+- name: additionalInformation
 - Nature: ObjectProperty
 - Range: /Core/DictionaryEntry
