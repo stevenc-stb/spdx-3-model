@@ -17,7 +17,7 @@ Mailing, street and description define location. GPS coordinates are used to loc
 
 ## Properties
 - locationTime
-  - type: /Core/DateTime
+  - type: DateTime
   - minCount: 1
   - maxCount: 1
 - mailingAddress
