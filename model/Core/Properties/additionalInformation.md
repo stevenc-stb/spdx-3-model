@@ -14,4 +14,4 @@ This elemtent provides relevant information to the action.
 
 - name: additionalInformation
 - Nature: ObjectProperty
-- Range: /Core/DictionaryEntry
+- Range: DictionaryEntry
