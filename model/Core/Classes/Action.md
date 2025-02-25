@@ -33,4 +33,7 @@ Action defines an event that has occurred. This is an Abstract Action.
 - originatedBy
   - type: Agent
   - minCount: 1
+- additionalInformation
+  - type: DictionaryEntry
+
   
