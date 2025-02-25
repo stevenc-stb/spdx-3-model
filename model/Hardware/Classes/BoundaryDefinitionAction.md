@@ -4,14 +4,14 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Class that describes an instance of VirtualHardware.
+The boundary definition is used to define boundaries.
 
 ## Description
 
-A VirtualHardware is a distinct article related to simulation or emulation hardware. 
-This is used to assist in recording "Digital Twinning".
-A FPGA simualtion of hardware is a VirtualHardware. 
-Virtual hardware requires instantiation involving specific hardware and software. 
+Boundaries can be physical or abstract. This is the act of defining the boundaries. 
+
+This class must have: 
+For Each ‘Boundary Definition Action’ there is one and only one '/Core/Relationship' class or subclass with the relationshipType of 'Creator’ on the to and an '/Core/Agent' class on the from. 
 
 ## Metadata
 
