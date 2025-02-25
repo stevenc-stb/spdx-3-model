@@ -10,7 +10,7 @@ The boundary definition is used to define boundaries.
 
 Boundaries can be physical or abstract. This is the act of defining the boundaries. 
 
-This class must have: 
+Relationship: 
 For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationship` class or subclass with the relationshipType of 'Creator’ on the to and an `/Core/Agent` class or subclass on the from. 
 
 ## Metadata
