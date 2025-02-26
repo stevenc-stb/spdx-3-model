@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# planProcess
+# PlanProcess
 
 ## Summary
 
@@ -12,7 +12,7 @@ Complex processes require plans, therefore a process plan outlines procedures re
 
 ## Metadata
 
-- name: planProcess
+- name: PlanProcess
 - SubclassOf: UseProcess
 - Instantiability: Concrete
 
