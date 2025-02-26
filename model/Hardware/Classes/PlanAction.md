@@ -1,0 +1,26 @@
+SPDX-License-Identifier: Community-Spec-1.0
+
+# PlanAction
+
+## Summary
+
+A planAction involves the execution of a plan in relation to a planProcess. 
+
+## Description
+
+A planAction involves the execution of a plan in relation to a planProcess. The description of the planAction is a mandatory property.
+For Each `PlanAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'Generated’ on the to and an `planProcess` class or subclass on the from. 
+
+## Metadata
+
+- name: PlanAction
+- SubclassOf: UseAction
+- Instantiability: Concrete
+
+## Properties
+
+- description
+  - type: xsd:string
+  - minCount: 1
+  - maxCount: 1
+
