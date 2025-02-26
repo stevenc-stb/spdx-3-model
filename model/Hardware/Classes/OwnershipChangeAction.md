@@ -8,7 +8,7 @@ Ownership changes are recorded in this action.
 
 ## Description
 
-Changes of ownership are recorded in this action based on the ownership change process.
+Changes of ownership are recorded in this action. Ownership Change refers to the transfer of rights, responsibilities, and control of an asset, property, business, or entity from one party to another. This change can occur in various contexts, including real estate, business acquisitions, intellectual property, and personal assets.
 
 ## Metadata
 
