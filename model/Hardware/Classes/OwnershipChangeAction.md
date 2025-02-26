@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# ownershipChangeAction
+# OwnershipChangeAction
 
 ## Summary
 
@@ -12,7 +12,7 @@ Changes of ownership are recorded in this action based on the ownership change p
 
 ## Metadata
 
-- name: ownershipChangeAction
+- name: OwnershipChangeAction
 - SubclassOf: /Core/Action
 - Instantiability: Concrete
 
