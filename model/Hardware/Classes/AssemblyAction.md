@@ -11,7 +11,6 @@ The assembly action is composed of the various actions that produce a product.
 A product is produced by assembly actions. These actions vary by need and purpose. 
 Assembled products may be designed to be disassembled into components. 
 
-
 ## Metadata
 
 - name: AssemblyAction
