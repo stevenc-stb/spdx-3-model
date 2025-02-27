@@ -18,7 +18,7 @@ Transporting refers to the act of moving people, goods, information, or substanc
 
 ## Properties
 
-- plannedStorageLocation 
+- plannedStorageLocation
   - type: /Core/Location
   - minCount: 0
   - maxCount: 1 
