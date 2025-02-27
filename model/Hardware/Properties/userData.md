@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# UserData
+# userData
 
 ## Summary
 
@@ -12,6 +12,6 @@ User specified data.
 
 ## Metadata
 
-- name: UserData
+- name: userData
 - Nature: DataProperty
 - Range: xsd:string
