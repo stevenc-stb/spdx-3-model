@@ -26,6 +26,7 @@ Ownership changes vary by region and ownership definition. The process for chang
   - type: /Core/Agent
   - minCount: 0
   - maxCount: 1
-  plannedProductofOwnershipChange
+- plannedProductofOwnershipChange
   - type: /Core/Element
+  - minCount: 0
 
