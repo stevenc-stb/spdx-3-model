@@ -16,10 +16,9 @@ This is the process of defining boundaries for the creation of a region.
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions 
 
 - processRational
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
