@@ -18,7 +18,7 @@ Requirements are categorized into various types based on their focus, purpose, a
 
 - systemLevel: This is a system level requirement
 - templateLevel: This is a requirement used to define a template 
-- softwareLevel:This is a requirement used to define a software requirement
+- softwareLevel: This is a requirement used to define a software requirement
 - lowLevel: This is a requirement used to define a low level requirement
 - highLevel: This is a requirement used to define a high level requirement
 
