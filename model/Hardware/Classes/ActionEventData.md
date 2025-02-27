@@ -20,6 +20,6 @@ For Each `ActionEventData` there is only one `/Core/Relationship` class or subcl
 
 ## Properties
 
-- UserData
+- userData
   - type: xsd:string
 
