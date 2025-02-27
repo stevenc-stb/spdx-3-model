@@ -26,7 +26,7 @@ A requirement is a specific condition, capability, or constraint that a product,
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-- requirementsStatement 
+- requirementsStatement
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
@@ -46,4 +46,3 @@ A requirement is a specific condition, capability, or constraint that a product,
   - type: xsd:positiveInteger
   - minCount: 0
   - maxCount: 1
-
