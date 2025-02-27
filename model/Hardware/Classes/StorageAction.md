@@ -22,7 +22,7 @@ This is the specific action of product storage
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-- storageLocation 
+- storageLocation
   - type: /Core/Location
   - minCount: 1
   - maxCount: 1 
