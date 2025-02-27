@@ -22,4 +22,4 @@ For Each `ActionEventData` there is only one `/Core/Relationship` class or subcl
 
 - userData
   - type: xsd:string
-
+  - minCount: 0
