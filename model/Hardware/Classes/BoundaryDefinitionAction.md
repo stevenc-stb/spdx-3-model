@@ -21,11 +21,13 @@ For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationshi
 
 ## Properties
 
-- description
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
 - boundaryParameters
   - type: /Core/DictionaryEntry
+  - minCount: 1
+  - maxCount: 1
+
+## External properties restrictions 
+
+- description
   - minCount: 1
   - maxCount: 1
