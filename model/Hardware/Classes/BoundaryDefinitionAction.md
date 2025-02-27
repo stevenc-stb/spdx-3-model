@@ -26,7 +26,7 @@ For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationshi
   - minCount: 1
   - maxCount: 1
 
-## External properties restrictions 
+## External properties restrictions
 
 - description
   - minCount: 1
