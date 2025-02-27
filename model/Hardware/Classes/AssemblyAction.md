@@ -18,8 +18,8 @@ Assembled products may be designed to be disassembled into components.
 - SubclassOf: CreationAction
 - Instantiability: Concrete
 
-## External properties restrictions 
+## External properties restrictions
+
 - actionStartTime
   - minCount: 1
   - maxCount: 1
-
