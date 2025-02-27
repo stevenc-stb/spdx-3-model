@@ -18,11 +18,14 @@ The state of a specific element is defined in this class.The state of an object 
 
 ## Properties
 
-- description
+- objectState
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-- objectState
+
+## External properties restrictions
+
+- description
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
