@@ -24,7 +24,7 @@ Bulk units defined in the QUDT Units standards.
   - minCount: 1
   - maxCount: 1
   
- ## External properties restrictions 
+ ## External properties restrictions
 
 - description
   - minCount: 1
