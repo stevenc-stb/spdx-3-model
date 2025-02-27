@@ -40,3 +40,4 @@ A hardware artifact is a distinct unit related to hardware.
   - maxCount: 1
 - additionalInformation
   - type: /Core/DictionaryEntry
+  - minCount: 0
