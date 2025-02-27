@@ -18,7 +18,7 @@ A requirement is a specific condition, capability, or constraint that a product,
 
 ## Properties
 
-- requirementsRationale 
+- requirementsRationale
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
