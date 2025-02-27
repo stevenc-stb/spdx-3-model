@@ -19,15 +19,15 @@ Bulk units defined in the QUDT Units standards.
 
 ## Properties
 
-- description
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
-- serialNumber
-  - type: xsd:string
-  - maxCount: 0
 - bulkQuantity
   - type: /Core/UnitofMeasure
   - minCount: 1
-  - maxCount: 1  
+  - maxCount: 1
+  
+ ## External properties restrictions 
 
+- description
+  - minCount: 1
+  - maxCount: 1
+- serialNumber
+  - maxCount: 0
