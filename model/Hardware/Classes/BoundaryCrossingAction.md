@@ -16,7 +16,8 @@ Boundary crossing occurs when an individual, object, or system moves between dif
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-## External properties restrictions 
+## External properties restrictions
+
 - description
   - minCount: 1
   - maxCount: 1
