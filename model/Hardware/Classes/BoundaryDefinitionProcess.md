@@ -16,9 +16,8 @@ This is the process of defining boundaries for the creation of a region.
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Concrete
 
-## External properties restrictions 
+## External properties restrictions
 
 - processRational
   - minCount: 1
   - maxCount: 1
-
