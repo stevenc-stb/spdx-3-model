@@ -20,11 +20,11 @@ Transporting refers to the act of moving people, goods, information, or substanc
 
 - transportRoutes
   - type: xsd:string
-- pickupLocation 
+- pickupLocation
   - type: /Core/Location
   - minCount: 1
   - maxCount: 1 
-- dropoffLocation 
+- dropoffLocation
   - type: /Core/Location
   - minCount: 0
   - maxCount: 1 
