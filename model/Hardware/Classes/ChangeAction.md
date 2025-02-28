@@ -16,9 +16,8 @@ A change action refers to an intentional change or adjustment made to an object,
 - SubclassOf: ModifyAction
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
