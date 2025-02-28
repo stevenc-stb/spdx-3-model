@@ -16,10 +16,9 @@ HarvestingAction is the Action of extracting goods or products from nature. This
 - SubclassOf: CreationAction
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - actionStartTime
-  - type: /Core/DateTime
   - minCount: 1
   - maxCount: 1
 
