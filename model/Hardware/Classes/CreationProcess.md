@@ -27,5 +27,3 @@ to a `/Core/Element` class or subclass (to).
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
-
