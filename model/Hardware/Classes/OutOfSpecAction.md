@@ -18,7 +18,7 @@ OutOfSpecAction refers to a situation where a product, material, environment, or
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
 
