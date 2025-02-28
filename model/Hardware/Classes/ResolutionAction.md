@@ -18,10 +18,10 @@ For Each `ResolutionAction` there is at least one `/Core/Relationship` class or 
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-## Properties
+
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
