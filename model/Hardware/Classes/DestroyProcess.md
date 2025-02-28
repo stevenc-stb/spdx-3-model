@@ -18,7 +18,6 @@ Destroyed means to render an item useless. The destroyed process defines the met
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
-
