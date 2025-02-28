@@ -24,7 +24,6 @@ For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationshi
 - boundaryParameters
   - type: /Core/DictionaryEntry
   - minCount: 1
-  - maxCount: 1
 
 ## External properties restrictions
 
