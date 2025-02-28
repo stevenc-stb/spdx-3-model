@@ -25,7 +25,7 @@ The state of a specific element is defined in this class.The state of an object 
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
