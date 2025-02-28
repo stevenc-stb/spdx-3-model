@@ -16,10 +16,9 @@ Destroyed means to render an item useless. The destroyed process defines the met
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
