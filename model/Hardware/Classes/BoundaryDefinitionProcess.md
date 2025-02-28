@@ -20,4 +20,3 @@ This is the process of defining boundaries for the creation of a region.
 
 - /Core/DefinedProcess/processRational
   - minCount: 1
-  - maxCount: 1
