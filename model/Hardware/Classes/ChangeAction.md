@@ -18,6 +18,6 @@ A change action refers to an intentional change or adjustment made to an object,
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
