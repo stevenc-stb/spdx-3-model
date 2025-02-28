@@ -18,7 +18,7 @@ A product is produced by manufacturing actions. These actions vary by need and p
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
 
