@@ -25,12 +25,12 @@ The action of destroying an element is recorded as part of the DestroyAction. To
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
-- actionEndTime
+- /Core/Action/actionEndTime
   - minCount: 1
   - maxCount: 1
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
