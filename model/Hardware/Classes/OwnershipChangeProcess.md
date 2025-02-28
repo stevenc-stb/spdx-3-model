@@ -13,7 +13,7 @@ Ownership changes vary by region and ownership definition. The process for chang
 ## Metadata
 
 - name: OwnershipChangeProcess
-- SubclassOf: UseProcess
+- SubclassOf: /Core/DefinedProcess
 - Instantiability: Concrete
 
 ## Properties
