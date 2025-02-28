@@ -16,7 +16,7 @@ Reproduction involves the act of replicating or reproducing a product. This incl
 - SubclassOf: CreationAction
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - actionStartTime
   - type: /Core/DateTime
