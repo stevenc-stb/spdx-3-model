@@ -19,6 +19,6 @@ For Each `CreationProcess` or subclass except the`planProcess` there is at least
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
