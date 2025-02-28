@@ -19,6 +19,6 @@ Assembled products may be designed to be disassembled into components.
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
