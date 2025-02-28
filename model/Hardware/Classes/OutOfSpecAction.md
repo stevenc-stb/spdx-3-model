@@ -16,10 +16,9 @@ OutOfSpecAction refers to a situation where a product, material, environment, or
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
