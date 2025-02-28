@@ -29,4 +29,3 @@ For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationshi
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
