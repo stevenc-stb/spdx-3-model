@@ -21,7 +21,7 @@ For Each `ResolutionAction` there is at least one `/Core/Relationship` class or 
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
 
