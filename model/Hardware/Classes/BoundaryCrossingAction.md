@@ -18,7 +18,7 @@ Boundary crossing occurs when an individual, object, or system moves between dif
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
 
