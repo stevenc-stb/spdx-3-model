@@ -18,10 +18,9 @@ For Each `CreationProcess` there is at least one `/Core/Relationship` class or s
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Abstract
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
