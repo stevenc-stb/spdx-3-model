@@ -16,11 +16,8 @@ The product change process varies based on requirements. A standard product may 
 - SubclassOf: ModifyProcess
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - processRational
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
-
-
