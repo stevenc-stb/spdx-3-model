@@ -36,5 +36,5 @@ Action defines an event that has occurred. This is an Abstract Action.
 
 ## External properties restrictions
 
-- originatedBy
+- Artifact/originatedBy
   - minCount: 1
