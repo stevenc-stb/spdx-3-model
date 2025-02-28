@@ -18,7 +18,7 @@ A test action is a specific action associated with a test. The execution of a te
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
 
