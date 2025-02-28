@@ -20,5 +20,3 @@ A test action is a specific action associated with a test. The execution of a te
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
-
