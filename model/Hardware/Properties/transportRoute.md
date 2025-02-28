@@ -12,6 +12,6 @@ A transport route is the path taken by people, products, goods, data or resource
 
 ## Metadata
 
-- name: transportRoutes
+- name: transportRoute
 - Nature: DataProperty
 - Range: xsd:string
