@@ -24,5 +24,3 @@ For Each `UseAction` there is at least one `/Core/Relationship` class or subclas
 
 - /Core/Action/actionStartTime
   - minCount: 1
-  - maxCount: 1
-
