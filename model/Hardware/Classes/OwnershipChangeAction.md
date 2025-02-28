@@ -18,14 +18,6 @@ Changes of ownership are recorded in this action. Ownership Change refers to the
 
 ## Properties
 
-- actionStartTime
-  - type: /Core/DateTime
-  - minCount: 1
-  - maxCount: 1
-- actionEndTime
-  - type: /Core/DateTime
-  - minCount: 1
-  - maxCount: 1
 - buyer
   - type: /Core/Agent
   - minCount: 1
@@ -37,3 +29,12 @@ Changes of ownership are recorded in this action. Ownership Change refers to the
 - ownershipChangedOnProduct
   - type: /Core/Element
   - minCount: 1
+
+## External properties restrictions
+
+- actionStartTime
+  - minCount: 1
+  - maxCount: 1
+- actionEndTime
+  - minCount: 1
+  - maxCount: 1
