@@ -16,7 +16,7 @@ Requirements go through different status types during their lifecycle. Below are
 
 ## Entries
 
-- Draft: Initial requirement suggestion, not yet reviewed.
-- ReadforReview: Being refined and not yet finalized .
-- Approved: Reviewed and formally accepted for development.
-- Retired: Obsolete or superseded requirement
+- draft: Initial requirement suggestion, not yet reviewed.
+- readForReview: Being refined and not yet finalized.
+- approved: Reviewed and formally accepted for development.
+- retired: Obsolete or superseded requirement.
