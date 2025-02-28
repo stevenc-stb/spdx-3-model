@@ -34,7 +34,5 @@ Changes of ownership are recorded in this action. Ownership Change refers to the
 
 - /Core/Action/actionStartTime
   - minCount: 1
-  - maxCount: 1
 - /Core/Action/actionEndTime
   - minCount: 1
-  - maxCount: 1
