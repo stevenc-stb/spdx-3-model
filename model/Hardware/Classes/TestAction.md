@@ -16,10 +16,9 @@ A test action is a specific action associated with a test. The execution of a te
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
