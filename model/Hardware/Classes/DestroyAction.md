@@ -14,7 +14,7 @@ The action of destroying an element is recorded as part of the DestroyAction. To
 
 - name: DestroyAction
 - SubclassOf: /Core/Action
-- Instantiability: Abstract
+- Instantiability: Concrete
 
 ## Properties
 
