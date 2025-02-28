@@ -18,6 +18,6 @@ The product change process varies based on requirements. A standard product may 
 
 ## External properties restrictions
 
-- processRational
+- /Core/DefinedProcess/processRational
   - minCount: 1
   - maxCount: 1
