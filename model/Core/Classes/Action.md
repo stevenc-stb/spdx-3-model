@@ -30,10 +30,11 @@ Action defines an event that has occurred. This is an Abstract Action.
   - type: Location
   - minCount: 0
   - maxCount: 1
-- originatedBy
-  - type: Agent
-  - minCount: 1
 - additionalInformation
   - type: DictionaryEntry
+  - minCount: 0
 
-  
+## External properties restrictions
+
+- originatedBy
+  - minCount: 1
