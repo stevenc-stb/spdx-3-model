@@ -35,6 +35,5 @@ Changes of ownership are recorded in this action. Ownership Change refers to the
   - minCount: 0
   - maxCount: 1
 - ownershipChangedOnProduct
- - type: /Core/Element
- - minCount: 1
-
+  - type: /Core/Element
+  - minCount: 1
