@@ -21,8 +21,6 @@ For Each `ReproductionProcess` there is at least one `/Core/Relationship` class 
 
 ## External properties restrictions
 
-- actionStartTime
-  - type: /Core/DateTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
-
