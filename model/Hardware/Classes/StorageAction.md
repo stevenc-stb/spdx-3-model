@@ -25,6 +25,6 @@ This is the specific action of product storage
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
