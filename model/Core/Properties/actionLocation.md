@@ -13,5 +13,5 @@ The location of an action is defined by the actionLocation. Action locations hel
 ## Metadata
 
 - name: actionLocation
-- Nature: DataProperty
+- Nature: ObjectProperty
 - Range: Location
