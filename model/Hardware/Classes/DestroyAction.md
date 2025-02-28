@@ -18,19 +18,19 @@ The action of destroying an element is recorded as part of the DestroyAction. To
 
 ## Properties
 
-- actionStartTime
-  - type: /Core/DateTime
-  - minCount: 1
-  - maxCount: 1
-- actionEndTime
-  - type: /Core/DateTime
-  - minCount: 1
-  - maxCount: 1
-- description
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
+
 - destructionPerformedBy
   - type: /Core/Agent
   - minCount: 1
 
+## External properties restrictions
+
+- actionStartTime
+  - minCount: 1
+  - maxCount: 1
+- actionEndTime
+  - minCount: 1
+  - maxCount: 1
+- description
+  - minCount: 1
+  - maxCount: 1
