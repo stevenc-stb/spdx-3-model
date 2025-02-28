@@ -25,6 +25,6 @@ An inspection action refers to a specific activity or set of activities performe
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
