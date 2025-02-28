@@ -23,10 +23,9 @@ to a `/Core/Element` class or subclass (to).
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Abstract
 
-## Properties
+## External properties restrictions
 
 - description
-  - type: xsd:string
   - minCount: 1
   - maxCount: 1
 
