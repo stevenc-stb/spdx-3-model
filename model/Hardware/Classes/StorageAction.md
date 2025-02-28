@@ -18,11 +18,13 @@ This is the specific action of product storage
 
 ## Properties
 
-- description
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
 - storageLocation
   - type: /Core/Location
   - minCount: 1
   - maxCount: 1 
+
+## External properties restrictions
+
+- description
+  - minCount: 1
+  - maxCount: 1
