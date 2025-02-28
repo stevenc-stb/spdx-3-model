@@ -22,7 +22,7 @@ For Each `ModifyAction` there is at least one `/Core/Relationship` class or subc
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
 
