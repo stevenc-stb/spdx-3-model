@@ -32,9 +32,9 @@ Changes of ownership are recorded in this action. Ownership Change refers to the
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
-- actionEndTime
+- /Core/Action/actionEndTime
   - minCount: 1
   - maxCount: 1
