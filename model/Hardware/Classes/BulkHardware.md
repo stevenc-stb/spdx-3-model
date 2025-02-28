@@ -26,8 +26,8 @@ Bulk units defined in the QUDT Units standards.
   
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
-- serialNumber
+- /Hardware/Hardware/serialNumber
   - maxCount: 0
