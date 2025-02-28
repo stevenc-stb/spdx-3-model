@@ -21,4 +21,3 @@ For Each `CreationProcess` or subclass except the`planProcess` there is at least
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
