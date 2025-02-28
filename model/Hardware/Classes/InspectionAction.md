@@ -18,12 +18,13 @@ An inspection action refers to a specific activity or set of activities performe
 
 ## Properties
 
-- description
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
 - inspectAtLocation
   - type: /Core/Location
   - minCount: 1
   - maxCount: 1
 
+## External properties restrictions
+
+- description
+  - minCount: 1
+  - maxCount: 1
