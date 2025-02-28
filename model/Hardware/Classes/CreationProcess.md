@@ -25,7 +25,7 @@ to a `/Core/Element` class or subclass (to).
 
 ## External properties restrictions
 
-- description
+- /Core/Element/description
   - minCount: 1
   - maxCount: 1
 
