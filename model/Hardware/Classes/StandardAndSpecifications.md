@@ -20,19 +20,15 @@ A specification (spec) is a detailed document that outlines the exact requiremen
 - SubclassOf: /Core/Artifact
 - Instantiability: Concrete
 
-## Properties
+## External properties restrictions
 
 - ExternalIdentifier
-  - type: /Core/ExternalIdentifier
   - minCount: 1
 - externalRef
-  - type: /Core/ExternalRef
-    minCount: 1
+  - minCount: 1
 - releaseTime
-  - type: /Core/DateTime
   - minCount: 1
   - maxCount: 1
 - originatedBy
-  - type: /Core/Agent
   - minCount: 1
 
