@@ -21,12 +21,12 @@ A specification (spec) is a detailed document that outlines the exact requiremen
 
 ## External properties restrictions
 
-- externalIdentifier
+- /Core/Element/externalIdentifier
   - minCount: 1
-- externalRef
+- /Core/Element/externalRef
   - minCount: 1
-- releaseTime
+- /Core/Artifact/releaseTime
   - minCount: 1
   - maxCount: 1
-- originatedBy
+- /Core/Artifact/originatedBy
   - minCount: 1
