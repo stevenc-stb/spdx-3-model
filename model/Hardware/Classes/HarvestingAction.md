@@ -18,7 +18,6 @@ HarvestingAction is the Action of extracting goods or products from nature. This
 
 ## External properties restrictions
 
-- actionStartTime
+- /Core/Action/actionStartTime
   - minCount: 1
   - maxCount: 1
-
