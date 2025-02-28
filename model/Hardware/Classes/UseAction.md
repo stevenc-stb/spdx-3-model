@@ -20,10 +20,9 @@ For Each `UseAction` there is at least one `/Core/Relationship` class or subclas
 - SubclassOf: /Core/Action
 - Instantiability: Abstract
 
-## Properties
+## External properties restrictions
 
 - actionStartTime
-  - type: /Core/DateTime
   - minCount: 1
   - maxCount: 1
 
