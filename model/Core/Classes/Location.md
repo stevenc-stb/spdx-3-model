@@ -26,6 +26,6 @@ Mailing, street and description define location. GPS coordinates are used to loc
 - streetAddress
   - type: xsd:string
   - maxCount: 1
-- geographicalPointLocation
+- geographicPointLocation
   - type: xsd:string
   - maxCount: 1
