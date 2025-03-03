@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# geographicalPointLocation
+# geographicPointLocation
 
 ## Summary
 
@@ -12,6 +12,6 @@ GPL coordinates are defined in the format Standard: ISO 6709:2022
 
 ## Metadata
 
-- name: geographicalPointLocation
+- name: geographicPointLocation
 - Nature: DataProperty
 - Range: xsd:string
