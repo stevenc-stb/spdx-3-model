@@ -18,5 +18,5 @@ This is the process of defining boundaries for the creation of a region.
 
 ## External properties restrictions
 
-- /Core/DefinedProcess/processRational
+- /Core/DefinedProcess/processRationale
   - minCount: 1
