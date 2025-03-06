@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product transport.
+This is the Process of product storage.
 
 ## Description
 
-Transporting refers to the act of moving people, goods, information, or substances from one location to another.
+Products are stored for various reasons between production, use and destruction. These processes are captured in the storage process.
 
 ## Metadata
 
