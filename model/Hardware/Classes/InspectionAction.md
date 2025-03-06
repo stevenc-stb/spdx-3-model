@@ -16,15 +16,12 @@ An inspection action refers to a specific activity or set of activities performe
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-## Properties
-
-- inspectAtLocation
-  - type: /Core/Location
-  - minCount: 1
-  - maxCount: 1
-
 ## External properties restrictions
 
 - /Core/Element/description
   - minCount: 1
   - maxCount: 1
+
+- /Core/Action/actionLocation
+  - minCount: 1
+    
