@@ -18,7 +18,6 @@ The action of destroying an element is recorded as part of the DestroyAction. To
 
 ## Properties
 
-
 - destructionPerformedBy
   - type: /Core/Agent
   - minCount: 1
