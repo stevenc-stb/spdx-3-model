@@ -8,11 +8,10 @@ Enumeration of dataset types.
 
 ## Description
 
-Describes the different structures of data within a given dataset.
-
-A dataset can have multiple types of data, or even a single type of data but
-still match multiple types. For example, sensor data could also be `timeseries`
-or labeled image data could also be considered `categorical`.
+Describes the different structures of data within a given dataset. A dataset
+can have multiple types of data, or even a single type of data but still match
+multiple types, for example sensor data could also be timeseries or labeled
+image data could also be considered categorical.
 
 ## Metadata
 
