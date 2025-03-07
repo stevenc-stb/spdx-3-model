@@ -16,4 +16,3 @@ For Each `TestProcess` there is at least one `/Core/Relationship` class or subcl
 - name: TestProcess
 - SubclassOf: UseProcess
 - Instantiability: Concrete
-
