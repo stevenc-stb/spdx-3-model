@@ -18,7 +18,6 @@ For Each `ResolutionAction` there is at least one `/Core/Relationship` class or 
 - SubclassOf: UseAction
 - Instantiability: Concrete
 
-
 ## External properties restrictions
 
 - /Core/Element/description
