@@ -24,4 +24,3 @@ For Each `ResolutionAction` there is at least one `/Core/Relationship` class or 
 - /Core/Element/description
   - minCount: 1
   - maxCount: 1
-
