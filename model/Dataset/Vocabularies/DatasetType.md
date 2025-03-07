@@ -33,4 +33,4 @@ or labeled image data could also be considered `categorical`.
 - text: Data consists of unstructured text, such as a book, an encyclopedic article, or a transcript.
 - timeseries: Data is recorded in an ordered sequence of timestamped entries, such as the price of a stock over the course of a day.
 - timestamp: Data is recorded with a timestamp for each entry, but not necessarily ordered or at specific intervals, such as when a taxi ride starts and ends.
-- video: Data is video based, such as a collection of movie clips.
+- video: Data is video based, such as a collection of movie clips featuring Tom Hanks.
