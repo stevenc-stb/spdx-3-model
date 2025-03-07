@@ -8,7 +8,7 @@ Identifies the size of a software Artifact, in bytes.
 
 ## Description
 
-Identifies the size of a software Artifact, in bytes
+Identifies the size of a software Artifact, in bytes.
 
 ## Metadata
 
