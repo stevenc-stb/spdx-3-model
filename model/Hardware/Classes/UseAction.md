@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product modification.
+The action of product use.
 
 ## Description
 
-This is the specific action of product modification.
+This is the specific action of product use.
 
 Relationship: 
 For Each `UseAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'performedBy’ on the from and an `/Core/Agent` class or subclass on the to. 
