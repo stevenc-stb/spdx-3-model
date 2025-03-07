@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Identifies the size of a software Artifact, in bytes
+Identifies the size of a software Artifact, in bytes.
 
 ## Description
 
