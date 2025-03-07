@@ -22,4 +22,3 @@ Different types of products and services require different types of inspection p
   - type: /Core/Location
   - minCount: 0
   - maxCount: 1
-
