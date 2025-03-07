@@ -15,4 +15,3 @@ The assembly process refers to the systematic method of putting together differe
 - name: AssemblyProcess
 - SubclassOf: CreationProcess
 - Instantiability: Concrete
-
