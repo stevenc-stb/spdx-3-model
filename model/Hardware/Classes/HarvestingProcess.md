@@ -15,4 +15,3 @@ Harvesting is the process of extracting goods or products from nature. This incl
 - name: HarvestingProcess
 - SubclassOf: CreationProcess
 - Instantiability: Concrete
-
