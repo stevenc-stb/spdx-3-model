@@ -29,4 +29,3 @@ Ownership changes vary by region and ownership definition. The process for chang
 - plannedProductofOwnershipChange
   - type: /Core/Element
   - minCount: 0
-
