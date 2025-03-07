@@ -15,4 +15,3 @@ Reproduction is the biological process by which living organisms produce offspri
 - name: ReproductionProcess
 - SubclassOf: CreationProcess
 - Instantiability: Concrete
-
