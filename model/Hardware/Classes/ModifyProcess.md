@@ -23,4 +23,3 @@ For Each `CreationProcess` there is at least one `/Core/Relationship` class or s
 - /Core/Element/description
   - minCount: 1
   - maxCount: 1
-
