@@ -15,4 +15,3 @@ Complex processes require plans, therefore a process plan outlines procedures re
 - name: PlanProcess
 - SubclassOf: UseProcess
 - Instantiability: Concrete
-
