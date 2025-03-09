@@ -84,7 +84,7 @@ JSON, regardless of the actual number of values it holds.
 
 ### Casing
 
-Note that SPDX 3 may use different casing than other vocabularies.
+Note that SPDX 3 may use different casing than vocabularies in previous versions.
 
 For example, in the SPDX 3.0 Software Profile, the `homePage` property uses an
 uppercase "P," while SPDX 2.3 uses the DOAP `homepage` property, which has a
