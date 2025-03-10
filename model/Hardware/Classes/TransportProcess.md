@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product transport.
+The Process of product transport.
 
 ## Description
 
