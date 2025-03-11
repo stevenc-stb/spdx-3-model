@@ -12,7 +12,7 @@ The QUDT, or "Quantity, Unit, Dimension and Type" schema defines the base classe
 
 ## Metadata
 
-- name: UnitofMeasure
+- name: UnitOfMeasure
 - Instantiability: Concrete
 
 ## Properties
