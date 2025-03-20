@@ -15,9 +15,3 @@ A product is produced by manufacturing actions. These actions vary by need and p
 - name: ManufacturerAction
 - SubclassOf: CreationAction
 - Instantiability: Concrete
-
-## External properties restrictions
-
-- /Core/Action/actionStartTime
-  - minCount: 1
-  - maxCount: 1
