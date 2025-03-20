@@ -20,4 +20,3 @@ Boundary crossing occurs when an individual, object, or system moves between dif
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
