@@ -22,4 +22,3 @@ For Each `ModifyProcess` there is at least one `/Core/Relationship` class or sub
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
