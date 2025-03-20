@@ -36,3 +36,4 @@ to all restrictions defined for that profile.
 - dataset: the element follows the Dataset profile specification
 - extension: the element follows the Extension profile specification
 - lite: the element follows the Lite profile specification
+- hareware: the element follows the Hareware profile specification
