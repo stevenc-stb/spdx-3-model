@@ -16,9 +16,3 @@ Assembled products may be designed to be disassembled into components.
 - name: AssemblyAction
 - SubclassOf: CreationAction
 - Instantiability: Concrete
-
-## External properties restrictions
-
-- /Core/Action/actionStartTime
-  - minCount: 1
-  - maxCount: 1
