@@ -19,8 +19,4 @@ For Each `ReproductionAction` there is at least one `/Core/Relationship` class o
 - SubclassOf: CreationAction
 - Instantiability: Concrete
 
-## External properties restrictions
 
-- /Core/Action/actionStartTime
-  - minCount: 1
-  - maxCount: 1
