@@ -28,6 +28,5 @@ Bulk units defined in the QUDT Units standards.
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
 - /Hardware/Hardware/serialNumber
   - maxCount: 0
