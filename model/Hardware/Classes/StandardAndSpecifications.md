@@ -27,6 +27,5 @@ A specification (spec) is a detailed document that outlines the exact requiremen
   - minCount: 1
 - /Core/Artifact/releaseTime
   - minCount: 1
-  - maxCount: 1
 - /Core/Artifact/originatedBy
   - minCount: 1
