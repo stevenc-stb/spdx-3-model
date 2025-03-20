@@ -26,10 +26,7 @@ The action of destroying an element is recorded as part of the DestroyAction. To
 
 - /Core/Action/actionStartTime
   - minCount: 1
-  - maxCount: 1
 - /Core/Action/actionEndTime
   - minCount: 1
-  - maxCount: 1
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
