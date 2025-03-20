@@ -20,4 +20,3 @@ Destroyed means to render an item useless. The destroyed process defines the met
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
