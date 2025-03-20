@@ -14,4 +14,4 @@ The amount or measure of a bulk product includes the quality and unit of measure
 
 - name: bulkQuantity
 - Nature: ObjectProperty
-- Range: /Core/UnitofMeasure
+- Range: /Core/UnitOfMeasure
