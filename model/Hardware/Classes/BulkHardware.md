@@ -20,7 +20,7 @@ Bulk units defined in the QUDT Units standards.
 ## Properties
 
 - bulkQuantity
-  - type: /Core/UnitofMeasure
+  - type: /Core/UnitOfMeasure
   - minCount: 1
   - maxCount: 1
   
