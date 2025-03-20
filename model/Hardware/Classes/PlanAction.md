@@ -23,4 +23,3 @@ For Each `PlanAction` there is at least one `/Core/Relationship` class or subcla
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
