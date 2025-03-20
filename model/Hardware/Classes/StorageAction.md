@@ -27,4 +27,3 @@ This is the specific action of product storage
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
