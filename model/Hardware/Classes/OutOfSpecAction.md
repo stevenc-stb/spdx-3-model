@@ -20,4 +20,3 @@ OutOfSpecAction refers to a situation where a product, material, environment, or
 
 - /Core/Element/description
   - minCount: 1
-  - maxCount: 1
