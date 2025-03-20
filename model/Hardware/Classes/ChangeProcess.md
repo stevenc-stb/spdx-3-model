@@ -20,4 +20,3 @@ The product change process varies based on requirements. A standard product may 
 
 - /Core/DefinedProcess/processRationale
   - minCount: 1
-  - maxCount: 1
