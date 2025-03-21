@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# CreationProcess
+# CCreateProcess
 
 ## Summary
 
@@ -12,14 +12,14 @@ The creation process refers to the systematic steps involved in bringing somethi
 
 Relationship:
 
-For every `CreationProcess`, there exists at least one `/Core/Relationship`
+For every `CreateProcess`, there exists at least one `/Core/Relationship`
 class or subclass with a `relationshipType` of 'hasOutput',
-connecting the `CreationProcess` (from)
+connecting the `CreateProcess` (from)
 to a `/Core/Element` class or subclass (to).
 
 ## Metadata
 
-- name: CreationProcess
+- name: CreateProcess
 - SubclassOf: /Core/DefinedProcess
 - Instantiability: Abstract
 
