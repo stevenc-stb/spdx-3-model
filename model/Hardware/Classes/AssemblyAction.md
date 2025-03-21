@@ -14,5 +14,5 @@ Assembled products may be designed to be disassembled into components.
 ## Metadata
 
 - name: AssemblyAction
-- SubclassOf: CreationAction
+- SubclassOf: CreateAction
 - Instantiability: Concrete
