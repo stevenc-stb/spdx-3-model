@@ -11,7 +11,7 @@ Dimensions generally refer to measurable extents or attributes that define the s
 
 ## Metadata
 
-- name: HBOMDimensions
+- name: Dimensions
 - Instantiability: Concrete
 
 ## Properties
