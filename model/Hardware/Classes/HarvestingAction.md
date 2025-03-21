@@ -13,6 +13,6 @@ HarvestingAction is the Action of extracting goods or products from nature. This
 ## Metadata
 
 - name: HarvestingAction
-- SubclassOf: CreationAction
+- SubclassOf: CreateAction
 - Instantiability: Concrete
 
