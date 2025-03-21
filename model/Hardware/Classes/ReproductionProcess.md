@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# ReproductionProcess
+# ReproduceProcess
 
 ## Summary
 
@@ -12,6 +12,6 @@ Reproduction is the biological process by which living organisms produce offspri
 
 ## Metadata
 
-- name: ReproductionProcess
-- SubclassOf: CreationProcess
+- name: ReproduceProcess
+- SubclassOf: CreateProcess
 - Instantiability: Concrete
