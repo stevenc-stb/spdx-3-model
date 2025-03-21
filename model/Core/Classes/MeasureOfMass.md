@@ -13,6 +13,5 @@ The measure of mass refers to the quantity of matter in an object or substance. 
 ## Metadata
 
 - name: MeasureOfMass
-- SubclassOf: UnitofMeasure
+- SubclassOf: UnitOfMeasure
 - Instantiability: Concrete
-
