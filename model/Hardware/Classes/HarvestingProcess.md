@@ -13,5 +13,5 @@ Harvesting is the process of extracting goods or products from nature. This incl
 ## Metadata
 
 - name: HarvestingProcess
-- SubclassOf: CreationProcess
+- SubclassOf: CreateProcess
 - Instantiability: Concrete
