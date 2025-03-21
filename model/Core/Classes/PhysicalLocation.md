@@ -37,7 +37,7 @@ A physical location is a tangible, geographically identifiable place where objec
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-- steetAddress
+- streetAddress
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
