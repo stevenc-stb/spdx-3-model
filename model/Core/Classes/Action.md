@@ -29,7 +29,6 @@ Action defines an event that has occurred. This is an Abstract Action.
 - actionLocation
   - type: Location
   - minCount: 0
-  - maxCount: 1
 - additionalInformation
   - type: DictionaryEntry
   - minCount: 0
