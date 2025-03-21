@@ -1,14 +1,13 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# HBOMDimensions
+# Dimensions
 
 ## Summary
 
-Class that describes a instance of HBOMDimensions.
+Dimensions generally refer to measurable extents or attributes that define the size, shape, or scale of an object, system, or concept.
 
 ## Description
-
-This class records the unit dimensions.
+Dimensions generally refer to measurable extents or attributes that define the size, shape, or scale of an object, system, or concept. The Z axis is the height of the object. 
 
 ## Metadata
 
@@ -18,22 +17,15 @@ This class records the unit dimensions.
 ## Properties
 
 - xAxisLength
-  - type: xsd:string
+  - type: /Core/MeasureOfLength
   - minCount: 1
   - maxCount: 1
 - yAxisLength
-  - type: xsd:string
+  - type: /Core/MeasureOfLength
   - minCount: 1
   - maxCount: 1
 - zAxisLength
-  - type: xsd:string
+  - type: /Core/MeasureOfLength
   - minCount: 1
   - maxCount: 1
-- dimensionsUnit
-  - type: xsd:string
-  - minCount: 1
-  - maxCount: 1
-- coordinateOrientation
-  - type: CoordinateOrientationType
-  - minCount: 1
-  - maxCount: 1
+
