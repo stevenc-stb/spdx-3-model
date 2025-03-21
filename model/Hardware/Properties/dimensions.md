@@ -14,4 +14,4 @@ Product dimensions describe the physical characteristics of a specific product.
 
 - name: dimensions
 - Nature: ObjectProperty
-- Range: HBOMDimensions
+- Range: Dimensions
