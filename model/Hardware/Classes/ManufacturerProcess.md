@@ -13,5 +13,5 @@ The manufacturing process refers to the steps involved in transforming raw mater
 ## Metadata
 
 - name: ManufacturerProcess
-- SubclassOf: CreationProcess
+- SubclassOf: CreateProcess
 - Instantiability: Concrete
