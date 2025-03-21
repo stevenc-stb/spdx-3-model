@@ -24,8 +24,6 @@ Transporting refers to the act of moving people, goods, information, or substanc
 - pickupLocation
   - type: /Core/Location
   - minCount: 1
-  - maxCount: 1 
 - dropoffLocation
   - type: /Core/Location
   - minCount: 0
-  - maxCount: 1 
