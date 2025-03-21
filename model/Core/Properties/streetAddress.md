@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Street Address is the address where an entity, person or organization can be found.
+Street address includes a street number, name and unit ID to identify a specific street.
 
 ## Description
 
-Street Address is the address where an entity, person or organization can be found.
+Street address includes a street number, name and unit ID to identify a specific street.
 
 ## Metadata
 
