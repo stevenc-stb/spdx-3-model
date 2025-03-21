@@ -21,7 +21,7 @@ Location is used to define the location, address or GPS coordinates of an object
   - type: CountryCodeAlpha3
   - minCount: 0
   - maxCount: 1
-- locationCategory: 
+- locationCategory 
   - type: LocationType
   - minCount: 1
   - maxCount: 1
