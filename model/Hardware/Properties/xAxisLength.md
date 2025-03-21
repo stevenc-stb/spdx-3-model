@@ -13,5 +13,5 @@ Information related to xAxis measurement of an object.
 ## Metadata
 
 - name: xAxisLength
-- Nature: DataProperty
-- Range: xsd:string
+- Nature: ObjectProperty
+- Range: /Core/MeasureOfLength
