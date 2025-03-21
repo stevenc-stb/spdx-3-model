@@ -13,5 +13,5 @@ Information related to zAxis measurement of an object.
 ## Metadata
 
 - name: zAxisLength
-- Nature: DataProperty
-- Range: xsd:string
+- Nature: ObjectProperty
+- Range: /Core/MeasureOfLength
