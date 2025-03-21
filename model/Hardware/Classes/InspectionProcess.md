@@ -21,4 +21,3 @@ Different types of products and services require different types of inspection p
 - plannedInspectionLocation
   - type: /Core/Location
   - minCount: 0
-  - maxCount: 1
