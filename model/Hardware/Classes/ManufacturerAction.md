@@ -13,5 +13,5 @@ A product is produced by manufacturing actions. These actions vary by need and p
 ## Metadata
 
 - name: ManufacturerAction
-- SubclassOf: CreationAction
+- SubclassOf: CreateAction
 - Instantiability: Concrete
