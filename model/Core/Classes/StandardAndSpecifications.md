@@ -16,7 +16,7 @@ A specification (spec) is a detailed document that outlines the exact requiremen
 ## Metadata
 
 - name: StandardAndSpecifications
-- SubclassOf: /Core/Artifact
+- SubclassOf: Artifact
 - Instantiability: Concrete
 
 ## External properties restrictions
