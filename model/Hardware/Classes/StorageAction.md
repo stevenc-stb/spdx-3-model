@@ -21,7 +21,6 @@ This is the specific action of product storage
 - storageLocation
   - type: /Core/Location
   - minCount: 1
-  - maxCount: 1 
 
 ## External properties restrictions
 
