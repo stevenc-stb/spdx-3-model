@@ -26,10 +26,7 @@ Changes of responsibility are recorded in this process. Responsibility Change re
   - type: /Core/Agent
   - minCount: 0
   - maxCount: 1
-- ownershipChangedOn
-  - type: /Core/Element
-  - minCount: 1
-- ownershipChangedOn
+- responsibilityChangedOn
   - type: /Core/Element
   - minCount: 1
 - responsibilityCategory
