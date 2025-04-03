@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# StandardDefineHazard
+# StandardDefinedHazard
 
 ## Summary
 
@@ -12,7 +12,7 @@ These hazards are typically identified through risk assessments, safety regulati
 
 ## Metadata
 
-- name: StandardDefineHazard
+- name: StandardDefinedHazard
 - Instantiability: Concrete
 
 ## Properties
