@@ -1,10 +1,10 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# StandardDefinedHazard
+# DefinedHazard
 
 ## Summary
 
-Defined hazards refer to specific, recognized risks or dangers that are identified and categorized based on their potential to cause harm to people, property, or the environment.
+Defined hazards refer to specific, recognized risks or dangers that are identified and categorized based on their potential to cause harm to people, property, the environment or itself.
 
 ## Description
 
@@ -12,7 +12,7 @@ These hazards are typically identified through risk assessments, safety regulati
 
 ## Metadata
 
-- name: StandardDefinedHazard
+- name: DefinedHazard
 - Instantiability: Concrete
 
 ## Properties
@@ -21,7 +21,7 @@ These hazards are typically identified through risk assessments, safety regulati
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-- standard
+- definitionSource
   - type: /Core/StandardAndSpecifications
   - minCount: 1
   - maxCount: 1
