@@ -23,7 +23,7 @@ A physical location is a tangible, geographically identifiable place where objec
   - maxCount: 1
 - postalCode
   - type: xsd:string
-  - minCount: 1
+  - minCount: 0
   - maxCount: 1
 - postalName
   - type: xsd:string
