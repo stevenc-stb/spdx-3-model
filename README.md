@@ -18,7 +18,20 @@ standard.
 Translations of the information model may be available.
 English remains the normative language in all cases.
 
-## Branch Structure
+[![Core Profile diagram](./images/model-Core.png "Core Profile diagram")](./images/model-Core.png)
+
+## Table of contents
+
+- [Branch structure](#branch-structure)
+- [Formats](#formats)
+- [Model](#model)
+  - [Profiles](#profiles-of-the-model)
+- [Serialization and validation](#serialization-and-validation)
+- [Change log](#change-log)
+- [Glossary](#glossary)
+- [Contribute](#contribute)
+
+## Branch structure
 
 The SPDX 3 model repo follows the
 [Gitflow](https://gist.github.com/HeratPatel/271b5d2304de2e2cd1823b9b62bf43e0)
@@ -79,7 +92,8 @@ For the specification content other than the model, they are in the
 The SPDX model is described using profiles related to the software application.
 The profiles are organized as sub-directories under the ‘model’ directory.
 
-The model diagram is available in [model.drawio][model-diagram] file.
+The model diagram is available in [model.drawio][model-diagram] file
+and in [`images/`](./images/) directory.
 
 Note:
 
@@ -148,6 +162,18 @@ and VEX (affected, not affected, under investigation, and fixed categories).
 The Software profile contains information about files, packages, SBOMs,
 snippets, and artifacts of the software application.
 
+## Serialization and validation
+
+Information about serialization of SPDX 3 documents can be found in the
+[Model and serializations][sr-spec] section of the SPDX specification.
+
+For additional technical information about serialization,
+please see [Notes on serialization][sr-notes].
+
+For information about the validation of SPDX 3 JSON documents,
+using JSON Schema and the SHACL model,
+please see [Validating SPDX 3 JSON Documents][validate-spdx3].
+
 ## Change log
 
 See [CHANGELOG.md](CHANGELOG.md) for changes between versions.
@@ -172,6 +198,9 @@ All the details are in: <https://spdx.dev/participate/tech/>
 [format]: ./docs/format.md
 [translation]: ./docs/translation.md
 [model-diagram]: ./docs/model.drawio
+[sr-spec]: https://github.com/spdx/spdx-spec/blob/develop/docs/serializations.md
+[sr-notes]: ./serialization/README.md
+[validate-spdx3]: ./serialization/jsonld/validation.md
 [glossary]: ./docs/glossary.md
 [meetings]: https://github.com/spdx/meetings/
 [spdx-tech-list]: https://lists.spdx.org/mailman/listinfo/spdx-tech

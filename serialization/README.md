@@ -4,7 +4,7 @@
 
 For information on what can be included in an SPDX serialization and how they
 are structured, please refer to the
-[Serialization information](https://github.com/spdx/spdx-spec/blob/development/v3.0.1/docs/serializations.md)
+[Model and serializations](https://github.com/spdx/spdx-spec/blob/develop/docs/serializations.md)
 section of the SPDX specification.
 
 ## Serialization formats
