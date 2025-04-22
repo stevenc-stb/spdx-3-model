@@ -18,8 +18,6 @@ standard.
 Translations of the information model may be available.
 English remains the normative language in all cases.
 
-[![Core Profile diagram](./images/model-Core.png "Core Profile diagram")](./images/model-Core.png)
-
 ## Table of contents
 
 - [Branch structure](#branch-structure)
@@ -90,10 +88,12 @@ For the specification content other than the model, they are in the
 ## Model
 
 The SPDX model is described using profiles related to the software application.
-The profiles are organized as sub-directories under the ‘model’ directory.
+The profiles are organized as sub-directories under the `model/` directory.
 
 The model diagram is available in [model.drawio][model-diagram] file
 and in [`images/`](./images/) directory.
+
+<a href="./images/" title="Click to see more Profile diagrams" ><img src="./images/model-Core.png" alt="Core Profile diagram" height="120" /></a>
 
 Note:
 
@@ -165,7 +165,8 @@ snippets, and artifacts of the software application.
 ## Serialization and validation
 
 Information about serialization of SPDX 3 documents can be found in the
-[Model and serializations][sr-spec] section of the SPDX specification.
+[Serialization information][sr-spec] section in the "Model and serializations"
+chapter of the SPDX specification.
 
 For additional technical information about serialization,
 please see [Notes on serialization][sr-notes].
@@ -198,7 +199,7 @@ All the details are in: <https://spdx.dev/participate/tech/>
 [format]: ./docs/format.md
 [translation]: ./docs/translation.md
 [model-diagram]: ./docs/model.drawio
-[sr-spec]: https://github.com/spdx/spdx-spec/blob/develop/docs/serializations.md
+[sr-spec]: https://github.com/spdx/spdx-spec/blob/develop/docs/serializations.md#serialization-information
 [sr-notes]: ./serialization/README.md
 [validate-spdx3]: ./serialization/jsonld/validation.md
 [glossary]: ./docs/glossary.md
