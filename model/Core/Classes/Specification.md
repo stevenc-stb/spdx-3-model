@@ -18,7 +18,7 @@ A specification (spec) is a detailed document that outlines the exact requiremen
 - name: Specification
 - SubclassOf: Artifact
 - Instantiability: Concrete
-- 
+  
 ## Properties
 
 - specType
