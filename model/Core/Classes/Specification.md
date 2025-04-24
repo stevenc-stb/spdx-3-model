@@ -15,9 +15,16 @@ A specification (spec) is a detailed document that outlines the exact requiremen
 
 ## Metadata
 
-- name: StandardAndSpecifications
+- name: Specification
 - SubclassOf: Artifact
 - Instantiability: Concrete
+- 
+## Properties
+
+- specType
+  - type: xSpecificationType
+  - minCount: 1
+  - maxCount: 1
 
 ## External properties restrictions
 
@@ -29,3 +36,4 @@ A specification (spec) is a detailed document that outlines the exact requiremen
   - minCount: 1
 - /Core/Artifact/originatedBy
   - minCount: 1
+
