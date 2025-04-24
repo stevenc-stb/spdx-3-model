@@ -22,7 +22,7 @@ These hazards are typically identified through risk assessments, safety regulati
   - minCount: 1
   - maxCount: 1
 - definitionSource
-  - type: /Core/StandardAndSpecifications
+  - type: /Core/Specification
   - minCount: 1
   - maxCount: 1
   
