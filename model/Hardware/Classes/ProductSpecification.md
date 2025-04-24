@@ -13,7 +13,7 @@ A product specification (product spec) is a detailed document that outlines the 
 ## Metadata
 
 - name: ProductSpecification
-- SubclassOf: /Core/StandardAndSpecifications
+- SubclassOf: /Core/Specification
 - Instantiability: Concrete
 
 ## Properties
