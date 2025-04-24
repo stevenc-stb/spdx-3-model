@@ -14,4 +14,4 @@ It is the authoritative or credible entity, document, or body of knowledge that 
 
 - name: definitionSource
 - Nature: ObjectProperty
-- Range: /Core/StandardAndSpecifications
+- Range: /Core/Specification
