@@ -34,8 +34,8 @@ A requirement is a specific condition, capability, or constraint that a product,
   - type: RequirementsStatusType
   - minCount: 0
   - maxCount: 1
-- requirementsCatagory
-  - type: RequirementsCatagoryType
+- requirementsCategory
+  - type: RequirementsCategoryType
   - minCount: 0
   - maxCount: 1
 - requirementsLevel
