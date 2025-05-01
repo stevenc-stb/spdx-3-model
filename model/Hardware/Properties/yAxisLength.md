@@ -13,5 +13,6 @@ Information related to yAxis measurement of an object.
 ## Metadata
 
 - name: yAxisLength
-- Nature: DataProperty
-- Range: xsd:string
+- Nature: ObjectProperty
+- Range: /Core/MeasureOfLength
+

@@ -36,3 +36,4 @@ to all restrictions defined for that profile.
 - dataset: The element follows the Dataset profile specification.
 - extension: The element follows the Extension profile specification.
 - lite: The element follows the Lite profile specification.
+- hardware: the element follows the Hardware profile specification

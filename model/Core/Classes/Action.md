@@ -26,3 +26,14 @@ Action defines an event that has occurred. This is an Abstract Action.
   - type: DateTime
   - minCount: 0
   - maxCount: 1
+- actionLocation
+  - type: Location
+  - minCount: 0
+- additionalInformation
+  - type: DictionaryEntry
+  - minCount: 0
+  
+## External properties restrictions
+
+- /Core/Artifact/originatedBy
+  - minCount: 1

@@ -9,9 +9,11 @@ Information related to hardware dimension.
 ## Description
 
 Information related to zAxis measurement of an object.
+Z axis is the height of the object. 
+
 
 ## Metadata
 
 - name: zAxisLength
-- Nature: DataProperty
-- Range: xsd:string
+- Nature: ObjectProperty
+- Range: /Core/MeasureOfLength

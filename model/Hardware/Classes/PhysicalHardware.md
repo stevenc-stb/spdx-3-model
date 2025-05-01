@@ -19,12 +19,12 @@ A PhysicalHardware artifact describes a distinct physical unit.
 ## Properties
 
 - massOfHardware
-  - type: HBOMMass
+  - type: /Core/MeasureOfMass
   - minCount: 0
   - maxCount: 1
 - dimensions
-  - type: HBOMDimensions
+  - type: Dimensions
   - maxCount: 1  
 - centerOfMass
-  - type: HBOMDimensions
+  - type: Dimensions
   - maxCount: 1

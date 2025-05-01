@@ -18,7 +18,7 @@ A hardware artifact is a distinct unit related to hardware.
 
 ## Properties
 
-- organizationalEntity
+- productAgent
   - type: /Core/Agent
   - minCount: 1
   - maxCount: 1
@@ -38,5 +38,11 @@ A hardware artifact is a distinct unit related to hardware.
 - batchNumber
   - type: xsd:string
   - maxCount: 1
+- hazard
+  - type: DefinedHazard
+- additionalInformation
+  - type: /Core/DictionaryEntry
+  - minCount: 0
+=======
 - informationElementList
   - type: /Core/DictionaryEntry
