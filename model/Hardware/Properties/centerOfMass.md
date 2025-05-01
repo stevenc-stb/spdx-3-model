@@ -15,3 +15,4 @@ The mass-center is a fixed property for a given rigid body (e.g. with no slosh o
 - name: centerOfMass
 - Nature: ObjectProperty
 - Range: Dimensions
+

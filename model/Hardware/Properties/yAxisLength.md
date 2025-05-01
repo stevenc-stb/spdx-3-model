@@ -15,3 +15,4 @@ Information related to yAxis measurement of an object.
 - name: yAxisLength
 - Nature: ObjectProperty
 - Range: /Core/MeasureOfLength
+

@@ -32,7 +32,7 @@ Action defines an event that has occurred. This is an Abstract Action.
 - additionalInformation
   - type: DictionaryEntry
   - minCount: 0
-
+  
 ## External properties restrictions
 
 - /Core/Artifact/originatedBy
