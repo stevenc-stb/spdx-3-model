@@ -21,7 +21,7 @@ For Each `BoundaryDefinitionAction` there is one and only one `/Core/Relationshi
 
 ## Properties
 
-- boundaryParameters
+- boundaryParameter
   - type: /Core/DictionaryEntry
   - minCount: 1
 
