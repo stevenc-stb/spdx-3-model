@@ -8,7 +8,8 @@ A test action is a specific action associated with a test.
 
 ## Description
 
-A test action is a specific action associated with a test. The execution of a test is a testAction.
+A test action is a specific action associated with a test.
+The execution of a test is a test action.
 
 ## Metadata
 
