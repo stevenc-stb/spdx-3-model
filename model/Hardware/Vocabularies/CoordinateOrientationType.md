@@ -11,13 +11,11 @@ CoordinateOrientationType sets the coordinate orientation.
 CoordinateOrientationType sets the coordinate orientation in an object.
 Enumerations are used to define the coordinate orientation.
 
-Any coordinate orientation system must remain in the same order for that class’s `/Hardware/Hardware` element.
-
 ## Metadata
 
 - name: CoordinateOrientationType
 
 ## Entries
 
-- XYZFreeForm: XYZ FreeForm
-- LMS: X = Longest, Y = Middle, Z = Shortest
+- XYZFreeForm: XYZ FreeForm.
+- LMS: X = Longest, Y = Middle, Z = Shortest.
