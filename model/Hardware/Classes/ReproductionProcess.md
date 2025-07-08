@@ -8,7 +8,9 @@ Reproduction is the biological process by which living organisms produce offspri
 
 ## Description
 
-Reproduction is the biological process by which living organisms produce offspring.  It occurs in plants, animals, and microorganisms.
+Reproduction is the biological process by which living organisms produce offspring.
+
+It occurs in plants, animals, and microorganisms.
 
 ## Metadata
 

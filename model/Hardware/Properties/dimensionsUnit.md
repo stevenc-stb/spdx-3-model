@@ -8,7 +8,7 @@ Unit of measurement of the Dimensions.
 
 ## Description
 
-Standard units of measure for dimensions - ISO 80000-1:2009
+Standard units of measure for dimensions - ISO 80000-1:2009.
 
 ## Metadata
 

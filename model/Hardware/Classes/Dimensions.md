@@ -7,7 +7,8 @@ SPDX-License-Identifier: Community-Spec-1.0
 Dimensions generally refer to measurable extents or attributes that define the size, shape, or scale of an object, system, or concept.
 
 ## Description
-Dimensions generally refer to measurable extents or attributes that define the size, shape, or scale of an object, system, or concept. The Z axis is the height of the object. 
+
+Dimensions generally refer to measurable extents or attributes that define the size, shape, or scale of an object, system, or concept. The Z axis is the height of the object.
 
 ## Metadata
 
@@ -28,4 +29,3 @@ Dimensions generally refer to measurable extents or attributes that define the s
   - type: /Core/MeasureOfLength
   - minCount: 1
   - maxCount: 1
-

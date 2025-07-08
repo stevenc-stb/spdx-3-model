@@ -16,6 +16,6 @@ VirtualHardwareModelType sets the VirtualHardware set the simulation process.
 
 ## Entries
 
-- function: Simulation the function of the hardware
+- function: Simulation the function of the hardware.
 - cycle: Simulation architectures with precise cycle-level accuracy.
 - other: All other simulation types.

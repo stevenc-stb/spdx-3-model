@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Version identifier for the hardware product
+Version identifier for the hardware product.
 
 ## Description
 
-Describes the specific hardware version. 
+Describes the specific hardware version.
 
 ## Metadata
 
