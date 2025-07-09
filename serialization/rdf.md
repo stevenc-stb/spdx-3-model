@@ -5,6 +5,10 @@
 SPDX data can be serialized in RDF.
 This can be saved in a variety of formats, like XML, JSON-LD, Turtle, etc.
 
+IRIs for SPDX 3 are versioned based on the major and minor version numbers of
+the SPDX specification. The patch (third-level) version number is omitted
+because there are no changes to the data model between patch versions.
+
 1. The namespace for SPDX vX.Y.Z is
   `https://spdx.org/rdf/X.Y/terms`
 
@@ -32,10 +36,10 @@ Please note that entries appearing in the
 ## Resources
 
 1. The ontology is available at:
-  <https://spdx.org/rdf/X.Y/spdx-model.ttl>
+  `https://spdx.org/rdf/X.Y/spdx-model.ttl`
 
 1. The JSON-LD context definition is available at:
-  <https://spdx.org/rdf/X.Y/spdx-context.jsonld>
+  `https://spdx.org/rdf/X.Y/spdx-context.jsonld`
 
 1. The JSON schema is available at:
-  <https://spdx.org/schema/X.Y/spdx-json-schema.json>
+  `https://spdx.org/schema/X.Y/spdx-json-schema.json`
