@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The hardware profile provides metadata that describes hardware and its supply chain.
+The Hardware Profile provides metadata that describes hardware and its supply chain.
 
 ## Description
 
-The hardware namespace defines metadata related to physical and virtual hardware including its supply chain and properties.
+The Hardware namespace defines metadata related to physical and virtual hardware including its supply chain and properties.
 
 ## Metadata
 
