@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Creation Process refers to the abstract process class used to produce products.
+The CreateProcess refers to the abstract process class that can be used to represent the process of creation of a product
 
 ## Description
 
