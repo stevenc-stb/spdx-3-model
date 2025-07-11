@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The manufacturing process includes the materials and processes required to produce a product.
+This class represents the process involved in manufacturing products.
 
 ## Description
 
-The manufacturing process refers to the steps involved in transforming raw materials into finished products. This process is used in various industries, including automotive, electronics, pharmaceuticals, textiles, and food production. 
+The manufacturing process encompasses the series of steps required to transform materials into finished goods. It is a fundamental operation across various industries, including automotive, electronics, pharmaceuticals, textiles, and food production.
 
 ## Metadata
 
