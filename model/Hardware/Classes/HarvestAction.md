@@ -4,13 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-HarvestAction is the Action of extracting goods or products from nature.
+HarvestAction represents the act of creating a product by directly extracting goods or materials from nature.
 
 ## Description
 
-HarvestAction is the Action of extracting goods or products from nature.
-
-This includes agriculture, mining, and fishing.
+HarvestAction refers to an event where goods or products are obtained directly from natural sources. This includes activities such as mining, and fishing. In such cases, there may be no associated hasInput relationships, as the products are not assembled from other components but sourced directly.
 
 ## Metadata
 
