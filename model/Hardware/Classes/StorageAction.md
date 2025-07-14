@@ -8,7 +8,7 @@ Records the storage of a hardware product.
 
 ## Description
 
-A StoreAction expresses the actual storage of hardware in a specific location.
+A StorageAction expresses the actual storage of hardware in a specific location.
 
 ## Metadata
 
