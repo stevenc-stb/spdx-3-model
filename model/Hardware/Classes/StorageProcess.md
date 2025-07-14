@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-This is the Process of product storage.
+ Prescribes the storage of a hardware product.
 
 ## Description
 
-Products are stored for various reasons between production, use and destruction. These processes are captured in the storage process.
+A StoreProcess expresses the planned future storage of hardware in an optionally-specified location.
 
 ## Metadata
 
