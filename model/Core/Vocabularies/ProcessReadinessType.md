@@ -8,7 +8,7 @@ The ProcessReadinessType is defined by the enumeration.
 
 ## Description
 
-ProcessReadinesstype enumerations are used to define the version state.
+ProcessReadinessType enumerations are used to define the version state.
 
 ## Metadata
 

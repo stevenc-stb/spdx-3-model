@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The AssemblyProcess represents the process of creating a product by assembling a set of components, potentially in a way that allows for at disassembly ( at least partially).
+The AssemblyProcess represents the process of creating a product by assembling a set of components, potentially in a way that allows for at disassembly (at least partially).
 
 ## Description
 
