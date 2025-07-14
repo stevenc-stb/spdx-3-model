@@ -4,17 +4,17 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Modify process changes, transports or stores a product.
+A prescribed alteration of a hardware product.
 
 ## Description
 
-Modify processes interact with a product based on a need such as transport, change or storage. Specific attributes are associated with Modify Classes to track relevant information related to product interactions.
+A ModifyProcess is a process that will result in the alteration of a hardware product, such as a change to its configuration or its location.
 
 Relationship:
 
-For each `ModifyProcess` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'hasOutput’ on the from and a `/Core/Element` class or subclass on the to.
+For each `ModifyProcess` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'hasOutput’ on the `from` and a `/Core/Element` subclass on the `to`.
 
-For each `ModifyProcess` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'hasInput’ on the from and a `/Core/Element` class or subclass on the to.
+For each `ModifyProcess` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'hasInput’ on the `from` and a `/Core/Element` subclass on the `to`.
 
 ## Metadata
 
