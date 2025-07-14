@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product transport.
+An actual change to a hardware product's location.
 
 ## Description
 
-Transporting refers to the act of moving people, goods, information, or substances from one location to another.
+ A TransportAction expresses the change in location of a hardware product, such as a component being moved from an assembly plant to a warehouse. 
 
 ## Metadata
 
