@@ -4,17 +4,17 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product modification.
+An actual alteration of a hardware product.
 
 ## Description
 
-This is the specific action of product modification.
+A ModifyAction is an action that alters a hardware product, such as a change to its configuration or its location.
 
 Relationship:
 
-For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'hasOutput’ on the from and a `/Core/Element` class or subclass on the to.
+For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of `hasOutput` on the from and a `/Core/Element`  subclass on the `to`.
 
-For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'performedBy’ on the from and a `/Core/Element` class or subclass on the to.
+For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of `performedBy` on the from and a `/Core/Element` subclass on the `to`.
 
 ## Metadata
 
