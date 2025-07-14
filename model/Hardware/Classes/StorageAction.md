@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-This is the action of product storage.
+Records the storage of a hardware product.
 
 ## Description
 
-This is the specific action of product storage
+A StoreAction expresses the actual storage of hardware in a specific location.
 
 ## Metadata
 
