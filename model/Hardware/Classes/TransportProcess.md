@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Process of product transport.
+A prescribed change to a hardware product's location.
 
 ## Description
 
-Transporting refers to the act of moving people, goods, information, or substances from one location to another.
+A TransportProcess is a process that will result in a change in location of a hardware product, such as a component being moved from an assembly plant to a warehouse.
 
 ## Metadata
 

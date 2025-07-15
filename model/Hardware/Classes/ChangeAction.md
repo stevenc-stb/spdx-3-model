@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The action of product change.
+An actual change to a hardware product.
 
 ## Description
 
-A change action refers to an intentional change or adjustment made to an object, process, system, or set of conditions. This action is typically done to improve, correct, or adapt something to new requirements or circumstances.
+A ChangeAction expresses an alteration of a hardware product, such as an intentional adjustment.
 
 ## Metadata
 
