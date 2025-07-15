@@ -4,12 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The assembly action is composed of the various actions that produce a product. 
+AssemblyAction represents the event of creating a product by assembling individual components.
 
 ## Description
 
-A product is produced by assembly actions. These actions vary by need and purpose. 
-Assembled products may be designed to be disassembled into components. 
+AssemblyAction refers to the process of constructing a product by putting together various components. These actions can vary depending on the purpose and requirements. In this context, the assembled product is typically designed to allow for disassembly.
 
 ## Metadata
 

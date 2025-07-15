@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The manufacturing action is composed of the various actions that produce a product. 
+ManufacturerAction represents the act of creating a product by a manufacturing process.
 
 ## Description
 
-A product is produced by manufacturing actions. These actions vary by need and purpose. 
+ManufacturerAction refers to an event where goods are created using materials or ingredients, typically resulting in a product that cannot be easily disassembled.
 
 ## Metadata
 

@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Products are created using the Creation Action.
+CreationAction represents an event of product creation.
 
 ## Description
 
-To create a product you use the Creation Action.
+CreationAction represents the lifecycle event of Product creation. A product could be manufactured, assembled, mined/extracted directly from the nature etc. 
 
 Relationship:
 

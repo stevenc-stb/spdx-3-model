@@ -25,7 +25,7 @@ name completes the sentence:
 
 ## Entries
 
-- affects: The `from` Vulnerability affects each `to` Element. The use of the `affects` type is constrained to `VexAffectedVulnAssessmentRelationship` classed relationships.
+- affects: The `from` Vulnerability, Action or DefinedProcess affects each `to` Element. 
 - amendedBy: The `from` Element is amended by each `to` Element.
 - ancestorOf: The `from` Element is an ancestor of each `to` Element.
 - availableFrom: The `from` Element is available from the additional supplier described by each `to` Element.
@@ -34,6 +34,7 @@ name completes the sentence:
 - contains: The `from` Element contains each `to` Element.
 - coordinatedBy: The `from` Vulnerability is coordinatedBy the `to` Agent(s) (vendor, researcher, or consumer agent).
 - copiedTo: The `from` Element has been copied to each `to` Element.
+- creatorBy: The `from` Element's Action or DefinedProcess is creatorBy `to` Agent(s).
 - delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which must be of type invokedBy), during a LifecycleScopeType (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
 - dependsOn: The `from` Element depends on each `to` Element, during a LifecycleScopeType period.
 - descendantOf: The `from` Element is a descendant of each `to` Element.
@@ -59,14 +60,15 @@ name completes the sentence:
 - hasEvidence: Every `to` Element is considered as evidence for the `from` Element (`from` hasEvidence `to`).
 - hasExample: Every `to` Element is an example for the `from` Element (`from` hasExample `to`).
 - hasHost: The `from` Build was run on the `to` Element during a LifecycleScopeType period (e.g. the host that the build runs on).
-- hasInput: The `from` Build has each `to` Element as an input, during a LifecycleScopeType period.
+- hasInput: The `from` Build, DefinedProcess or Action element has each `to` Element as an input.
 - hasMetadata: Every `to` Element is metadata about the `from` Element (`from` hasMetadata `to`).
 - hasOptionalComponent: Every `to` Element is an optional component of the `from` Element (`from` hasOptionalComponent `to`).
 - hasOptionalDependency: The `from` Element optionally depends on each `to` Element, during a LifecycleScopeType period.
-- hasOutput: The `from` Build element generates each `to` Element as an output, during a LifecycleScopeType period.
+- hasOutput: The `from` Build, DefinedProcess or Action element generates each `to` Element as an output.
 - hasPrerequisite: The `from` Element has a prerequisite on each `to` Element, during a LifecycleScopeType period.
 - hasProvidedDependency: The `from` Element has a dependency on each `to` Element, dependency is not in the distributed artifact, but assumed to be provided, during a LifecycleScopeType period.
 - hasRequirement: The `from` Element has a requirement on each `to` Element, during a LifecycleScopeType period.
+- hasResolution: The `from` ResolutionAction point to the `to` OutOfSpecAction that is addressed. 
 - hasSpecification: Every `to` Element is a specification for the `from` Element (`from` hasSpecification `to`), during a LifecycleScopeType period.
 - hasStaticLink: The `from` Element statically links in each `to` Element, during a LifecycleScopeType period.
 - hasTest: Every `to` Element is a test artifact for the `from` Element (`from` hasTest `to`), during a LifecycleScopeType period.
@@ -74,6 +76,7 @@ name completes the sentence:
 - hasVariant: Every `to` Element is a variant the `from` Element (`from` hasVariant `to`).
 - invokedBy: The `from` Element was invoked by the `to` Agent, during a LifecycleScopeType period (for example, a Build element that describes a build step).
 - instantiatedBy: The `to` Element is instantiated by the `from` Process.
+- islocatedAt: `from` element located at a specific `to` location. A time period is optional.
 - modifiedBy: The `from` Element is modified by each `to` Element.
 - other: Every `to` Element is related to the `from` Element where the relationship type is not described by any of the SPDX relationship types (this relationship is directionless).
 - packagedBy: Every `to` Element is a packaged instance of the `from` Element (`from` packagedBy `to`).

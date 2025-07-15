@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The process Readiness is defined by the enumeration.
+The ProcessReadinessType is defined by the enumeration.
 
 ## Description
 
- process Readiness enumerations are used to define the verson state.
+ProcessReadinessType enumerations are used to define the version state.
 
 ## Metadata
 
