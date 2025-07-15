@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
- Prescribes the storage of a hardware product.
+Prescribes the storage of a hardware product.
 
 ## Description
 

@@ -8,7 +8,7 @@ An actual change to a hardware product's location.
 
 ## Description
 
- A TransportAction expresses the change in location of a hardware product, such as a component being moved from an assembly plant to a warehouse. 
+A TransportAction expresses the change in location of a hardware product, such as a component being moved from an assembly plant to a warehouse.
 
 ## Metadata
 

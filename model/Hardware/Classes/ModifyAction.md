@@ -12,7 +12,7 @@ A ModifyAction is an action that alters a hardware product, such as a change to 
 
 Relationship:
 
-For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of `hasOutput` on the `from` and a `/Core/Element`  subclass on the `to`.
+For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of `hasOutput` on the `from` and a `/Core/Element` subclass on the `to`.
 
 For each `ModifyAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of `performedBy` on the `from` and a `/Core/Element` subclass on the `to`.
 
