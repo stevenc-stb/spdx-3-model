@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-This is the product associated with the change of ownership.
+The element that has it's responsibility changed. 
 
 ## Description
 
-The product or service related to a sale or acquisition is identified in this field.
+The element that has it's responsibility changed.  For example: "This product is associated with the change of ownership."
 
 ## Metadata
 
