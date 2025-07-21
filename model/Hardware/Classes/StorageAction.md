@@ -16,13 +16,9 @@ A StorageAction expresses the actual storage of hardware in a specific location.
 - SubclassOf: ModifyAction
 - Instantiability: Concrete
 
-## Properties
-
-- storageLocation
-  - type: /Core/Location
-  - minCount: 1
-
 ## External properties restrictions
 
 - /Core/Element/description
+  - minCount: 1
+- /Core/Action/actionLocation
   - minCount: 1
