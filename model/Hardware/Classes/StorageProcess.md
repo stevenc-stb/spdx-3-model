@@ -8,7 +8,7 @@ Prescribes the storage of a hardware product.
 
 ## Description
 
-A StorageProcess expresses the planned future storage of hardware in an optionally-specified location.
+A StorageProcess expresses the planned storage of hardware in an optionally-specified location.
 
 ## Metadata
 
