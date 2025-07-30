@@ -4,14 +4,15 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Indicates the language of a dataset.
+The language of a dataset.
 
 ## Description
 
-A BCP 47 string to express the natural language of a dataset.
+This property uses an IETF BCP 47 language tag to indicate the natural language
+used within a dataset.
 
 ## Metadata
 
 - name: inLanguage
 - Nature: DataProperty
-- Range: xsd:string
+- Range: /Core/LanguageTag

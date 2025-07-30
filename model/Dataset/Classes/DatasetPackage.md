@@ -56,7 +56,7 @@ Metadata information that can be added to a dataset that may be used in a softwa
   - minCount: 0
   - maxCount: 1
 - inLanguage
-  - type: xsd:string
+  - type: /Core/LanguageTag
   - minCount: 0
 - intendedUse
   - type: xsd:string
