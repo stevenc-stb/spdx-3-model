@@ -18,6 +18,7 @@ performance or used in an action.
 
 - `es` (Spanish)
 - `es-UY` (Spanish as used in Uruguay)
+- `hau-NG` (Hausa as used in Nigeria)
 - `hy-Latn-IT-arevela` (Eastern Armenian written in Latin script, as used in Italy)
 - `sl-rozaj-biske` (San Giorgio dialect of Resian dialect of Slovenian)
 - `yue-Hant-HK` (Cantonese using traditional Han characters, as spoken in Hong Kong)
