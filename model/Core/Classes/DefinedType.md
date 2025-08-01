@@ -18,7 +18,7 @@ It provides a structured way to represent defined types, holds information about
 
 ## Properties
 
-- typeFromSouce
+- typeFromSource
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
