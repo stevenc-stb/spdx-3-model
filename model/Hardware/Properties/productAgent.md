@@ -8,7 +8,7 @@ The Agent who is responsible for product branding such as an OEM.
 
 ## Description
 
-The Agent is responsible for defining the partNumber, batchNumber or serialNumber of unit of hardware.
+The Agent is responsible for defining the partNumber, batchNumber or serialNumber of the unit of hardware.
 
 ## Metadata
 
