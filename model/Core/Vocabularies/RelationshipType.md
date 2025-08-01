@@ -75,7 +75,7 @@ name completes the sentence:
 - hasTestCase: Every `to` Element is a test case for the `from` Element (`from` hasTestCase `to`).
 - hasVariant: Every `to` Element is a variant the `from` Element (`from` hasVariant `to`).
 - invokedBy: The `from` Element was invoked by the `to` Agent, during a LifecycleScopeType period (for example, a Build element that describes a build step).
-- instantiatedBy: The `to` Element is instantiated by the `from` Process.
+- instantiatedBy: The `to` Element is instantiated by the `from` DefinedProcess.
 - islocatedAt: `from` element located at a specific `to` location. A time period is optional.
 - modifiedBy: The `from` Element is modified by each `to` Element.
 - other: Every `to` Element is related to the `from` Element where the relationship type is not described by any of the SPDX relationship types (this relationship is directionless).
