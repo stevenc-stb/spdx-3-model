@@ -11,8 +11,7 @@ Products out of specification require a resolution action. This is the action of
 Products out of specification require a resolution action. This is the action of resolution.
 
 Relationship:
-
-For each `ResolutionAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'resolution’ on the from and an `OutOfSpecAction` class or subclass on the to.
+For each `ResolutionAction` there is at least one `/Core/Relationship` class or subclass with the relationshipType of 'resolved’ on the from and an `OutOfSpecAction` class or subclass on the to.
 
 ## Metadata
 
