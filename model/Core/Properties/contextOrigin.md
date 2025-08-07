@@ -13,5 +13,5 @@ Specification, why the context is like it is. Describes what it means, where the
 ## Metadata
 
 - name: contextOrigin
-- Nature: RequirementProperty
+- Nature: ObjectProperty
 - Range: Specification
