@@ -13,12 +13,12 @@ A requirement element is a distinct article or unit defining an expectation, nee
 ## Metadata
 
 - name: Requirement
-- SubclassOf: /Core/Element
+- SubclassOf: Element
 
 ## Properties
 
 - requirementUID
-  - type: ContentIdentifier
+  - type:  /Sofware/ContentIdentifier
   - minCount: 0
   - maxCount: 1
 - devLifeCycleStage
