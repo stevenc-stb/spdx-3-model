@@ -13,5 +13,5 @@ A unique ID, as used by requirements management or other lifecycle management to
 ## Metadata
 
 - name: requirementUID
-- Nature: RequirementProperty
+- Nature: DataProperty
 - Range: ContentIdentifierType
