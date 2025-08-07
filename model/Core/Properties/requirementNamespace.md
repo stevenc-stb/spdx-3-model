@@ -13,5 +13,5 @@ The requirement namespace is used to get a lasting connection between the projec
 ## Metadata
 
 - name: requirementNamespace
-- Nature: RequirementProperty
+- Nature: ObjectProperty
 - Range: xsd:string
