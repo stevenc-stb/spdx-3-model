@@ -13,5 +13,5 @@ The requirement context describes the the hierarchical level of the requirement 
 ## Metadata
 
 - name: requirementContext
-- Nature: RequirementProperty
+- Nature: ObjectProperty
 - Range: RequirementContext 
