@@ -12,6 +12,6 @@ The level of the requirement within the project that gave the requirement its na
 
 ## Metadata
 
-- name: requirementNamespace
+- name: requirementHierarchyLevel
 - Nature: DataProperty
 - Range: PositiveIntegerRange
