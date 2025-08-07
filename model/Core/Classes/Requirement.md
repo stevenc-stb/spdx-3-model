@@ -18,7 +18,7 @@ A requirement element is a distinct article or unit defining an expectation, nee
 ## Properties
 
 - requirementUID
-  - type:  /Sofware/ContentIdentifier
+  - type: /Sofware/ContentIdentifier
   - minCount: 0
   - maxCount: 1
 - devLifeCycleStage
@@ -37,4 +37,3 @@ A requirement element is a distinct article or unit defining an expectation, nee
   - type: xsd:string
   - minCount: 0
   - maxCount: *
-
