@@ -14,4 +14,4 @@ A unique ID, as used by requirements management or other lifecycle management to
 
 - name: requirementUID
 - Nature: DataProperty
-- Range: ContentIdentifierType
+- Range: /sofware/ContentIdentifier
