@@ -13,5 +13,5 @@ The text portion of the requirement, usually following specific rules and best p
 ## Metadata
 
 - name: requirementText
-- Nature: RequirementProperty
+- Nature: DataProperty
 - Range: xsd:string
