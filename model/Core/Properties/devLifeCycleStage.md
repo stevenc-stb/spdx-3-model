@@ -13,5 +13,5 @@ There are requirements that apply to the design phase of a product, that are aim
 ## Metadata
 
 - name: devLifeCycleStage
-- Nature: RequirementProperty
+- Nature: DataProperty
 - Range: LifecycleScopeType
