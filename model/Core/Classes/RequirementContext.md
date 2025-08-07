@@ -18,7 +18,7 @@ The requirement context describes the the hierarchical level of the requirement 
 ## Properties
 
 - requirementNamespace
-  - type:xsd:string
+  - type: xsd:string
   - minCount: 0
   - maxCount: 1
 - requirementHierarchyLevel
