@@ -4,12 +4,16 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A string constrained to the IETF BCP 47 language tag format.
+A string constrained to the IETF BCP 47 language tag format,
+which is used to identify human languages.
 
 ## Description
 
-The string must be in the format as describes in the Section 2 of
+The language tag must be in the format as describes in the Section 2 of
 [IETF RFC 5646](https://datatracker.ietf.org/doc/rfc5646/) (part of BCP 47).
+
+Each language tag is composed of one or more "subtags" separated by hyphens
+(-). Each subtag is composed of basic Latin letters or digits only.
 
 It provides a standardized way of indicating the language of the content or
 performance or used in an action.
