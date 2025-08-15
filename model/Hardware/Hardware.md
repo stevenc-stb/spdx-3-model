@@ -8,7 +8,7 @@ The Hardware Profile provides metadata that describes hardware and its supply ch
 
 ## Description
 
-The Hardware namespace defines metadata related to physical and virtual hardware including its supply chain and properties.
+The Hardware namespace defines metadata related to physical and virtual hardware including its supply chain and properties. 
 
 ## Metadata
 
