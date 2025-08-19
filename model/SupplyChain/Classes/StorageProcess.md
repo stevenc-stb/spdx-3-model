@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Prescribes the storage of a hardware product.
+Prescribes the storage of a product.
 
 ## Description
 
-A StorageProcess expresses the planned storage of hardware in an optionally-specified location.
+A StorageProcess expresses the planned storage of product in an optionally-specified location.
 
 ## Metadata
 
