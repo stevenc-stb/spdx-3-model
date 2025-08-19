@@ -83,5 +83,8 @@ name completes the sentence:
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
 - trainedOn: The `from` Element has been trained on the `to` Element(s).
+- finetunedOn: The `from` Element has been finetuned on the `to` Element(s).
+- evaluatedOn: The `from` Element has been evaluated on the `to` Element(s).
+- pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - underInvestigationFor: The `from` Vulnerability impact is being investigated for each `to` Element. The use of the `underInvestigationFor` type is constrained to `VexUnderInvestigationVulnAssessmentRelationship` classed relationships.
 - usesTool: The `from` Element uses each `to` Element as a tool, during a LifecycleScopeType period.
