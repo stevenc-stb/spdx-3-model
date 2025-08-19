@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-An actual change to a hardware product.
+An actual change to a product.
 
 ## Description
 
-A ChangeAction expresses an alteration of a hardware product, such as an intentional adjustment.
+A ChangeAction expresses an alteration of a product, such as an intentional adjustment.
 
 ## Metadata
 
