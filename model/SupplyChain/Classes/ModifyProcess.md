@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A prescribed alteration of a hardware product.
+A prescribed alteration of a product.
 
 ## Description
 
-A ModifyProcess is a process that will result in the alteration of a hardware product, such as a change to its configuration or its location.
+A ModifyProcess is a process that will result in the alteration of a product, such as a change to its configuration or its location.
 
 Relationship:
 
