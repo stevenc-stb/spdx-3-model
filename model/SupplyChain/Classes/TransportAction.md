@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-An actual change to a hardware product's location.
+An actual change to a product's location.
 
 ## Description
 
-A TransportAction expresses the change in location of a hardware product, such as a component being moved from an assembly plant to a warehouse.
+A TransportAction expresses the change in location of a product, such as a component being moved from an assembly plant to a warehouse.
 
 ## Metadata
 
