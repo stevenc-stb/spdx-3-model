@@ -13,6 +13,6 @@ InstantiationVirtualHardwareProcess is a class defining the process needed to in
 ## Metadata
 
 - name: InstantiationVirtualHardwareProcess
-- SubclassOf: /Core/DefinedProcess
+- SubclassOf: CreateProcess
 - Instantiability: Concrete
 
