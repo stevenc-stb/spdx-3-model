@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-An actual alteration of a hardware product.
+An actual alteration of a product.
 
 ## Description
 
-A ModifyAction is an action that alters a hardware product, such as a change to its configuration or its location.
+A ModifyAction is an action that alters a product, such as a change to its configuration or its location.
 
 Relationship:
 
