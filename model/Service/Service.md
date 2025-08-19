@@ -12,5 +12,5 @@ The Profile captures software as a service related information.
 
 ## Metadata
 
-- id: https://rdf.spdx.org/v3/Service
+- id: https://spdx.org/rdf/3.1/terms/Service
 - name: Service
