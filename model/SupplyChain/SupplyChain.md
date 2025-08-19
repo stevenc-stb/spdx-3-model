@@ -12,5 +12,5 @@ The supply chain profile documents events and processes associated with the life
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.1.0/terms/SupplyChain
+- id: https://spdx.org/rdf/3.1/terms/SupplyChain
 - name: SupplyChain
