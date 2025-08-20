@@ -38,8 +38,10 @@ name completes the sentence:
 - descendantOf: The `from` Element is a descendant of each `to` Element.
 - describes: The `from` Element describes each `to` Element. To denote the root(s) of a tree of elements in a collection, the rootElement property should be used.
 - doesNotAffect: The `from` Vulnerability has no impact on each `to` Element. The use of the `doesNotAffect` is constrained to `VexNotAffectedVulnAssessmentRelationship` classed relationships.
+- evaluatedOn: The `from` Element has been evaluated on the `to` Element(s).
 - expandsTo: The `from` archive expands out as an artifact described by each `to` Element.
 - exploitCreatedBy: The `from` Vulnerability has had an exploit created against it by each `to` Agent.
+- finetunedOn: The `from` Element has been finetuned on the `to` Element(s).
 - fixedBy: Designates a `from` Vulnerability has been fixed by the `to` Agent(s).
 - fixedIn: A `from` Vulnerability has been fixed in each `to` Element. The use of the `fixedIn` type is constrained to `VexFixedVulnAssessmentRelationship` classed relationships.
 - foundBy: Designates a `from` Vulnerability was originally discovered by the `to` Agent(s).
@@ -77,14 +79,12 @@ name completes the sentence:
 - other: Every `to` Element is related to the `from` Element where the relationship type is not described by any of the SPDX relationship types (this relationship is directionless).
 - packagedBy: Every `to` Element is a packaged instance of the `from` Element (`from` packagedBy `to`).
 - patchedBy: Every `to` Element is a patch for the `from` Element (`from` patchedBy `to`).
+- pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - publishedBy: Designates a `from` Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
 - trainedOn: The `from` Element has been trained on the `to` Element(s).
-- finetunedOn: The `from` Element has been finetuned on the `to` Element(s).
-- evaluatedOn: The `from` Element has been evaluated on the `to` Element(s).
-- pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - underInvestigationFor: The `from` Vulnerability impact is being investigated for each `to` Element. The use of the `underInvestigationFor` type is constrained to `VexUnderInvestigationVulnAssessmentRelationship` classed relationships.
 - usesTool: The `from` Element uses each `to` Element as a tool, during a LifecycleScopeType period.
