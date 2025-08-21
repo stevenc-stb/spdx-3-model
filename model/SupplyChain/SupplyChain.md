@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The supply chain profile documents events and processes associated with the lifecyle of a product, including its creation, transportation, usage, and decommissioning.
+The SupplyChain profile documents events and processes associated with the lifecyle of a product, including its creation, transportation, usage, and decommissioning.
 
 ## Description
 
-The supply chain profile documents events and processes associated with the lifecyle of a product, including its creation, transportation, usage, and decommissioning.
+The SupplyChain profile documents events and processes associated with the lifecyle of a product, including its creation, transportation, usage, and decommissioning.
 
 ## Metadata
 

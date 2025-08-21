@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Hardware Profile provides metadata that describes hardware.
+The Hardware profile provides metadata that describes hardware.
 
 ## Description
 
