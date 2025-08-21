@@ -93,7 +93,7 @@ The profiles are organized as sub-directories under the `model/` directory.
 The model diagram is available in [model.drawio][model-diagram] file
 and in [`images/`](./images/) directory.
 
-<a href="./images/" title="Click to see more Profile diagrams" ><img src="./images/model-Core.png" alt="Core Profile diagram" height="120" /></a>
+<a href="./images/" title="Click to see more profile diagrams" ><img src="./images/model-Core.png" alt="Core profile diagram" height="120" /></a>
 
 Note:
 
