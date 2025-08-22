@@ -24,7 +24,3 @@ A DefinedStateProcess may describes the steps or conditions required to move an 
   - type: State
   - minCount: 1
 
-## External properties restrictions
-  - /Core/Element/description
-  - minCount: 1
-  
