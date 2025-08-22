@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# ManufacturerProcess
+# ManufactureProcess
 
 ## Summary
 
@@ -12,6 +12,6 @@ The manufacturing process encompasses the series of steps required to transform 
 
 ## Metadata
 
-- name: ManufacturerProcess
+- name: ManufactureProcess
 - SubclassOf: CreateProcess
 - Instantiability: Concrete
