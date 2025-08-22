@@ -1,24 +1,22 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# StorageAction
+# ChangeAction
 
 ## Summary
 
-Records the storage of a hardware product.
+An actual change to a product.
 
 ## Description
 
-A StorageAction expresses the actual storage of hardware in a specific location.
+A ChangeAction expresses an alteration of a product, such as an intentional adjustment.
 
 ## Metadata
 
-- name: StorageAction
+- name: ChangeAction
 - SubclassOf: ModifyAction
 - Instantiability: Concrete
 
 ## External properties restrictions
 
 - /Core/Element/description
-  - minCount: 1
-- /Core/Action/actionLocation
   - minCount: 1

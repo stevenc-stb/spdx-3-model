@@ -20,5 +20,3 @@ An inspection action refers to a specific activity or set of activities performe
 
 - /Core/Element/description
   - minCount: 1
-- /Core/Action/actionLocation
-  - minCount: 1

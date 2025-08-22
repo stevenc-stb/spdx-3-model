@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
- A prescribed change to a hardware product.
+ A prescribed change to a product.
 
 ## Description
 
-A ChangeProcess is a planned process causing an intentional change to a hardware product, such as an adjustment.
+A ChangeProcess is a planned process causing an intentional change to a product, such as an adjustment.
 
 ## Metadata
 
