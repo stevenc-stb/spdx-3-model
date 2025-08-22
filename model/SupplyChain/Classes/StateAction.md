@@ -4,11 +4,12 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-This is the state of an affected element.
+This is the state of an affected element at a specific moment in time.
 
 ## Description
 
-The state of a specific element is defined in this class. The state of an object refers to the set of attributes, properties, or data that define the object's condition at a specific moment in time.
+The state of a specific element is defined, measured or obersvered in this class at a specific moment in time.
+The stateaction is defined by the method used by the definedstaeproces to produce an outcome.
 
 ## Metadata
 
@@ -18,12 +19,12 @@ The state of a specific element is defined in this class. The state of an object
 
 ## Properties
 
-- objectState
-  - type: xsd:string
+- currentState
+  - type: State
   - minCount: 1
   - maxCount: 1
-
-## External properties restrictions
-
-- /Core/Element/description
+  
+- decisionProcess
+  - type: DefinedStateProcess
   - minCount: 1
+  - maxCount: 1
