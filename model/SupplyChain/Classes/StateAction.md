@@ -23,7 +23,6 @@ The stateaction is defined by the method used by the definedstaeproces to produc
   - type: State
   - minCount: 1
   - maxCount: 1
-  
 - decisionProcess
   - type: DefinedStateProcess
   - minCount: 1
