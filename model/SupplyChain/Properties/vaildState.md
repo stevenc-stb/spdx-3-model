@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-This the list of vaild state for DefinedStateProcess.
+The vaild state for DefinedStateProcess.
 
 ## Description
 
-This the list of vaild state for DefinedStateProcess.
+The vaild state for DefinedStateProcess.
 
 ## Metadata
 
