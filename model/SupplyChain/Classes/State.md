@@ -26,5 +26,3 @@ States describe what a project has achieved (or not) as opposed to describing ac
   - minCount: 1
 - /Core/Element/description
   - minCount: 1
-  
-  
