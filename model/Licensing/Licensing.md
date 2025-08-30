@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Licensing Profile defines a minimum set of license information to
+The Licensing profile defines a minimum set of license information to
 facilitate compliance with typical license use cases.
 
 ## Description
@@ -12,10 +12,10 @@ facilitate compliance with typical license use cases.
 The Licensing profile only contains the additional requirement that any
 Software Artifact must have a `Relationship` of type `hasConcludedLicense`.
 
-Classes and Property restrictions are defined in the SimpleLicensing Profile
-(Classes and Properties associated with
+Classes and property restrictions are defined in the SimpleLicensing profile
+(classes and properties associated with
 [license expression strings](../../annexes/spdx-license-expressions.md))
-and in the ExpandedLicensing Profile (Classes and Properties used for a
+and in the ExpandedLicensing profile (classes and properties used for a
 fully parsed syntax tree of license expressions).
 
 There are 2 relationship types related to licensing - `hasDeclaredLicense` and
