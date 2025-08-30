@@ -8,7 +8,7 @@ This is the state of an affected Element at a specific moment in time.
 
 ## Description
 
-The state of a specific Element is defined, measured or obersvered in this class at a specific moment in time.
+The state of a specific Element is defined, measured or observed in this class at a specific moment in time.
 The stateaction is defined by the method used by the definedstaeproces to produce an outcome.
 
 ## Metadata
