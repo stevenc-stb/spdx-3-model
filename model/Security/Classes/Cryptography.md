@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The class represents an instance of the cryptographic systems used. 
+The class represents an instance of the CryptographyAlgorithm used. 
 
 ## Description
 
-Class that describes a  instance of Cryptography system.
+Class that describes a instance of CryptographyAlgorithm.
 The choice of which specific algorithms to use is made by setting parameters when creating instances of this class.
 
 ## Metadata
