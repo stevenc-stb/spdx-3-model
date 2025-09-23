@@ -21,6 +21,7 @@ The choice of which specific algorithms to use is made by setting parameters whe
 
 - cryptographyName
   - type: xsd:string
+  - minCount: 1
   - maxCount: 1
 - parameter
   - type: /Core/DictionaryEntry
