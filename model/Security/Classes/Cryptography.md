@@ -23,5 +23,5 @@ The choice of which specific algorithms to use is made by setting parameters whe
   - type: xsd:string
   - maxCount: 1
 - parameter
-  - type: DictionaryEntry
+  - type: /Core/DictionaryEntry
 
