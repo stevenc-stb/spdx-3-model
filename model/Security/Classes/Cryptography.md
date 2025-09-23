@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# Cryptography
+# CryptographyAlgorithm
 
 ## Summary
 
@@ -13,7 +13,7 @@ The choice of which specific algorithms to use is made by setting parameters whe
 
 ## Metadata
 
-- name: Cryptography
+- name: CryptographyAlgorithm
 - SubclassOf: element
 - Instantiability: Concrete
 
