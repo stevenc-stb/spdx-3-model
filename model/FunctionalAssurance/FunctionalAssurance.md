@@ -17,5 +17,3 @@ The FunctionalAssurance Profile serves as a structure for confirming that platfo
 - name: FunctionalAssurance
 
 ## Profile conformance
-
-
