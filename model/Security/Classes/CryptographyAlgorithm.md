@@ -14,7 +14,7 @@ The choice of which specific algorithms to use is made by setting parameters whe
 ## Metadata
 
 - name: CryptographyAlgorithm
-- SubclassOf: element
+- SubclassOf: /Core/Element
 - Instantiability: Concrete
 
 ## Properties
