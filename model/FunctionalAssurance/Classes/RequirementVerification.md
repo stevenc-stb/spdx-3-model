@@ -36,6 +36,9 @@ This can include security, operational, functional, or compliance-related needs 
 - verificationPostcondition
   - type: xsd:string
   - minCount: 0
+- verifies
+  - type: /Core/Requirement
+  - minCount: 1
 - verificationNote
   - type: xsd:string
   - minCount: 0
