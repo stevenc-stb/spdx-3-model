@@ -19,7 +19,7 @@ The RequirementVerification class describes the inputs to a verification task.
 
 ## Properties
 
-- verificationUID
+- verificationUUID
   - type: xsd:anyURI
   - minCount: 0
   - maxCount: 1
