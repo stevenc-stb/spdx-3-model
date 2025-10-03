@@ -23,7 +23,7 @@ A product specification (product spec) is a detailed document that outlines the 
 - partNumber
   - type: xsd:string
   - minCount: 1
-- itemVerson
+- itemVersion
   - type: xsd:string
 - intendedUse
   - type: xsd:string

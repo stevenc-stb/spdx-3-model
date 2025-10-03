@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# itemVerson
+# itemVersion
 
 ## Summary
 
@@ -12,6 +12,6 @@ Describes the specific version of item.
 
 ## Metadata
 
-- name: itemVerson
+- name: itemVersion
 - Nature: DataProperty
 - Range: xsd:string
