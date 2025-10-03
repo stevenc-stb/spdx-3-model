@@ -10,7 +10,7 @@ EvaluationResult is the result of an evaluation.
 
 EvaluationResult represents the documented outcome of assessing a requirement, system, component, or process against specified criteria. It records whether the evaluated subject has met, failed, or yielded an inconclusive result based on the applied EvaluationResultType. The EvaluationResult captures the rationale behind the conclusion, providing necessary context and justification while referencing the specific RequirementVerification upon which the evaluation was based. This structure ensures clear traceability and supports compliance with standards for rigorous verification and validation processes.
 
-Note: An evaluation with a `inconclusive` EvaluationResultType must have a comment on it.
+Note: An evaluation with a `inconclusive` EvaluationResultType should have a comment on it.
 
 ## Metadata
 
@@ -31,3 +31,4 @@ Note: An evaluation with a `inconclusive` EvaluationResultType must have a comme
 - evalutationBasedOn
   - type: RequirementVerification
   - minCount: 1
+  - maxCount: 1
