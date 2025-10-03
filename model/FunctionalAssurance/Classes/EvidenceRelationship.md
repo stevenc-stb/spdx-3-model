@@ -18,7 +18,7 @@ EvidenceRelationship defines the association between pieces of evidence and Eval
 
 ## Properties
 
-- evidenceUID
+- evidenceUUID
   - type: xsd:anyURI
   - minCount: 0
   - maxCount: 1
