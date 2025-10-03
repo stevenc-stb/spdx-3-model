@@ -39,7 +39,7 @@ The RequirementVerification class describes the inputs to a verification task.
 - verifies
   - type: /Core/Requirement
   - minCount: 1
-- verificationNote
+- verificationMethodRationale
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
