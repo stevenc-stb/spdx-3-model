@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A verification note is a descriptive annotation, remark, or comment added to document or clarify details related to a verification activity, requirement, result, or process in engineering, systems, or software contexts.
+A verification note is supporting information that justifies the chosen verification method.
 
 ## Description
 
-A verification note is a descriptive annotation, remark, or comment added to document or clarify details related to a verification activity, requirement, result, or process in engineering, systems, or software contexts.
+A verification note is supporting information that justifies the chosen verification method.
 
 ## Metadata
 
