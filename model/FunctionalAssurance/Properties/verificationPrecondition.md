@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Verification preconditions are specific conditions, requirements, or initial states that must be satisfied before a verification activity (such as a test, inspection, or analysis) can be executed to ensure accurate and reliable results.
+Verification preconditions are initial criteria that shall be met prior to initiating the test.
 
 ## Description
 
-Verification preconditions are specific conditions, requirements, or initial states that must be satisfied before a verification activity (such as a test, inspection, or analysis) can be executed to ensure accurate and reliable results.
+Verification preconditions are specific conditions, requirements, or initial states that must be satisfied before a verification activity will be executed. 
 
 ## Metadata
 
