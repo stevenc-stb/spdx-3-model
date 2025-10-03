@@ -4,12 +4,12 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Requirementverification class refers to a specific requirement that must be confirmed through testing, inspection, or assessment. 
+RequirementVerification class describes the method of verification.
 
 ## Description
 
-Requirementverification class refers to a specific requirement that must be confirmed through testing, inspection, or assessment.
-This can include security, operational, functional, or compliance-related needs that must be demonstrably met and documented. 
+RequirementVerification class describes the method of verification.
+The RequirementVerification class describes the inputs to a verification task. 
 
 ## Metadata
 
