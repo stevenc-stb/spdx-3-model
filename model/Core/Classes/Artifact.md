@@ -44,3 +44,6 @@ such as an electronic file, a software package, a device or an element of data.
 - supportLevel
   - type: SupportType
   - minCount: 0
+- intendedUse
+  - type: xsd:string
+  - maxCount: 1
