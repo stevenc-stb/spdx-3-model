@@ -14,4 +14,4 @@ Country for which export controls must be taken into account.
 
 - name: exportingCountry
 - Nature: DataProperty
-- Range: /Core/Country
+- Range: /Core/CountryCodeAlpha3
