@@ -50,15 +50,15 @@ A hardware artifact is a distinct unit related to hardware.
  
 ## External properties restrictions
 
-- /Core/ArtifactoriginatedBy
+- /Core/Artifact/originatedBy
   - maxCount: 0
-- /Core/ArtifactsuppliedBy
+- /Core/Artifact/suppliedBy
   - maxCount: 0
-- /Core/ArtifactbuiltTime
+- /Core/Artifact/builtTime
   - maxCount: 0
-- /Core/ArtifactreleaseTime
+- /Core/Artifact/releaseTime
   - maxCount: 0
-- /Core/ArtifactstandardName
+- /Core/Artifact/standardName
   - maxCount: 0
-- /Core/ArtifactsupportLevel
+- /Core/Artifact/supportLevel
   - maxCount: 0
