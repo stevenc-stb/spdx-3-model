@@ -18,7 +18,7 @@ Assement of an Element for export control classification according to the classi
 ## Properties
 
 - exportingCountry
-  - type: /Core/Country
+  - type: /Core/CountryCodeAlpha3
   - minCount: 1
   - maxCount: 1
 - specification
