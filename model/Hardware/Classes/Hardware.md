@@ -13,7 +13,7 @@ A hardware artifact is a distinct unit related to hardware.
 ## Metadata
 
 - name: Hardware
-- SubclassOf: /Core/Element
+- SubclassOf: /Core/Artifact
 - Instantiability: Abstract
 
 ## Properties
@@ -47,3 +47,18 @@ A hardware artifact is a distinct unit related to hardware.
 - additionalInformation
   - type: /Core/DictionaryEntry
   - minCount: 0
+ 
+## External properties restrictions
+
+- /Core/Artifact/originatedBy
+  - maxCount: 0
+- /Core/Artifact/suppliedBy
+  - maxCount: 0
+- /Core/Artifact/builtTime
+  - maxCount: 0
+- /Core/Artifact/releaseTime
+  - maxCount: 0
+- /Core/Artifact/standardName
+  - maxCount: 0
+- /Core/Artifact/supportLevel
+  - maxCount: 0
