@@ -5,7 +5,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 ## Summary
 
 An Individual Value for Element representing a set of Elements of unknown
-identify or cardinality (number).
+identity or cardinality (number).
 
 ## Description
 
