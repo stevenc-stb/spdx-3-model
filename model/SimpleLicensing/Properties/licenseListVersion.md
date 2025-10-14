@@ -16,7 +16,7 @@ SPDX License List used.
 This anticipates that in the future, license expression might have used a
 version of the SPDX License List that is older than the then current one.
 
-The specified version of the SPDX License List must include all listed licenses
+The specified version of the SPDX License List shall include all listed licenses
 and exceptions referenced in the expression.
 
 ## Metadata

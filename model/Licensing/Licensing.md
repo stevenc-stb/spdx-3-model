@@ -10,7 +10,7 @@ facilitate compliance with typical license use cases.
 ## Description
 
 The Licensing profile only contains the additional requirement that any
-Software Artifact must have a `Relationship` of type `hasConcludedLicense`.
+Software Artifact shall have a `Relationship` of type `hasConcludedLicense`.
 
 Classes and property restrictions are defined in the SimpleLicensing profile
 (classes and properties associated with
@@ -117,7 +117,7 @@ can be made from a missing hasConcludedLicense relationship.
 For an element collection to be conformant with this profile,
 the following has to hold:
 
-1. for every `/Software/SoftwareArtifact` there MUST exist exactly one
+1. for every `/Software/SoftwareArtifact` there shall exist exactly one
    `/Core/Relationship` of type `hasConcludedLicense` having that element as
    its `from` property and a `/SimpleLicensing/AnyLicenseInfo` as its `to`
    property.
