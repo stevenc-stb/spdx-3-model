@@ -444,13 +444,13 @@ express the necessary level of normativity, as defined in
 *ISO/IEC Directives, Part 2 -- Principles and rules for the structure and
 drafting of ISO and IEC documents*:
 
-| Verbal forms          | Type of provision          |
-|-----------------------|----------------------------|
-| shall / shall not     | requirement                |
-| should / should not   | recommendation             |
-| may                   | permission                 |
-| can / cannot          | possibility and capability |
-| must                  | external constraint        |
+| Verbal forms          | Type of provision                                                                   |
+|-----------------------|-------------------------------------------------------------------------------------|
+| shall / shall not     | Requirement                                                                         |
+| should / should not   | Recommendation                                                                      |
+| may                   | Permission (do not use "can", "might", "possible", or "impossible" in this context) |
+| can / cannot          | Possibility and capability                                                          |
+| must                  | External constraint                                                                 |
 
 Equivalent phrases or expressions may be used in certain cases,
 provided they maintain the exact meaning and level of normativity established
