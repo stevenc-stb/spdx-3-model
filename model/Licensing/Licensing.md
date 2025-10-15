@@ -25,7 +25,7 @@ If the `hasConcludedLicense` for a Software Artifact is not the same as its
 `hasDeclaredLicense`, a written explanation should be provided in the
 `hasConcludedLicense` relationship `comment` field.
 
-A written explanation of a relationship to a `NoAssertionLicense` MAY be
+A written explanation of a relationship to a `NoAssertionLicense` may be
 provided in the `comment` field for the relationship.
 
 *hasDeclaredLicense*
