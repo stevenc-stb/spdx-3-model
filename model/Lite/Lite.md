@@ -27,7 +27,7 @@ An SPDX Lite document can also be used in parallel with other SPDX documents in 
 
 In addition to the following mandatory requirements,
 please refer to the corresponding Annex for elements
-that should be included as part of a document conforming to the Lite profile.
+that shall be included as part of a document conforming to the Lite profile.
 
 For a `/Software/Package` to be conformant with this profile, the following has to hold:
 

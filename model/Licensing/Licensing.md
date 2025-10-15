@@ -22,7 +22,7 @@ There are 2 relationship types related to licensing - `hasDeclaredLicense` and
 `hasConcludedLicense`.
 
 If the `hasConcludedLicense` for a Software Artifact is not the same as its
-`hasDeclaredLicense`, a written explanation SHOULD be provided in the
+`hasDeclaredLicense`, a written explanation should be provided in the
 `hasConcludedLicense` relationship `comment` field.
 
 A written explanation of a relationship to a `NoAssertionLicense` MAY be
