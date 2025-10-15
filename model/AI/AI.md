@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The AI Profile is designed to provide a standardized way of documenting and
+The AI profile is designed to provide a standardized way of documenting and
 sharing information about AI software packages (i.e. systems).
 
 ## Description
@@ -15,7 +15,7 @@ development process, such as software packages, models, and datasets.
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.0.1/terms/AI
+- id: https://spdx.org/rdf/3.1/terms/AI
 - name: AI
 
 ## Profile conformance

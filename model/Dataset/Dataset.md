@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Dataset Profile provides additional metadata, based on Software Profile,
+The Dataset profile provides additional metadata, based on Software profile,
 that is useful for datasets.
 
 ## Description
@@ -14,7 +14,7 @@ preparation process, its characteristics, and its access methods.
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.0.1/terms/Dataset
+- id: https://spdx.org/rdf/3.1/terms/Dataset
 - name: Dataset
 
 ## Profile conformance

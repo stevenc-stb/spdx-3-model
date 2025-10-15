@@ -44,6 +44,7 @@ name completes the sentence:
 - finetunedOn: The `from` Element has been finetuned on the `to` Element(s).
 - fixedBy: Designates a `from` Vulnerability has been fixed by the `to` Agent(s).
 - fixedIn: A `from` Vulnerability has been fixed in each `to` Element. The use of the `fixedIn` type is constrained to `VexFixedVulnAssessmentRelationship` classed relationships.
+- follows: The `to` Element succeeds the `from` Element, establishing a unidirectional sequence. This succession is defined as chronological, procedural, or logical. It is used to represent either a temporal order (e.g., in a workflow) or a logical order for processing and traversal (e.g., in an ordered list).
 - foundBy: Designates a `from` Vulnerability was originally discovered by the `to` Agent(s).
 - generates: The `from` Element generates each `to` Element.
 - hasAddedFile: Every `to` Element is a file added to the `from` Element (`from` hasAddedFile `to`).
@@ -80,6 +81,7 @@ name completes the sentence:
 - packagedBy: Every `to` Element is a packaged instance of the `from` Element (`from` packagedBy `to`).
 - patchedBy: Every `to` Element is a patch for the `from` Element (`from` patchedBy `to`).
 - pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
+- providesSupportFor: The `from` Agent provides support for each `to` Artifact. Must be a `SupportRelationship` type.
 - publishedBy: Designates a `from` Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
