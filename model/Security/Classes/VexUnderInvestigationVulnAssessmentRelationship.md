@@ -32,7 +32,7 @@ the following requirements shall be observed:
   "to": ["urn:product-acme-application-1.3"],
   "security_assessedElement": "urn:npm-elliptic-6.5.2",
   "suppliedBy": "urn:spdx.dev:agent-jane-doe",
-  "publishedTime": "2021-03-09T11:04:53Z"
+  "security_publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
 

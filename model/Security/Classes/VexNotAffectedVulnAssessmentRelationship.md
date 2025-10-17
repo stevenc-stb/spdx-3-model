@@ -38,7 +38,7 @@ following requirements shall be observed:
   "security_justificationType": "componentNotPresent",
   "security_impactStatement": "Not using this vulnerable part of this library.",
   "suppliedBy": "urn:spdx.dev:agent-jane-doe",
-  "publishedTime": "2021-03-09T11:04:53Z"
+  "security_publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
 
