@@ -16,3 +16,10 @@ The DesignAssurance Profile serves as a structure for confirming that platforms 
 - name: DesignAssurance
 
 ## Profile conformance
+For an element collection to be conformant with this profile,
+the following has to hold:
+
+1. for every `/DesignAssurance/RequirementVerification` there shall exist atleast one
+   `/Core/Relationship` of type `isVerifiedBy` having that element as
+   its `from` property and a `/Core/Requirement` as its `to`
+   property.
