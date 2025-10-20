@@ -8,7 +8,7 @@ Describes how an Agent provides support for an Artifact.
 
 ## Description
 
-Specifies how an Agent supports a given Artifact. The relationship type must be
+Specifies how an Agent supports a given Artifact. The relationship type shall be
 `providesSupportFor`. The `from` of the relationship is the `Agent` providing
 support, and the `to` are the `Artifact` for which support is being provided.
 
