@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Specifies the name of the cryptography algorithm comes from spdx/crypto-algorithms list. 
+Specifies the name of the cryptography algorithm comes from spdx/cryptographic-algorithm-list.
 
 ## Description
 
-Specifies the name of the cryptography algorithm comes from spdx/crypto-algorithms list. The value used from the list is the id.
+Specifies the name of the cryptography algorithm comes from [spdx/cryptographic-algorithm-list](https://github.com/spdx/cryptographic-algorithm-list). The value used from the list is the id.
 
 ## Metadata
 
