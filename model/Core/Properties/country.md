@@ -4,11 +4,12 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Specifies a country code of the Location
+Specifies a country code of the location.
 
 ## Description
 
-Specifies a country code of the Location
+Specifies a country code of the location.
+
 ## Metadata
 
 - name: country
