@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: 2024 SPDX Project
+SPDX-FileCopyrightText: 2024-2025 SPDX Project
 SPDX-License-Identifier: Community-Spec-1.0
 ---
 
@@ -19,6 +19,7 @@ specifications.
 
 - [Overview](#overview)
 - [Directory organisation](#directory-organisation)
+- [Naming convention](#naming-convention)
 - [File content structure and formatting](#file-content-structure-and-formatting)
   - [Model file example](#model-file-example)
 - [Syntax](#syntax)
@@ -27,6 +28,7 @@ specifications.
   - [Individuals](#individuals)
   - [Properties](#properties)
   - [Vocabularies](#vocabularies)
+- [Verbal forms for expressions of provisions](#verbal-forms-for-expressions-of-provisions)
 - [Writing style](#writing-style)
 - [Translation](#translation)
 - [Checking if everything is ok](#checking-if-everything-is-ok)
@@ -43,7 +45,7 @@ data model, by the [spec-parser][].
 
 For instance, a summary listed under the "Summary" heading will be represented
 as a `rdfs:comment` in the RDF file. Likewise, a value specified for the
-"minCount" of a property name under the "Properties" heading will be
+"minCount" of a property under the "Properties" heading will be
 translated into a `sh:minCount` in the RDF file.
 See [an example](#model-file-example).
 
@@ -55,9 +57,13 @@ The same Markdown files are used to generate the HTML files for
 
 *The Markdown flavour used for the specification is
 [Python-Markdown](https://www.mkdocs.org/user-guide/writing-your-docs/#writing-with-markdown)
-as it is used by [MkDocs](https://www.mkdocs.org/) site generator.
-It differs slightly from
+as it is used by the [MkDocs](https://www.mkdocs.org/) site generator.
+It differs slightly from the
 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/).
+Running [markdownlint] over your Markdown files can help enforce formatting
+consistency and reduce the risk of rendering issues.
+
+[markdownlint]: https://github.com/DavidAnson/markdownlint
 
 ## Directory organisation
 
@@ -67,9 +73,9 @@ from the location of the file:
 
 - Each element (class, datatype, individual, property, and vocabulary)
   is defined in a distinct file.
-- Model file names are case-sensitive and must be identical to the element they
+- Model file names are case-sensitive and shall be identical to the element they
   represent.
-- All model files must be located within the `model/` directory.
+- All model files shall be located within the `model/` directory.
 - Profiles should be organised into subdirectories (e.g., `Core/`, `Dataset/`).
 - Elements should be categorised by their type in subdirectories (e.g.,
   `Classes/`, `Datatypes/`, `Individuals/`, `Properties/`, `Vocabularies/`).
@@ -104,30 +110,43 @@ The living repository at
 <https://github.com/spdx/spdx-3-model/tree/main/model>
 is the best reference.
 
+## Naming convention
+
+- Use the singular form (e.g., use `import` and not `imports`).
+  (See discussion in [Issue 226][issue-226])
+- Use `UpperCamelCase` format for the names of classes, datatypes, individuals,
+  and vocabularies.
+- Use `lowerCamelCase` format for the names of properties and
+  vocabulary entries.
+
+[issue-226]: https://github.com/spdx/spdx-3-model/issues/226
+
 ## File content structure and formatting
 
-Each model file must adhere to a strict content structure:
+Each model file shall adhere to a strict content structure:
 
-- All files must be encoded in UTF-8.
-- Each file must start with SPDX license information:
+- All files shall be encoded in UTF-8.
+- Each file shall start with SPDX license information:
   `SPDX-License-Identifier: Community-Spec-1.0`
   and follows by one blank line.
-- The content immediately after the license information must begin with an
+- The content immediately after the license information shall begin with an
   H1 heading containing the element's name.
 - Each element type has a predefined set of [allowed H2 headings](#syntax) and
-  labeled lists that must be used to structure its content.
+  labeled lists that shall be used to structure its content.
+- Headings shall be in sentence case (i.e., only the first letter of the first
+  word is capitalized).
 
 Additionally, since MkDocs uses a strict
 [Python-Markdown](https://python-markdown.github.io/#differences),
-each model file must adhere to specific formatting guidelines:
+each model file shall adhere to specific formatting guidelines:
 
 - Blank lines:
-  - There must be a blank line before and after a heading.
-  - There must be a blank line before and after a list.
+  - There shall be a blank line before and after a heading.
+  - There shall be a blank line before and after a list.
 - Indentation:
   - Use spaces instead of tabs.
   - When a list item consists of multiple paragraphs, each subsequent paragraph
-    in a list item must be indented by 4 spaces. This applies to any
+    in a list item shall be indented by 4 spaces. This applies to any
     block-level elements nested in a list, including paragraphs, sub-lists,
     blockquotes, code blocks, etc.
 
@@ -172,21 +191,23 @@ will give this RDF graph
 (in [Turtle syntax](https://en.wikipedia.org/wiki/Turtle_(syntax))):
 
 ```ttl
-<https://spdx.org/rdf/3.0.1/terms/SimpleLicensing/SimpleLicensingText> a owl:Class,
+<https://spdx.org/rdf/3.1/terms/SimpleLicensing/SimpleLicensingText> a owl:Class,
         sh:NodeShape ;
     rdfs:comment "A license or addition that is not listed on the SPDX License List."@en ;
-    rdfs:subClassOf <https://spdx.org/rdf/3.0.1/terms/Core/Element> ;
+    rdfs:subClassOf <https://spdx.org/rdf/3.1/terms/Core/Element> ;
     sh:nodeKind sh:IRI ;
     sh:property [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:nodeKind sh:Literal ;
-            sh:path <https://spdx.org/rdf/3.0.1/terms/SimpleLicensing/licenseText> ] .
+            sh:path <https://spdx.org/rdf/3.1/terms/SimpleLicensing/licenseText> ] .
 ```
 
 ## Syntax
 
 ### Classes
+
+The name of a class shall be in `UpperCamelCase` format.
 
 Allowed headings:
 
@@ -194,7 +215,7 @@ Allowed headings:
 - Description
 - Metadata
   - name: \<class_name\>
-  - SubclassOf: \<class_name\> OR "none" *(Must have one if Instantiability is "Concrete")*
+  - SubclassOf: \<class_name\> OR "none" *(Shall have one if Instantiability is "Concrete")*
   - Instantiability: "Abstract" OR "Concrete" *(Default: Concrete)*
 - Properties *(Optional)*
   - \<property_name\>
@@ -207,6 +228,18 @@ Allowed headings:
     - minCount: \<number\> *(Optional)*
     - maxCount: \<number\> *(Optional)*
   - ...
+
+`minCount` and `maxCount` indicate the minimum and maximum number of times
+a property may appear in a class (cardinality):
+
+- The minimum possible occurrence is zero (`0`).
+- An unbounded maximum occurrence is represented by a star/asterisk (`*`).
+- If `minCount` is omitted, it defaults to `0`.
+- If `maxCount` is omitted, it defaults to `*`.
+
+See details in the [Conformance section][conformance] of the specification.
+
+[conformance]: https://spdx.github.io/spdx-spec/v3.0.1/conformance/
 
 #### Class example
 
@@ -242,6 +275,8 @@ A class example.
 ```
 
 ### Datatypes
+
+The name of a datatype shall be in `UpperCamelCase` format.
 
 Allowed headings:
 
@@ -279,6 +314,8 @@ A DateTime is a string representation of a specific date and time.
 ```
 
 ### Individuals
+
+The name of an individual shall be in `UpperCamelCase` format.
 
 Allowed headings:
 
@@ -319,6 +356,8 @@ A named individual of Element class that representing none.
 
 ### Properties
 
+The name of a property shall be in `lowerCamelCase` format.
+
 Allowed headings:
 
 - Summary
@@ -353,6 +392,8 @@ and its calibration value as a key-value pair.
 
 ### Vocabularies
 
+The name of a vocabulary shall be in `UpperCamelCase` format.
+
 Allowed headings:
 
 - Summary
@@ -363,7 +404,12 @@ Allowed headings:
   - \<entry_name\>: \<entry_description\>
   - ...
 
-Each entry in Entries must be written in a single line.
+Entry formatting:
+
+- Entry names shall be in `lowerCamelCase` format.
+- Each entry shall be written on a single line.
+- Entries should be listed alphabetically whenever possible to facilitate
+  review and editing, particularly for long lists.
 
 #### Vocabulary example
 
@@ -391,6 +437,31 @@ RpsType specifies the type of a hand shape.
 - scissors: Two fingers extended, forming a V shape.
 ```
 
+## Verbal forms for expressions of provisions
+
+When formulating a provision, the following verbal forms shall be used to
+express the necessary level of normativity, as defined in
+*ISO/IEC Directives, Part 2 -- Principles and rules for the structure and
+drafting of ISO and IEC documents*:
+
+| Verbal forms          | Type of provision                                                                   |
+|-----------------------|-------------------------------------------------------------------------------------|
+| shall / shall not     | Requirement                                                                         |
+| should / should not   | Recommendation                                                                      |
+| may                   | Permission (do not use "can", "might", "possible", or "impossible" in this context) |
+| can / cannot          | Possibility and capability                                                          |
+| must                  | External constraint                                                                 |
+
+Equivalent phrases or expressions may be used in certain cases,
+provided they maintain the exact meaning and level of normativity established
+by these verbal forms.
+
+See the ISO/IEC Directives for definitions of [provisions][] (Clause 3.3) and
+[verbal forms for expressions of provisions][verbal] (Clause 7).
+
+[provisions]: https://www.iso.org/sites/directives/current/part2/index.xhtml#_idParaDest-9
+[verbal]: https://www.iso.org/sites/directives/current/part2/index.xhtml#_idParaDest-29
+
 ## Writing style
 
 To ensure clear and consistent documentation generation, follow these
@@ -398,12 +469,44 @@ recommendations when writing paragraph text and incorporating links.
 
 - **Avoid overly long paragraphs.**
 
-    Breaking up text into smaller paragraphs, using bullet points, or creating numbered lists can significantly improve readability and comprehension by separating distinct concepts, processes, criteria, or categories.
+    Breaking up text into smaller paragraphs, using bullet points, or creating
+    numbered lists can significantly improve readability and comprehension by
+    separating distinct concepts, processes, criteria, or categories.
+
     This makes the specification easier to scan and understand.
+
+- **Maintain a consistent style.**
+
+  - Use a uniform writing style, particularly when presenting similar
+    information.
+  - Use parallel sentence structures for related entries.
+
+  This improves readability and helps in comparing related information.
+
+  Here's an example of a **consistent** writing style:
+
+  ```markdown
+  ## Entries
+
+  - crl: Certificate Revocation List, or CRL, is a list of ...
+  - ocsp: Online Certificate Status Protocol, or OCSP, is a common ...
+  - tls: Transport Layer Security, or TLS, is a widely ...
+  ```
+
+  Here's an example of an **inconsistent** writing style:
+
+  ```markdown
+  ## Entries
+
+  - crl: Certificate Revocation List (CRL) - A CRL is a list of ...
+  - ocsp: OCSP (Online Certificate Status Protocol) is a common ...
+  - tls: Transport Layer Security, or TLS, is a widely ...
+  ```
 
 - **Avoid bare URLs.**
 
     Always provide a descriptive label for each link. Avoid using bare URLs.
+
     This improves accessibility for screen readers and provides context for
     users.
 
@@ -427,7 +530,7 @@ recommendations when writing paragraph text and incorporating links.
     This could include cases where URLs need to be clearly visible in both
     digital and print formats or when the URL serves as a metadata value.
 
-    The IRI field in the Metadata section MUST use a bare URL:
+    The IRI field in the Metadata section shall use a bare URL:
 
     ```markdown
     ## Metadata
@@ -494,7 +597,9 @@ recommendations when writing paragraph text and incorporating links.
 
     When using code blocks, specify the appropriate computer language code.
     For instance, use `json` for JSON, `yaml` for YAML, and `text` for plain
-    text. This ensures correct syntax highlighting and improves readability.
+    text.
+
+    This ensures correct syntax highlighting and improves readability.
 
     For example, start a JSON code block with this markup:
 
