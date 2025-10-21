@@ -1,8 +1,26 @@
 # Change Log
 
+## Post-3.0.1 (2025-04-24)
+
+### Changes since 3.0.1
+
+Items marked 'Removed' or 'Fixed' indicate potential
+semantic changes to the model and may affect compatibility.
+
+- **Added:** `/Software/artifactSize` property - [#966](https://github.com/spdx/spdx-3-model/pull/966)
+  - A property identifying the size of a software artifact, in bytes.
+- **Improved:** `/Security/*VulnAssessmentRelationship` examples - [#994](https://github.com/spdx/spdx-3-model/pull/994)
+  - Corrected values in examples within the JSON-LD examples section.
+- **Clarified:** Serialization and validation documents - [#1019](https://github.com/spdx/spdx-3-model/pull/1019)
+  - Use "SPDX 3 JSON" name (instead of "SPDX 3 JSON-LD").
+- Fixed general typos and formatting issues.
+
 ## 3.0.1 (2024-12-10)
 
 ### Changes since 3.0
+
+Items marked 'Removed' or 'Fixed' indicate potential
+semantic changes to the model and may affect compatibility.
 
 - **Removed:** `Software/contentType` property - [#789](https://github.com/spdx/spdx-3-model/pull/789)
   - The `Software/File` class is meant to use the `Core/contentType` property.
@@ -11,19 +29,19 @@
   - Corrected `actionStatement` cardinality from `0..1` to `1..1` to match its textual description.
   - Corrected `actionStatementTime` cardinality from `0..*` to `0..1` to match its textual description.
 - **Fixed:** Typo in `Core/import` property - [#847](https://github.com/spdx/spdx-3-model/pull/847)
-  - Corrected `imports` to `import` in Core Profile.
+  - Corrected `imports` to `import` in Core profile.
 - **Fixed:** Typo in `Build/parameter` property - [#836](https://github.com/spdx/spdx-3-model/pull/836)
-  - Corrected `parameters` to `parameter` in Build Profile.
+  - Corrected `parameters` to `parameter` in Build profile.
 - **Fixed:** Typo in `hasInput` and `hasOutput` entries - [#854](https://github.com/spdx/spdx-3-model/pull/854)
   - Corrected `hasInputs` to `hasInput` and `hasOutputs` to `hasOutput` in
     `Core/RelationshipType`.
 - **Fixed:** Typo in `hasPrerequisite` entry- [#817](https://github.com/spdx/spdx-3-model/pull/817)
   - Corrected the misspelling of `hasPrerequsite` to `hasPrerequisite` in
     `Core/RelationshipType`.
-- **Fixed:** Licensing relationship type names in Profile conformance - [#779](https://github.com/spdx/spdx-3-model/pull/779)
+- **Fixed:** Licensing relationship type names in profile conformance - [#779](https://github.com/spdx/spdx-3-model/pull/779)
   - Corrected `concludedLicense` to `hasConcludedLicense` and
-    `declaredLicense` to `hasDeclaredLicense` in the "Profile conformance"
-    section of AI, Dataset, Licensing, and Lite Profiles.
+    `declaredLicense` to `hasDeclaredLicense` in profile conformance
+    section of AI, Dataset, Licensing, and Lite profiles.
 - **Fixed:** `Security/actionStatement` property - [#908](https://github.com/spdx/spdx-3-model/pull/908)
   - Corrected its cardinality from `0..1` to `1..1`.
 - **Fixed:** `Security/actionStatementTime` property - [#908](https://github.com/spdx/spdx-3-model/pull/908)
@@ -59,6 +77,12 @@
   - Add `Core/IndividualElement` class
     to the Core diagram - [#941](https://github.com/spdx/spdx-3-model/pull/941)
 - Fixed general typos and formatting issues.
+
+### Release notes
+
+The version 3.0.1 model release notes,
+with full change records from 3.0 to 3.0.1, are available at:
+<https://github.com/spdx/spdx-3-model/releases/tag/3.0.1>.
 
 ## 3.0 (2024-04-15)
 
