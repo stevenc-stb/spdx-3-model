@@ -8,7 +8,7 @@ This property holds additional information unique to the key that cannot be repr
 
 ## Description
 
-The otherParameter property is used to store supplementary, key-specific details relevant to the cryptographic key but not covered by the associated CryptographyAlgorithm object. It accommodates diverse metadata or context-specific data that supports key management, usage policies, or operational aspects unique to the key instance itself. 
+The otherParameter property is used to store supplementary, key-specific details relevant to the cryptographic key but not covered by the associated CryptographyAlgorithm element. It accommodates diverse metadata or context-specific data that supports key management, usage policies, or operational aspects unique to the key instance itself. 
 
 ## Metadata
 
