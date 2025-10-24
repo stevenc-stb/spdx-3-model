@@ -16,7 +16,7 @@ EvidenceType refers to categories of documented or observable proof used to veri
 
 ## Entries
 
-- report: Formal documentation of test results, evaluations, or analyses.
+- report: Structured documentation of test results, evaluations, or analyses.
 - log: Time-stamped records capturing system or operational data.
 - recording: Audio, video, or electronic capture of events or conditions.
 - observation: Direct monitoring or witnessing of processes, tests, or behaviors.
