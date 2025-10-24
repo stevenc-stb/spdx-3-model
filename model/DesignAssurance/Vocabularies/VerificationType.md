@@ -19,7 +19,8 @@ Verification types Describes include the following methods used to confirm that 
 - analysis: Evaluating data, designs, or processes methodically to verify correctness against standards or expectations.
 - assessment: A systematic evaluation of a system, process, or outcome often involving judgement and measurement.
 - audit: A formal independent examination typically focusing on compliance with policies, standards, or regulations.
-- reviewInspection: A thorough examination or checking of documentation, records, processes, or systems to confirm compliance or adherence.
-- observationDemonstration: Watching a process or behavior in action or having a demonstration to confirm that the requirement is met.
+- review: A examination or checking of documentation, records, processes, or systems to confirm compliance or adherence.
+- inspection: A thorough examination or checking of documentation, records, processes, or systems to confirm compliance or adherence.
+- demonstration: Watching a process or behavior in action or having a demonstration to confirm that the requirement is met.
 - test: Conducting controlled tests or experiments to validate performance, functionality, or security.
 - other: Any other specialized or custom verification method that fits the context.
