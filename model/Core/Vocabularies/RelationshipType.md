@@ -100,3 +100,4 @@ name completes the sentence:
 - validatedOn: The `from` Element has been validated on the `to` Element(s).
 - verifiedBy: The `from` RequirementVerification is a verification process of `to` Requirement.
 - traceToDetail: The `from` Requirement trace to detail to in `to` Requirement.
+- implementedBy: The `from` Requirement is implemented in the `to` Element(s).
