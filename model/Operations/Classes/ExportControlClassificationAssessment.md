@@ -32,6 +32,6 @@ Assement of an Element for export control classification according to the classi
 - assessmentResult
   - type: ExportControlClassification
   - minCount: 1
-- assessmentTimestamp: 
+- assessmentTimestamp
   - type: /Core/DateTime
   - maxCount: 1
