@@ -21,7 +21,7 @@ Assement of an Element for export control classification according to the classi
   - type: /Core/CountryCodeAlpha3
   - minCount: 1
   - maxCount: 1
-- specification
+- exportControlSpecification
   - type: /Core/ExternalIdentifier
   - minCount: 1
   - maxCount: 1
