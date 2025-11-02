@@ -20,7 +20,6 @@ Assement of an Element for export control classification according to the classi
 
 - assessor
   - type: /Core/Agent
-  - minCount: 1
   - maxCount: 1
 - assessedElement
   - type: /Core/Element
