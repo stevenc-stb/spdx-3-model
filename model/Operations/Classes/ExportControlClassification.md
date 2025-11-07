@@ -22,7 +22,7 @@ Assement of an Element for export control classification according to the classi
   - minCount: 1
   - maxCount: 1
 - exportControlSpecification
-  - type: /Core/ExternalIdentifier
+  - type: /Core/Specification
   - minCount: 1
   - maxCount: 1
 - exportClassification
