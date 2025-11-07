@@ -4,28 +4,28 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Licensing Profile defines a minimum set of license information to
+The Licensing profile defines a minimum set of license information to
 facilitate compliance with typical license use cases.
 
 ## Description
 
 The Licensing profile only contains the additional requirement that any
-Software Artifact must have a `Relationship` of type `hasConcludedLicense`.
+Software Artifact shall have a `Relationship` of type `hasConcludedLicense`.
 
-Classes and Property restrictions are defined in the `SimpleLicensingProfile`
-(Classes and Properties associated with
+Classes and property restrictions are defined in the SimpleLicensing profile
+(classes and properties associated with
 [license expression strings](../../annexes/spdx-license-expressions.md))
-and in the `ExpandedLicensingProfile` (Classes and Properties used for a
+and in the ExpandedLicensing profile (classes and properties used for a
 fully parsed syntax tree of license expressions).
 
 There are 2 relationship types related to licensing - `hasDeclaredLicense` and
 `hasConcludedLicense`.
 
 If the `hasConcludedLicense` for a Software Artifact is not the same as its
-`hasDeclaredLicense`, a written explanation SHOULD be provided in the
+`hasDeclaredLicense`, a written explanation should be provided in the
 `hasConcludedLicense` relationship `comment` field.
 
-A written explanation of a relationship to a `NoAssertionLicense` MAY be
+A written explanation of a relationship to a `NoAssertionLicense` may be
 provided in the `comment` field for the relationship.
 
 *hasDeclaredLicense*
@@ -40,25 +40,25 @@ included, as needed, in the hasConcludedLicense field.
 A hasDeclaredLicense may be expressed differently in practice for different
 types of Software Artifacts. For example:
 
-- for Packages:
-  - would include license info for the Package as a
-    whole, found in the Package itself (e.g., LICENSE file,
-    README file, metadata in the Package, etc.)
-  - would not include any license information that is not in the Package
-    itself (e.g., license information from the project's website or from a
-      third party repository or website)
-- for Files:
-  - would include license info found in the File itself (e.g., license
-    header or notice, comments indicating the license, SPDX-License-Identifier
-    expression)
-  - would not include license info found in a different file (e.g., LICENSE
-    file in the top directory of a repository)
-- for Snippets:
-  - would include license info found in the Snippet itself (e.g., license
-    notice, comments, SPDX-License-Identifier expression)
-  - would not include license info found elsewhere in the File or in a
-    different File (e.g., comment at top of File if it is not within the
-    Snippet, LICENSE file in the top directory of a repository)
+- for Packages,
+  it would include license info for the Package as a
+  whole, found in the Package itself (e.g., LICENSE file,
+  README file, metadata in the Package, etc.),
+  but it would not include any license information that is not in the Package
+  itself (e.g., license information from the project's website or from a
+  third party repository or website).
+- for Files,
+  it would include license info found in the File itself (e.g., license
+  header or notice, comments indicating the license, SPDX-License-Identifier
+  expression),
+  but it would not include license info found in a different file
+  (e.g., LICENSE file in the top directory of a repository).
+- for Snippets,
+  it would include license info found in the Snippet itself (e.g., license
+  notice, comments, SPDX-License-Identifier expression),
+  but it would not include license info found elsewhere in the File or in a
+  different File (e.g., comment at top of File if it is not within the
+  Snippet, LICENSE file in the top directory of a repository).
 
 A hasDeclaredLicense relationship to NoneLicense indicates that the
 corresponding Package, File or Snippet contains no license information
@@ -72,7 +72,7 @@ indicates that one of the following applies:
 - the SPDX data creator has made no attempt to determine this field; or
 - the SPDX data creator has intentionally provided no information (no meaning
   should be implied by doing so).
-  
+
 If a hasDeclaredLicense relationship is not present, no assumptions can be made
 about whether or not a hasDeclaredLicense exists.
 
@@ -109,7 +109,7 @@ can be made from a missing hasConcludedLicense relationship.
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.0.1/terms/Licensing
+- id: https://spdx.org/rdf/3.1/terms/Licensing
 - name: Licensing
 
 ## Profile conformance
@@ -117,7 +117,7 @@ can be made from a missing hasConcludedLicense relationship.
 For an element collection to be conformant with this profile,
 the following has to hold:
 
-1. for every `/Software/SoftwareArtifact` there MUST exist exactly one
+1. for every `/Software/SoftwareArtifact` there shall exist exactly one
    `/Core/Relationship` of type `hasConcludedLicense` having that element as
    its `from` property and a `/SimpleLicensing/AnyLicenseInfo` as its `to`
    property.

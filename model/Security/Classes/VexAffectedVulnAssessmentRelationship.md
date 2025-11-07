@@ -16,7 +16,7 @@ vulnerability. This relationship corresponds to the VEX affected status.
 *Constraints*
 
 When linking elements using a VexAffectedVulnAssessmentRelationship, the
-following requirements must be observed:
+following requirements shall be observed:
 
 - Elements linked with a VulnVexAffectedAssessmentRelationship are constrained
   to the affects relationship type.
@@ -25,15 +25,15 @@ following requirements must be observed:
 
 ```json
 {
-  "type": "VexAffectedVulnAssessmentRelationship",
+  "type": "security_VexAffectedVulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:vex-affected-1",
   "relationshipType": "affects",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
   "to": ["urn:product-acme-application-1.3"],
   "security_assessedElement": "urn:npm-elliptic-6.5.2",
   "security_actionStatement": "Upgrade to version 1.4 of ACME application.",
-  "suppliedBy": ["urn:spdx.dev:agent-jane-doe"],
-  "publishedTime": "2021-03-09T11:04:53Z"
+  "suppliedBy": "urn:spdx.dev:agent-jane-doe",
+  "security_publishedTime": "2021-03-09T11:04:53Z"
 }
 ```
 
@@ -47,8 +47,9 @@ following requirements must be observed:
 
 - actionStatement
   - type: xsd:string
-  - minCount: 0
+  - minCount: 1
   - maxCount: 1
 - actionStatementTime
   - type: /Core/DateTime
   - minCount: 0
+  - maxCount: 1

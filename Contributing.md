@@ -1,4 +1,4 @@
-# Contributing to the SPDX 3.0 Model
+# Contributing to the SPDX 3 Model
 
 ## General
 
@@ -10,10 +10,13 @@ and during our [regular meetings][meetings].
 
 All the details are in: <https://spdx.dev/participate/tech/>
 
-This repository consists of Markdown files describing the model classes,
+This repository consists of files written in
+[a specific Markdown format][format] describing the model classes,
 datatypes, properties, and vocabularies which will be used to automatically
 create documentation, ontologies, and validation artifacts.
 These are organized by profile.
+
+Use [spec-parser][] to check if your Markdown has no errors.
 
 Please submit [a pull request][pull-requests] or [an issue][issues]
 for any suggested changes or issues you find.
@@ -31,11 +34,11 @@ agreement.
 
 ## Contributing to a specific profile
 
-There are multiple profiles being developed in parallel for the SPDX 3.0 model.
+There are multiple profiles being developed in parallel for the SPDX 3 model.
 
 - During its initial phase of development, a profile working group will
   contribute changes to its own branch in this repository.
-  - For example, any changes to the "Future Profile" should be submitted as a
+  - For example, any changes to the "Future" profile should be submitted as a
     change request to the `future-profile` branch.
 - There will be at least one maintainer per profile in charge of merging any
   profile development changes to the profile-specific branch.
@@ -44,15 +47,20 @@ There are multiple profiles being developed in parallel for the SPDX 3.0 model.
   profile model is ready for review.
 - Once alerted, the SPDX tech group will review and provide feedback.
 - Once profile proposals have been reviewed and approved, the profile-specific
-  branch will be merged to a general `development` branch along with the other
+  branch will be merged to a general `develop` branch along with the other
   reviewed profile models.
-- Once the profile in `development` branch is stable, its code from the
-  `development` branch will be merged to `main`.
+- Once the profile in `develop` branch is stable, its code from the
+  `develop` branch will be merged to `main`.
 
 At this point the SPDX tech team will re-evaluate the best way to continue
 updating individual profiles.
 
 This method of development was agreed upon by the SPDX Tech team on 2023-01-17.
+
+## Translation
+
+Translations of model descriptions are welcome.
+Please see [translation.md][translation] for details.
 
 ## Profile Maintainers
 
@@ -76,6 +84,9 @@ Each profile in active development phase also has their own
 | Security | [Thomas Steenbergen][gh-thomas], [Adolfo García Veytia][gh-adolfo], and [Rose Judge][gh-rose] |
 | Software | [Alexios Zavras][gh-alexios] and [Gary O'Neall][gh-gary] |
 
+[format]: ./docs/format.md
+[spec-parser]: https://github.com/spdx/spec-parser/
+[translation]: ./docs/translation.md
 [spdx-tech-list]: https://lists.spdx.org/mailman/listinfo/spdx-tech
 [meetings]: https://github.com/spdx/meetings/
 [issues]: https://github.com/spdx/spdx-3-model/issues/

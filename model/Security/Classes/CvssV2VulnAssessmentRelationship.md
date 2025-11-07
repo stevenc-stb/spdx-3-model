@@ -16,17 +16,17 @@ It is intended to communicate the results of using a CVSS calculator.
 
 *Constraints*
 
-- The relationship type must be set to `hasAssessmentFor`.
+- The relationship type shall be set to `hasAssessmentFor`.
 
 *Example*
 
 ```json
 {
-  "type": "CvssV2VulnAssessmentRelationship",
+  "type": "security_CvssV2VulnAssessmentRelationship",
   "spdxId": "urn:spdx.dev:cvssv2-cve-2020-28498",
   "relationshipType": "hasAssessmentFor",
   "security_score": "4.3",
-  "security_vectorString": "(AV:N/AC:M/Au:N/C:P/I:N/A:N)",
+  "security_vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
   "from": "urn:spdx.dev:vuln-cve-2020-28498",
   "to": ["urn:product-acme-application-1.3"],
   "security_assessedElement": "urn:npm-elliptic-6.5.2",
@@ -47,13 +47,13 @@ It is intended to communicate the results of using a CVSS calculator.
       "locator": "https://github.com/indutny/elliptic/commit/441b742"
     }
   ],
-  "suppliedBy": ["urn:spdx.dev:agent-my-security-vendor"],
-  "publishedTime": "2023-05-06T10:06:13Z"
+  "suppliedBy": "urn:spdx.dev:agent-my-security-vendor",
+  "security_publishedTime": "2023-05-06T10:06:13Z"
 },
 {
   "type": "Relationship",
-  "spdxId": "urn:spdx.dev:vulnAgentRel-1",  
-  "relationshipType": "publishedBy",  
+  "spdxId": "urn:spdx.dev:vulnAgentRel-1",
+  "relationshipType": "publishedBy",
   "from": "urn:spdx.dev:cvssv2-cve-2020-28498",
   "to": ["urn:spdx.dev:agent-snyk"],
   "startTime": "2021-03-08T16:06:50Z"
