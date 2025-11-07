@@ -14,4 +14,4 @@ Specification basis for the export control classification.
 
 - name: exportControlSpecification
 - Nature: DataProperty
-- Range: /Core/ExternalIdentifier
+- Range: /Core/Specification
