@@ -4,11 +4,14 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Specifies a data package and its associated information.
+Refers to any unit of content that can be associated with a distribution of
+dataset.
 
 ## Description
 
-Metadata information that can be added to a dataset that may be used in a software or to train/test an AI package.
+A Dataset Package is a specialized type of software package that includes
+data used for software, hardware, or system training, testing, and calibration,
+as well as for reference, archival, or other purposes.
 
 ## Metadata
 
@@ -68,17 +71,3 @@ Metadata information that can be added to a dataset that may be used in a softwa
 - sensor
   - type: /Core/DictionaryEntry
   - minCount: 0
-
-## External properties restrictions
-
-- /Core/Artifact/builtTime
-  - minCount: 1
-- /Core/Artifact/originatedBy
-  - minCount: 1
-  - maxCount: 1
-- /Core/Artifact/releaseTime
-  - minCount: 1
-- /Software/Package/downloadLocation
-  - minCount: 1
-- /Software/SoftwareArtifact/primaryPurpose
-  - minCount: 1
