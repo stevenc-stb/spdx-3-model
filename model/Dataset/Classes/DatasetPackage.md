@@ -71,3 +71,8 @@ as well as for reference, archival, or other purposes.
 - sensor
   - type: /Core/DictionaryEntry
   - minCount: 0
+
+## External properties restrictions
+
+- /Software/SoftwareArtifact/primaryPurpose
+  - minCount: 1
