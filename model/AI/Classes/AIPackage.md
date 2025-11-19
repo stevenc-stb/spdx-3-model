@@ -76,3 +76,8 @@ code or model that implements artificial intelligence functionalities.
   - type: /Core/PresenceType
   - minCount: 0
   - maxCount: 1
+
+## External properties restrictions
+
+- /Software/SoftwareArtifact/primaryPurpose
+  - minCount: 1
