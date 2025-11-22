@@ -4,14 +4,13 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Refers to any unit of content that can be associated with a distribution of
-dataset.
+A Package that contains a dataset.
 
 ## Description
 
-A Dataset Package is a specialized type of software package that includes
-data used for software, hardware, or system training, testing, and calibration,
-as well as for reference, archival, or other purposes.
+A Package that contains data used for the operation, training,
+testing, evaluation, or calibration of software, hardware, or systems,
+or for reference and archival purposes.
 
 ## Metadata
 
