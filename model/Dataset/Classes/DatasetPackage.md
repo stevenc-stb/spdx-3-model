@@ -10,7 +10,7 @@ A Package that contains a dataset.
 
 A Package that contains data used for the operation, training,
 testing, evaluation, or calibration of software, hardware, or systems,
-or for reference and archival purposes.
+or for reporting, documentation, reference, and archival purposes.
 
 ## Metadata
 
