@@ -8,7 +8,7 @@ A Package that contains AI software or an AI model.
 
 ## Description
 
-A software package that contains code or a model that provides
+A Package that contains code or a model that provides
 artificial intelligence capabilities.
 
 ## Metadata
