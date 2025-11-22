@@ -4,13 +4,12 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Refers to any unit of content that can be associated with a distribution of
-AI software or AI model.
+A Package that contains AI software or an AI model.
 
 ## Description
 
-An AI Package is a specialized type of software Package that includes
-code or model that implements artificial intelligence functionalities.
+A software package that contains code or a model that provides
+artificial intelligence capabilities.
 
 ## Metadata
 
