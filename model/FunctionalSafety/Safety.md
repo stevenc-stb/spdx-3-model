@@ -1,0 +1,23 @@
+SPDX-License-Identifier: Community-Spec-1.0
+
+# Safety
+
+## Summary
+
+The Safety Profile is designed to provide a standardized way of documenting and
+sharing information about artefacts created, verified and maintained during the safety lifecycle of a system.
+
+## Description
+
+The safety profile's namespace defines a set of concepts and data elements related to artefacts and their dependencies or links
+to each other that are part of a safety related system's safety conformance documentation.
+These artifacts include the outputs of the safety engineering phases regarding planning, requirements analysis, system/software architecture, impelemenation, safety analysis and the verification tasks. The artifacts can be used to compile a standardized safety case document.
+
+
+## Metadata
+
+- id: https://spdx.org/rdf/3.0.1/terms/Safety
+- name: Safety
+
+## Profile conformance
+TBD
