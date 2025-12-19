@@ -16,7 +16,7 @@ These artifacts include the outputs of the safety engineering phases regarding p
 
 ## Metadata
 
-- id: https://spdx.org/rdf/3.0.1/terms/Safety
+- id: https://spdx.org/rdf/3.1/terms/Safety
 - name: Safety
 
 ## Profile conformance
