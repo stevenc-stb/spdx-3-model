@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Verification postcondition that must be true immediately after a verification method has been performed
+Verification postcondition that are true immediately after a verification method has been performed
 
 ## Description
 
-Verification postcondition are explicit criteria, states, or conditions that must be true immediately after a verification method (such as a test, inspection, or analysis) has been performed, confirming the successful execution and complete outcomes of the verification.
+Verification postcondition are explicit criteria, states, or conditions that are true immediately after a verification method (such as a test, inspection, or analysis) has been performed, confirming the successful execution and complete outcomes of the verification.
 
 ## Metadata
 
