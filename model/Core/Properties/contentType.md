@@ -17,5 +17,5 @@ is being used.
 ## Metadata
 
 - name: contentType
-- Nature: DataProperty
+- Nature: ObjectProperty
 - Range: MediaType
