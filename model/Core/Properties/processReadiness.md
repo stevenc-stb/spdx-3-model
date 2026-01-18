@@ -13,5 +13,5 @@ Draft, active, obsolete or other are used to define the readiness of a proceedur
 ## Metadata
 
 - name: processReadiness
-- Nature: DataProperty
+- Nature: ObjectProperty
 - Range: ProcessReadinessType
