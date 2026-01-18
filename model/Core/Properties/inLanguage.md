@@ -18,4 +18,4 @@ used to indicating human languages, dialects, scripts, regions, and variants.
 
 - name: inLanguage
 - Nature: DataProperty
-- Range: /Core/LanguageTag
+- Range: LanguageTag
