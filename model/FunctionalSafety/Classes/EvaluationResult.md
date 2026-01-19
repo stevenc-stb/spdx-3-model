@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-EvaluationResult is the result of an evaluation. 
+EvaluationResult is the result of an evaluation.
 
 ## Description
 

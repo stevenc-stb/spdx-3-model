@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-Detailed explanation or reasoning that supports the EvaluationResult. 
+Detailed explanation or reasoning that supports the EvaluationResult.
 
 ## Description
 
