@@ -13,5 +13,5 @@ evidenceCategories refers to categories of documented or observable proof used t
 ## Metadata
 
 - name: evidenceCategories
-- Nature: DataProperty  
+- Nature: ObjectProperty
 - Range: EvidenceType
