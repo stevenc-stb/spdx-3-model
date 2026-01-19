@@ -19,4 +19,4 @@ These artifacts include the inputs and outputs of the systems engineering phases
 - name: SystemsEngineering
 
 ## Profile conformance
-- for every `/SystemsEngineering/RequirementVerification` there shall exist at least one `/Core/Relationship` of type `verifiedBy` having that element as its to property and a `/Core/Requirement` as its from property.
+- for every `/SystemsEngineering/RequirementVerification` there shall exist at least one `/Core/Relationship` of relationship type `verifiedBy` having that element as its to property and a `/Core/Requirement` as its from property.
