@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-evidenceCategories refers to categories of documented or observable proof
+evidenceCategories refers to categories of documented or observable proof.
 
 ## Description
 
