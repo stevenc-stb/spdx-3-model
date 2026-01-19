@@ -18,6 +18,4 @@ These artifacts include the outputs of the safety engineering phases regarding p
 
 - id: https://spdx.org/rdf/3.1/terms/Safety
 - name: Safety
-
-## Profile conformance
-TBD
+  
