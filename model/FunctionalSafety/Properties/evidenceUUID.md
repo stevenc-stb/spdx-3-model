@@ -14,4 +14,4 @@ A evidenceUUID is a universally unique identifier (UUID) assigned to an entity, 
 
 - name: evidenceUUID
 - Nature: ObjectProperty
-- Range: ExternalIdentifier
+- Range: /Core/ExternalIdentifier
