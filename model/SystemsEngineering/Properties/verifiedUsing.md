@@ -19,4 +19,4 @@ verifying the integrity of specific subclasses of Elements.
 
 - name: verifiedUsing
 - Nature: ObjectProperty
-- Range: IntegrityMethod
+- Range: Core/IntegrityMethod
