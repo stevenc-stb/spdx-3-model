@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The Safety Profile is designed to provide a standardized way of documenting and
+The Functional Safety Profile is designed to provide a standardized way of documenting and
 sharing information about artifacts created, verified and maintained during the safety lifecycle of a system.
 
 ## Description
