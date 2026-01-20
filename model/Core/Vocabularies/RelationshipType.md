@@ -91,7 +91,7 @@ name completes the sentence:
 - publishedBy: Designates a `from` Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
-- resolved: The `to` OutOfSpecAction is resolved in the `from` ResolutionAction
+- resolved: The `to` OutOfSpecAction is resolved in the `from` ResolutionAction.
 - runsOn: The `from` Element (the instructions) of runs on each `to` Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
@@ -101,4 +101,3 @@ name completes the sentence:
 - usesTool: The `from` Element uses each `to` Element as a tool, during a LifecycleScopeType period.
 - validatedOn: The `from` Element has been validated on the `to` Element(s).
 - verifiedBy: The `from` Requirement that has verification (test, review, analysis etc.) details defined in the `to` RequirementVerification.
-
