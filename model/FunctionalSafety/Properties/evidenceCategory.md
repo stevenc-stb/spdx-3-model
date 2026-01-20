@@ -8,7 +8,8 @@ evidenceCategory refers to a category of documented or observable proof.
 
 ## Description
 
-evidenceCategory refers to a category of documented or observable proof used to verify compliance, qualification, or performance.
+evidenceCategory refers to a category of documented or observable proof
+used to verify compliance, qualification, or performance.
 
 ## Metadata
 
