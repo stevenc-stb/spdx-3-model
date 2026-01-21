@@ -13,13 +13,16 @@ combination of one or more licenses, together with additions such as license
 exceptions.
 
 The syntax for a licenseExpression string is set forth in the corresponding
-Annex of this specification
+Annex of this document
 (["SPDX license expressions"](../../../annexes/spdx-license-expressions.md)).
 A licenseExpression string is not valid if it does not conform to the grammar
 set forth in that Annex.
 
 The ExpandedLicensing profile can be used to represent the complete parsed
 license expression as a combination of license objects.
+
+`customIdToUri` is deprecated. Migrate to `customIdToLicense`. `customIdToUri`
+will be removed in a future release.
 
 ## Metadata
 
@@ -38,4 +41,7 @@ license expression as a combination of license objects.
   - maxCount: 1
 - customIdToUri
   - type: /Core/DictionaryEntry
+  - minCount: 0
+- customIdToLicense
+  - type: /Core/ElementMap
   - minCount: 0
