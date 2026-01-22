@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# plannedProductofResponsibilityChange
+# plannedProductOfResponsibilityChange
 
 ## Summary
 
@@ -12,6 +12,6 @@ The planned product or service related to a responsibility change is identified 
 
 ## Metadata
 
-- name: plannedProductofResponsibilityChange
+- name: plannedProductOfResponsibilityChange
 - Nature: ObjectProperty
 - Range: /Core/Element
