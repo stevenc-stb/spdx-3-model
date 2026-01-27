@@ -18,7 +18,7 @@ This element describes a specific CryptographyArtifact.
 
 ## Properties
 
-- Source
+- sourceItem
   - type: /Core/Element
   - minCount: 1
 
