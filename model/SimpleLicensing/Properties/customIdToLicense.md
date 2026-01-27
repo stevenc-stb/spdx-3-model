@@ -18,7 +18,7 @@ dictates any reference starting with a
 "LicenseRef-" or "AdditionRef-" refers to license or addition text not found in
 the official [SPDX License List](https://spdx.org/licenses/).
 
-The key for the DictionaryEntry is the string used in the license expression
+The key for the ElementMap is the string used in the license expression
 and the value is target Element, which must be a CustomLicense,
 CustomLicenseAddition, or SimpleLicensingText.
 

@@ -21,6 +21,6 @@ A DefinedStateProcess may describe the steps or conditions required to move an e
 
 ## Properties
 
-- vaildState
+- validState
   - type: State
   - minCount: 1
