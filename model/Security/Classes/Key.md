@@ -13,7 +13,7 @@ This element describes a specific cryptographic key, identifying its type and as
 ## Metadata
 
 - name: Key
-- SubclassOf: /Software/File
+- SubclassOf: CryptographyArtifact
 - Instantiability: Concrete
 
 ## Properties

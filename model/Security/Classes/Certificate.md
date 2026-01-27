@@ -16,7 +16,7 @@ fingerprint is set uing the verifiedUsing.
 ## Metadata
 
 - name: Certificate
-- SubclassOf: /Software/File
+- SubclassOf: CryptographyArtifact
 - Instantiability: Concrete
 
 ## Properties
