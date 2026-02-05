@@ -76,11 +76,12 @@ branch or reach out to the maintainer of the profile (noted below).
 Each profile in active development phase also has their own
 [regular meeting time](https://github.com/spdx/meetings#sub-groups-for-specific-topics).
 
-| Profile(s) | Maintainer(s) |
-| -------------- | ------------- |
-| AI \& Dataset | [Karen Bennet][gh-karen] and [Gopi Krishnan Rajbahadur][gh-gopi] |
+| Profile | Maintainer(s) |
+| ------- | ------------- |
+| AI | [Karen Bennet][gh-karen] and [Gopi Krishnan Rajbahadur][gh-gopi] |
 | Build | [Brandon Lum][gh-brandon] and [Nisha Kumar][gh-nisha] |
 | Core | [William Bartholomew][gh-william], [Gary O'Neall][gh-gary], and [Kate Stewart][gh-kate] |
+| Dataset | [Karen Bennet][gh-karen] and [Gopi Krishnan Rajbahadur][gh-gopi] |
 | FunctionalSafety | [Nicole Pappler][gh-nicole] |
 | Hardware | [Steven Carbno][gh-stevenc] and Alfred Strauch |
 | Licensing | [Steve Winslow][gh-steve] and [Alexios Zavras][gh-alexios] |
