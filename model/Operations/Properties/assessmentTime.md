@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# assessmentTimestamp
+# assessmentTime
 
 ## Summary
 
@@ -12,6 +12,6 @@ Timestamp, when an assessment was conducted.
 
 ## Metadata
 
-- name: assessmentTimestamp
+- name: assessmentTime
 - Nature: DataProperty
 - Range: /Core/DateTime
