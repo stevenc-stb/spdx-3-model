@@ -16,6 +16,7 @@ ExternalIdentifierType specifies the type of an external identifier.
 
 ## Entries
 
+- ark: [Archival Resource Key (ARK)](https://arks.org/about/), is a Uniform Resource Identifier (URI) suited to being a persistent identifier for information objects of any type, standardized by the [ARK Identifier Scheme](https://datatracker.ietf.org/doc/draft-kunze-ark/) Internet-Draft. It consists of the "ark:" label followed by a Name Assigning Authority Number, a forward slash, a name, and an optional qualifier (e.g., `ark:12148/btv1b8449691v/f29`).
 - bic: Business Identifier Code (BIC), also known as SWIFT-BIC or SWIFT code, is a unique 8 or 11-character alphanumeric code standardized by [ISO 9362](https://www.iso.org/standard/84108.html) to identify financial and non-financial institutions (e.g., `BBWCUS33`).
 - cpe22: [Common Platform Enumeration Specification 2.2](https://cpe.mitre.org/files/cpe-specification_2.2.pdf).
 - cpe23: [Common Platform Enumeration: Naming Specification Version 2.3](https://csrc.nist.gov/publications/detail/nistir/7695/final).
