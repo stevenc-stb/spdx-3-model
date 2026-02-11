@@ -38,4 +38,3 @@ ExternalIdentifierType specifies the type of an external identifier.
 - urlScheme: [Uniform Resource Identifier (URI) Schemes](https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml). The scheme used in order to locate a resource.
 - verificationUUID: The UUID used by a verification management system or any other lifecycle management tool to uniquely identify a verification item. UUID, or universally unique ID, is a standard term to refer to verification items.
 - webpage: Absolute URL that can be used to locate a resource, as defined in [RFC 7230](https://datatracker.ietf.org/doc/rfc7230/) Section 2.7.1 or Section 2.7.2.
-
