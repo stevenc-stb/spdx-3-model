@@ -21,6 +21,6 @@ RoleRelationship inherits the `from` and `to` properties from Relationship, wher
 
 ## Properties
 
-- givenRole 
-  - type: Role
-  - minCount: 1
+- givenRole
+  -type: Role
+  -minCount: 1
