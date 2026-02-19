@@ -30,7 +30,7 @@ A Role defines a specific position or function that an entity plays in the conte
 - responsibility
   - type: xsd:string
   - minCount: 0
-  
+
 ## External properties restrictions
 
 - name
