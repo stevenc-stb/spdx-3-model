@@ -8,7 +8,8 @@ roleQualification specifies the requirements, criteria, or conditions that must 
 
 ## Description
 
-roleQualification is an object property that links a Role to one or more Requirement elements. It defines the qualifications—educational, experiential, certification, or competency-based—that an entity must possess to be considered capable of performing the responsibilities associated with the role
+roleQualification is an object property that links a Role to one or more Requirement elements.
+It defines the qualifications—educational, experiential, certification, or competency-based—that an entity must possess to be considered capable of performing the responsibilities associated with the role.
 
 ## Metadata
 
