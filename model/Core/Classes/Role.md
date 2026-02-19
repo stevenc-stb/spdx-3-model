@@ -38,5 +38,3 @@ A Role defines a specific position or function that an entity plays in the conte
 
 - name
   - minCount: 1
- 
-
