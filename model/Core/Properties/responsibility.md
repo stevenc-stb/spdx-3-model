@@ -13,5 +13,5 @@ Describes the specific responsibility of a Role.
 ## Metadata
 
 - name: responsibility
-- Nature: DataProperty
-- Range: xsd:string
+- Nature: ObjectProperty
+- Range: Requirement
