@@ -28,7 +28,7 @@ A Role defines a specific position or function that an entity plays in the conte
   - type: xsd:string
   - minCount: 0
 - responsibility
-  - type: xsd:string
+  - type: Requirement
   - minCount: 0
 
 ## External properties restrictions
