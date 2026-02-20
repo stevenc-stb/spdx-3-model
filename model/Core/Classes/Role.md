@@ -24,7 +24,7 @@ A Role defines a specific position or function that an entity plays in the conte
 - roleQualification
   - type: Requirement
   - minCount: 1
-- authority
+- authorization
   - type: xsd:string
   - minCount: 0
 - responsibility
