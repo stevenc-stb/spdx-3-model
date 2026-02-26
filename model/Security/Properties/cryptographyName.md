@@ -4,15 +4,14 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-cryptographyName the identifier for the cryptographic algorithm.
+CryptographyName the identifier for the cryptographic algorithm.
 
 ## Description
 
-cryptographyName is Cryptography List that is a SPDX Cryptographic Algorithms List or a CustomCryptography
-
+CryptographyName is CryptographyNameType that is in the SPDX Cryptographic Algorithms List.  
 
 ## Metadata
 
 - name: cryptographyName
 - Nature: ObjectProperty
-- Range: CryptographyList
+- Range: CryptographyNameType
