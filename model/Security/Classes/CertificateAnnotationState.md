@@ -21,7 +21,6 @@ The CertificateAnnotationState class represents an annotation that records the l
 - certificateState
   - type: CertificateLifecycleEnum
   - minCount: 1
-  
 - annotationTime
   - type: /Core/DateTime
   - minCount: 1
