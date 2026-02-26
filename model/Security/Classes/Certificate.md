@@ -27,7 +27,7 @@ An certificate is a standardized document (often using the X.509 v3 ITU-T format
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-- /Core/Subject
+- /Core/subject
   - type: /Core/Element
   - minCount: 1
 - subjectPublicKey
