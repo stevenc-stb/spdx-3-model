@@ -8,7 +8,6 @@ An abstract base for concrete cryptographic data objects (e.g., keys, certificat
 
 ## Description
 
-
 A cryptographic artifact is any concrete piece of data that embodies or supports a cryptographic function, such as protecting confidentiality, integrity, or authenticity. In practice, it is a specific, handleable item (file, value, or record).
 
 ## Metadata
@@ -22,4 +21,3 @@ A cryptographic artifact is any concrete piece of data that embodies or supports
 - sourceElement
   - type: /Core/Element
   - minCount: 0
-
