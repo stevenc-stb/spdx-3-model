@@ -50,6 +50,3 @@ SignatureAnnotation captures metadata about a cryptographic signature applied to
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-   
-  
-  
