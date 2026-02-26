@@ -21,8 +21,11 @@ CertificateExtension specifies an extension field contained within a Certificate
   - type: ExtensionType
   - minCount: 1
   - maxCount: 1
+- oid
+  - type: xsd:string
+  - minCount: 0
+  - maxCount: 1
 - /Core/value
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-
