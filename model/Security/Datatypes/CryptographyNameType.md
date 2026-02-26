@@ -14,3 +14,7 @@ The string shall be in the[SPDX cryptographic-algorithm-list](https://github.com
 
 - name: CryptographyNameType
 - SubclassOf: xsd:string
+
+## Format
+
+- pattern: [\s\S]* 
