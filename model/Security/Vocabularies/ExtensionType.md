@@ -27,4 +27,4 @@ Metadata
 - certificatePolicies: Defines the policies under which the certificate was issued and can be used.
 - crlDistributionPoints: Contains one or more URLs where a Certificate Revocation List (CRL) can be obtained.
 - signedCertificateTimestamp: Shows that the certificate has been publicly logged, which helps prevent the issuance of rogue certificates by a CA. Log ID, timestamp and signature as proof.
-(add more if needed)
+- custom: a ExtensionType not defined in any other ExtensionType. 
