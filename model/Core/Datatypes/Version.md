@@ -21,4 +21,4 @@ Note that this Datatype was named "SemVer" prior to the SPDX Specification relea
 
 ## Format
 
-- pattern: ^(0|[1-9][0..9]*)\.(0|[1-9][0..9]*)(\.(0|[1-9][0..9]*))?$
+- pattern: ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(\.(0|[1-9][0-9]*))?$
