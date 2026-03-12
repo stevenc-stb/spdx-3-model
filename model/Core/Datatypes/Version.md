@@ -8,10 +8,15 @@ A string following the SemVer 2.0.0 specification with the exceptions of the pat
 
 ## Description
 
-A semantic version is a string that is following the specification of
-[Semantic Versioning 2.0.0](https://semver.org/).
-The SPDX SemVer type differs from Semantic Versioning 2.0.0 in that the patch version is optional and extensions are not supported.
-If no patch version is present, the latest released patch version can be assumed.
+A version is a string of decimal numbers and dots assigned to a specific state
+of software, a specification, a document, or an artifact.
+
+The SPDX Version type follows [Semantic Versioning 2.0.0](https://semver.org/)
+but differs in that the patch version is optional and
+extensions are not supported.
+
+If no patch version is present, the latest released patch version is assumed.
+
 Note that this Datatype was named "SemVer" prior to the SPDX Specification release 3.1.
 
 ## Metadata
