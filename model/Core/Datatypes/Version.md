@@ -17,7 +17,7 @@ extensions are not supported.
 
 If no patch version is present, the latest released patch version is assumed.
 
-Note that this Datatype was named "SemVer" prior to the SPDX Specification release 3.1.
+Note that this Datatype was named "SemVer" prior to the SPDX specification release 3.1.
 
 ## Metadata
 
