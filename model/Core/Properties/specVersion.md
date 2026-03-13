@@ -20,7 +20,7 @@ The minor version number shall be incremented when backwards compatible changes
 are made.
 The optional patch version number shall be incremented when backward compatible bug
 fixes are made.
-If no patch version is present, the latest stable patch version can be assumed.
+If no patch version is present, the latest released patch version can be assumed.
 
 Here, parties exchanging information in accordance with the SPDX specification
 need to provide 100% transparency as to which SPDX specification version such
