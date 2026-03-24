@@ -26,3 +26,5 @@ RoleRelationship inherits the `from` and `to` properties from Relationship, wher
 - givenRole
   - type: Role
   - minCount: 1
+- assignedByAgent
+  - type: Agent
