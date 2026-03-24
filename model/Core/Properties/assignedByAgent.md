@@ -14,6 +14,6 @@ assignedByAgent is an object property that specifies the authority or entity res
 
 - name: assignedByAgent
 - Nature: ObjectProperty
-- Range: /Core/Agent
+- Range: Agent
 
 
