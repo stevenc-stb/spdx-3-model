@@ -34,7 +34,7 @@ Based on the Project Management Body of Knowledge (PMBOK), 3rd edition.
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-- DocUrl
+- docUrl
   - type: xsd:anyURI
   - minCount: 0
 - homePageUrl
