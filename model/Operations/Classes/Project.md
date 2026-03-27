@@ -31,7 +31,7 @@ Based on the Project Management Body of Knowledge (PMBOK), 3rd edition.
   - minCount: 1
   - maxCount: 1
 - /Core/Artifact/intendedUse
- - type: xsd:string
+  - type: xsd:string
   - minCount: 0
   - maxCount: 1
 - DocUrl
