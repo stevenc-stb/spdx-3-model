@@ -18,4 +18,4 @@ This ObjectProperty references a DefinedType to enable formal classification and
 
 - name: stakeholderPriority
 - Nature: ObjectProperty
-- Range: DefinedType
+- Range: Core/DefinedType
