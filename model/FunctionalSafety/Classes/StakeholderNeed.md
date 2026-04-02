@@ -29,5 +29,5 @@ This entity captures the natural language expression of the need via the stateme
 
 ## External properties restrictions
 
-- /Core/name
+- /Core/Element/name
   - minCount: 1
