@@ -64,7 +64,7 @@ name completes the sentence:
 - hasEvidence: Every `to` Element is considered as evidence for the `from` Element (`from` hasEvidence `to`).
 - hasExample: Every `to` Element is an example for the `from` Element (`from` hasExample `to`).
 - hasHost: The `from` Build was run on the `to` Element during a LifecycleScopeType period (e.g. the host that the build runs on).
-- hasStakeholderNeed the `from` Element has the  `to` StakeholderNeed.
+- hasStakeholderNeed: the `from` Element has the  `to` StakeholderNeed.
 - hasInput: The `from` Build, DefinedProcess or Action element has each `to` Element as an input.
 - hasMetadata: Every `to` Element is metadata about the `from` Element (`from` hasMetadata `to`).
 - hasOptionalComponent: Every `to` Element is an optional component of the `from` Element (`from` hasOptionalComponent `to`).
@@ -93,6 +93,7 @@ name completes the sentence:
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
 - resolved: The `to` OutOfSpecAction is resolved in the `from` ResolutionAction.
+- requirementRefinesStakeholderNeed: The `from` StakeholderNeed is Refined in the `to` Requirement. 
 - runsOn: The `from` Element (the instructions) of runs on each `to` Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
