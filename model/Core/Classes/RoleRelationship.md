@@ -8,7 +8,7 @@ RoleRelationship represents a relationship between an entity holding a role and 
 
 ## Description
 
-RoleRelationship is a concrete subclass of Relationship that captures the connection between an entities (such as a person, organization, tool, or component) and the specific position, function, or responsibility it fulfills. This relationship type is used when documenting roles that are not implicitly defined by the SPDX document structure, allowing explicit modeling of organizational responsibilities, tooling involvement, or component functions across systems.
+RoleRelationship is a concrete subclass of Relationship that captures the connection between an entities (such as a person, organization, tool, or component) and the specific position, function, or responsibility it fulfills. This relationship type is used when documenting roles that are not implicitly defined by the SPDX document structure, allowing explicit modeling of organizational responsibilities, tooling involvement, or component functions across systems or contexts.
 RoleRelationship inherits the `from` and `to` properties from Relationship, where:
 
 - `relationshipType` = `hasRole`.
