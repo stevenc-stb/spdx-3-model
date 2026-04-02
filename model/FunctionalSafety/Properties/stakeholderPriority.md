@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The relative importance or urgency assigned to a StakeholderNeed of the stakeholder 
+The relative importance or urgency assigned to a StakeholderNeed of the stakeholder.
 
 ## Description
 
