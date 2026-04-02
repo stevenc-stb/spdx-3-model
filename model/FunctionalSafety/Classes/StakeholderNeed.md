@@ -15,7 +15,7 @@ This entity captures the natural language expression of the need via the stateme
 ## Metadata
 
 - name: StakeholderNeed
-- SubclassOf: Element
+- SubclassOf: /Core/Element
 - Instantiability: Concrete
 
 ## Properties
@@ -25,10 +25,10 @@ This entity captures the natural language expression of the need via the stateme
   - minCount: 1
 
 - stakeholderPriority
-  - type: DefinedType
+  - type: /Core/DefinedType
   - minCount: 0
 
 ## External properties restrictions
 
-- name
+- /Core/name
   - minCount: 1
