@@ -17,4 +17,3 @@ While derived requirements must adhere to strict verification criteria, the stat
 - name: statement
 - Nature: DataProperty
 - Range: xsd:string
-
