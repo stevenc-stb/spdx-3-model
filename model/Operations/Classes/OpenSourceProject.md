@@ -8,7 +8,7 @@ An opensourceProject is a community collaboration to develop, operate and mainta
 
 ## Description
 
-The OpenSourceProject distinguishes itself project through governance, operational transparency, source code and deliverables with community collaboration.
+The OpenSourceProject distinguishes itself from project through governance, operational transparency, source code and deliverables with community collaboration.
 
 ## Metadata
 
