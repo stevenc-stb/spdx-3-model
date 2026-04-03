@@ -8,7 +8,7 @@ A Role defines a specific position or function that an entity plays in the conte
 
 ## Description
 
-A Role defines a specific position or function that an entity plays in the context of a build, system, project, distribution, supply chain, lifecycle or any relevant context.
+A Role defines a specific position, function, or capacity that an entity may assume within any relevant context. This context is intentionally broad and adaptable, capable of representing environments including, but not limited to, software builds, system architectures, project management structures, distribution channels, supply chain operations, lifecycle stages, or any other domain where entities perform specific functions. The Role class provides a structured mechanism to model these functional assignments independently of the entities themselves, allowing for reusable and standardized definitions of responsibilities and privileges across different SPDX documents and ecosystems.
 
 ## Metadata
 
