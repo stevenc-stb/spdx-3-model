@@ -30,7 +30,7 @@ Based on the Project Management Body of Knowledge (PMBOK), 3rd edition.
   - type: /Core/DateTime
   - minCount: 1
   - maxCount: 1
-- /Core/Artifact/intendedUse
+- /Core/intendedUse
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
