@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-RoleRelationship represents a relationship between an entity holding a role and the scope or context in which that role applies. The givenRole property specifies the specific Role assigned.
+RoleRelationship represents a relationship between an entity holding a role and the scope or context in which that role applies. The givenRole property specifies the role assigned.
 
 ## Description
 
