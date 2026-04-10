@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A StakeholderNeed is condition, objective or capability required by a stakeholder to solve a problem.
+A StakeholderNeed is condition, objective or capability by a stakeholder to desired by a Stakeholder.
 
 ## Description
 
