@@ -14,4 +14,4 @@ MediaChannel provides an entry point for project communication and community int
 
 - name: mediaChannel
 - Nature: ObjectProperty
-- Range: ExternalIdentifier
+- Range: /Core/ExternalIdentifier
