@@ -20,3 +20,4 @@ In the future, this may be extended to other kinds (e.g. network based files).
 
 - file: The file represents a single file (default).
 - directory: The file represents a directory and all content stored in that directory.
+- symlink: This file represents a symbolic link.
