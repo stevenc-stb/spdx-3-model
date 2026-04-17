@@ -93,7 +93,7 @@ name completes the sentence:
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
 - resolved: The `to` OutOfSpecAction is resolved in the `from` ResolutionAction.
-- satisfiesNeed: The `from` Requirement is help satisfies the `to` need. 
+- satisfies: The `from` Requirement satisfies `to` need. 
 - runsOn: The `from` Element (the instructions) of runs on each `to` Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
