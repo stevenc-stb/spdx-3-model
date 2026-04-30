@@ -8,7 +8,7 @@ The primary web address (URI) serving as the issue tracking system for a Project
 
 ## Description
 
-ProjectIssueTrackerUrl provides the definitive entry point for defect reporting. 
+ProjectIssueTrackerUrl provides the definitive entry point for defect reporting.
 
 ## Metadata
 
