@@ -25,4 +25,3 @@ The OpenSourceProject distinguishes itself from project through governance, oper
 - contributionProcess
   - type: /Core/DefinedProcess
   - minCount: 0
-
