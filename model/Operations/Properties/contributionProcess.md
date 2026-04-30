@@ -15,4 +15,3 @@ ContributionProcess represents the defined workflow that governs how stakeholder
 - name: contributionProcess
 - Nature: ObjectProperty
 - Range: /Core/DefinedProcess
-
