@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A participationAgreement defines the participation parameters to be adhered to by particiapnts. 
+A participationAgreement defines the participation parameters to be adhered to by particiapnts.
 
 ## Description
 
