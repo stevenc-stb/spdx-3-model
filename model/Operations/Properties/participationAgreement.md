@@ -15,4 +15,3 @@ participationAgreement represents the formal Specification instances that can de
 - name: participationAgreement
 - Nature: ObjectProperty
 - Range: /Core/Specification
-
