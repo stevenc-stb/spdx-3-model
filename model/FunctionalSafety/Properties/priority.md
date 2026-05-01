@@ -16,6 +16,6 @@ This ObjectProperty references a DefinedType to enable formal classification and
 
 ## Metadata
 
-- name: Priority
+- name: priority
 - Nature: ObjectProperty
 - Range: /Core/DefinedType
