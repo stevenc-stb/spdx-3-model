@@ -82,7 +82,7 @@ name completes the sentence:
 - hasVariant: Every `to` Element is a variant the `from` Element (`from` hasVariant `to`).
 - implementedBy: The `from` Requirement is implemented in the `to` Element(s).
 - invokedBy: The `from` Element was invoked by the `to` Agent, during a LifecycleScopeType period (for example, a Build element that describes a build step).
-- isQualifiedFor: The `from` Agent is qualified for or can provided the `to` Role. 
+- isQualifiedFor: The `from` Agent is qualified for or can provided the `to` Role.
 - locatedAt: `from` element located at a specific `to` location. A time period is optional.
 - modifiedBy: The `from` Element is modified by each `to` Element.
 - other: Every `to` Element is related to the `from` Element where the relationship type is not described by any of the SPDX relationship types (this relationship is directionless).
