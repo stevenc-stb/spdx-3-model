@@ -23,7 +23,7 @@ This entity captures the natural language expression of the need via the stateme
 - statement
   - type: xsd:string
   - minCount: 1
-- priority
+- rolePriority
   - type: /Core/DefinedType
   - minCount: 0
 
