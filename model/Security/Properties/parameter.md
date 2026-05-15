@@ -8,7 +8,7 @@ Provides a parameter for an item. The parameter values are defined in the [SPDX 
 
 ## Description
 
-A key/value pair that provides additional configuration or specification details for an object or concept. The allowed parameter keys and their expected values are defined in the SPDX cryptographic algorithm list. 
+A key/value pair that provides additional configuration or specification details for an object or concept. The allowed parameter keys and their expected values are defined in the SPDX cryptographic algorithm list.
 
 ## Metadata
 
