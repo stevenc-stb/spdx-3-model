@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# signedByKey 
+# signedByKey
 
 ## Summary
 
@@ -12,6 +12,6 @@ The signedByKey property references the Key element that was used to generate th
 
 ## Metadata
 
-- name: signedByKey 
+- name: signedByKey
 - Nature: ObjectProperty
-- Range: Key 
+- Range: Key
