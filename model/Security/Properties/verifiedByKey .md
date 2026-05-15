@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# verifiedByKey 
+# verifiedByKey
 
 ## Summary
 
@@ -12,6 +12,6 @@ The verifiedByKey property references the Key element that was used during signa
 
 ## Metadata
 
-- name: verifiedByKey 
+- name: verifiedByKey
 - Nature: ObjectProperty
-- Range: Key 
+- Range: Key
