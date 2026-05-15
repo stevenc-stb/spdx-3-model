@@ -17,4 +17,4 @@ The string shall be in the[SPDX cryptographic-algorithm-list](https://github.com
 
 ## Format
 
-- pattern: [\s\S]* 
+- pattern: [\s\S]*
