@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# signedBy 
+# signedBy
 
 ## Summary
 
@@ -14,6 +14,6 @@ This property complements signedByKey by linking the cryptographic key to a real
 
 ## Metadata
 
-- name: signedBy 
+- name: signedBy
 - Nature: ObjectProperty
 - Range: /Core/Agent
