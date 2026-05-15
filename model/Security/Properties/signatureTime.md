@@ -8,7 +8,7 @@ The date and time when the signature was created.
 
 ## Description
 
-The signatureTime property records the exact date and time when the signature was generated. 
+The signatureTime property records the exact date and time when the signature was generated.
 
 ## Metadata
 
