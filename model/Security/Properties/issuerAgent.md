@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-issuerAgent is the agent that issued this Certificate. 
+issuerAgent is the agent that issued this Certificate.
 
 ## Description
 
