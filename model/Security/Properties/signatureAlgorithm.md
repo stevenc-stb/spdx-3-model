@@ -14,4 +14,4 @@ The signatureAlgorithm property references a CryptographyAlgorithm element that 
 
 - name: signatureAlgorithm
 - Nature: ObjectProperty
-- Range: CryptographyAlgorithm 
+- Range: CryptographyAlgorithm
