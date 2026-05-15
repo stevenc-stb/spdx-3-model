@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A record representing the lifecycle state of a certificate at a specific point in time. 
+A record representing the lifecycle state of a certificate at a specific point in time.
 
 ## Description
 
-The CertificateAnnotationState class represents an annotation that records the lifecycle state of a certificate at a specific point in time. It combines the certificate's status (as defined in CertificateLifecycleEnum) with a timestamp (annotationTime) to provide a historical record of the certificate's status. This allows for tracking when a certificate entered a specific state, such as Active, Revoked, or Suspended. 
+The CertificateAnnotationState class represents an annotation that records the lifecycle state of a certificate at a specific point in time. It combines the certificate's status (as defined in CertificateLifecycleEnum) with a timestamp (annotationTime) to provide a historical record of the certificate's status. This allows for tracking when a certificate entered a specific state, such as Active, Revoked, or Suspended.
 
 ## Metadata
 
