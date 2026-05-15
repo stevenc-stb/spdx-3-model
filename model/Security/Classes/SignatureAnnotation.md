@@ -8,7 +8,7 @@ SignatureAnnotation represents a cryptographic signature associated with a Eleme
 
 ## Description
 
-SignatureAnnotation captures metadata about a cryptographic signature applied to software, documents, or other elements. This annotation enables verification that the signed content has not been modified since signing and confirms the identity of the signer. 
+SignatureAnnotation captures metadata about a cryptographic signature applied to software, documents, or other elements. This annotation enables verification that the signed content has not been modified since signing and confirms the identity of the signer.
 
 ## Metadata
 
