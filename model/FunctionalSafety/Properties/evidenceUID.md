@@ -4,11 +4,13 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A evidenceUID is a unique identifier assigned to an entity, item, or requirement.
+A evidenceUID is a unique identifier assigned to an entity, item,
+or requirement.
 
 ## Description
 
-A evidenceUID is a unique identifier assigned to an entity, item, or any other kind of evaluated verification outcome.
+A evidenceUID is a unique identifier assigned to an entity, item,
+or any other kind of evaluated verification outcome.
 
 ## Metadata
 
