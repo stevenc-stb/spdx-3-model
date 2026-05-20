@@ -35,7 +35,7 @@ name completes the sentence:
 - contains: The `from` Element contains each `to` Element.
 - coordinatedBy: The `from` Vulnerability is coordinatedBy the `to` Agent(s) (vendor, researcher, or consumer agent).
 - copiedTo: The `from` Element has been copied to each `to` Element.
-- createdBy: The `from` Element's Action or DefinedProcess is createdBy `to` Agent(s).
+- createdBy: The `from` Action or DefinedProcess is createdBy `to` Agent(s).
 - delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which shall be of type invokedBy), during a LifecycleScopeType (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
 - dependsOn: The `from` Element depends on each `to` Element, during a LifecycleScopeType period.
 - descendantOf: The `from` Element is a descendant of each `to` Element.
