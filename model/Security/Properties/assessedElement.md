@@ -8,7 +8,7 @@ Specifies an Element where a vulnerability was found.
 
 ## Description
 
-Specifies compoment, subpackages, files or snippets referenced by a security assessment
+Specifies components, subpackages, files or snippets referenced by a security assessment
 to specify the precise location where a vulnerability was found.
 
 ## Metadata
