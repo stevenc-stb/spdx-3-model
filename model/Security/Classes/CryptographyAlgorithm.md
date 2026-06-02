@@ -25,7 +25,7 @@ Specifies a CryptographyAlgorithm includeing attributes set in the parameter: va
   - type: CryptographyNameType
   - minCount: 1
   - maxCount: 1
- - cryptographicAlgorithmsListVerson
+- cryptographicAlgorithmsListVerson
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
