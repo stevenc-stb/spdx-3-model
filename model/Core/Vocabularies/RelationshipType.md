@@ -92,7 +92,6 @@ name completes the sentence:
 - performedBy: Every `from` action is performedBy `to` Agent.
 - pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - providesSupportFor: The `from` Agent provides support for each `to` Artifact. The use of the `providesSupportFor` type is constrained to `SupportRelationship` classed relationships.
-- performedBy: Every `from` Action is performedBy `to` Agent.
 - publishedBy: Designates a `from` Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
