@@ -8,7 +8,7 @@ DesignRelationship defines a relationship between design-related elements, captu
 
 ## Description
 
-DesignRelationship models the connections between design artifacts, system elements, or engineering work products. It provides a structured mechanism to track how design decisions, components, or specifications relate to one another and to higher-level requirements or verification activities. The `status` property records the current state of the relationship (e.g., active, superseded, or deprecated), supporting lifecycle management and change control. The `priority` property enables stakeholders to assign relative importance or urgency to specific design linkages, facilitating impact analysis and decision-making. 
+DesignRelationship models the connections between design artifacts, system elements, or engineering work products. It provides a structured mechanism to track how design decisions, components, or specifications relate to one another and to higher-level requirements or verification activities. The `status` property records the current state of the relationship (e.g., active, superseded, or deprecated), supporting lifecycle management and change control. The `priority` property enables stakeholders to assign relative importance or urgency to specific design linkages, facilitating impact analysis and decision-making.
 
 ## Metadata
 
