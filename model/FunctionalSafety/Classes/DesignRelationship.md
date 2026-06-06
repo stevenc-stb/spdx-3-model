@@ -2,7 +2,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 # DesignRelationship
 
-# Summary
+## Summary
 
 DesignRelationship defines a relationship between design-related elements, capturing their contextual linkage and lifecycle state.
 
