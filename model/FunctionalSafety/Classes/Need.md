@@ -4,13 +4,13 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A Need is condition, objective or capability desired by a Role.
+A Need is condition, objective or capability desired by an Agent.
 
 ## Description
 
-A Need represents the high-level intent of a Role during the Needs Analysis phase of the life cycle. It defines the problem space or desired capability before it is translated into verifiable system requirements.
+A Need represents the high-level intent expressed by Agent during the Needs Analysis phase of the life cycle. It defines the problem space or desired capability before it is translated into verifiable system requirements.
 
-This entity captures the natural language expression of the need via the statement property, ensuring the Role's voice is preserved in the model. The AgentPriority property allows for the ranking of needs, which is critical for scope management, trade-off analysis, and requirement prioritization. RoleNeeds are distinct from System Requirements; while requirements must be technically verifiable, needs express the underlying value or necessity that justifies the system's existence and are **validated** by the Agent that is qualified to fulfill the Role. Traceability from derived requirements back to Needs is essential to ensure alignment with role expectations with the RelationshipType 'satisfies'.
+This entity captures the natural language expression of the need via the statement property, ensuring the Agent's voice is preserved in the model. The AgentPriority property allows for the ranking of needs, which is critical for scope management, trade-off analysis, and requirement prioritization. Agent Needs are distinct from System Requirements; while requirements must be technically verifiable, needs express the underlying value or necessity that justifies the system's existence. Traceability from derived requirements back to Needs is essential to ensure alignment with stakeholder expectations with the RelationshipType 'satisfies'.
 
 ## Metadata
 
@@ -23,7 +23,7 @@ This entity captures the natural language expression of the need via the stateme
 - statement
   - type: xsd:string
   - minCount: 1
-- rolePriority
+- agentPriority
   - type: /Core/DefinedType
   - minCount: 0
 
