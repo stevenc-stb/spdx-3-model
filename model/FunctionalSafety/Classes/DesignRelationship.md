@@ -21,7 +21,8 @@ DesignRelationship models the connections between design artifacts, system eleme
 - status
   - type: StatusType
   - minCount: 0
+  - maxCount: 1
 - priority
   - type: /Core/DefinedType
   - minCount: 0
-
+  - maxCount: 1
