@@ -19,4 +19,3 @@ The StatusType enumeration provides standardized lifecycle states for engineerin
 - draft: The element is in an initial or unreviewed state and has not yet undergone formal evaluation or approval.
 - approved: The element has been formally reviewed, validated, and accepted by the appropriate stakeholders or governing process.
 - deprecated: The element is officially superseded, obsolete, or no longer recommended for use, though it may be retained for reference or historical traceability.
-
