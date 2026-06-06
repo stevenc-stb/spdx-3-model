@@ -15,4 +15,3 @@ The status property records the current progression state of an element througho
 - name: status
 - Nature: ObjectProperty
 - Range: StatusType
-
