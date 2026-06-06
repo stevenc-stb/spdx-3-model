@@ -23,9 +23,6 @@ This entity captures the natural language expression of the need via the stateme
 - statement
   - type: xsd:string
   - minCount: 1
-- agentPriority
-  - type: /Core/DefinedType
-  - minCount: 0
 
 ## External properties restrictions
 
