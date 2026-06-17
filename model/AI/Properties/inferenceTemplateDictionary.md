@@ -8,7 +8,7 @@ A Dictionary containing the template format used to structure inference interact
 
 ## Description
 
-Links an inference template to a structured dictionary entry that defines template variables, placeholders, default values, or configuration parameters. 
+Links an inference template to a structured dictionary entry that defines template variables, placeholders, default values, or configuration parameters.
 
 ## Metadata
 
