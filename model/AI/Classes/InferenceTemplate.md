@@ -25,4 +25,3 @@ Represents a parameterized template specification used to construct prompts, pay
 - inferenceTemplateDictionary
   - type: /Core/DictionaryEntry
   - minCount: 0
-
