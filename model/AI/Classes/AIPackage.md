@@ -27,9 +27,6 @@ artificial intelligence capabilities.
   - type: /Core/PresenceType
   - minCount: 0
   - maxCount: 1
-- chatTemplate
-  - type: xsd:string
-  - minCount: 0
 - domain
   - type: xsd:string
   - minCount: 0
