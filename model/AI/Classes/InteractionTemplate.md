@@ -1,10 +1,10 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# InferenceTemplate
+# InteractionTemplate
 
 ## Summary
 
-A artifact that defines the structure, formatting, and variable placeholders for AI model inference interactions.
+A artifact that defines the structure, formatting, and variable placeholders for AI model interactions.
 
 ## Description
 
@@ -12,16 +12,16 @@ Represents a parameterized template specification used to construct prompts, pay
 
 ## Metadata
 
-- name: InferenceTemplate
+- name: InteractionTemplate
 - SubclassOf: /Core/Artifact
 - Instantiability: Concrete
 
 ## Properties
 
-- inferenceTemplateString
+- interactionTemplateString
   - type: xsd:string
   - minCount: 0
   - maxCount: 1
-- inferenceTemplateDictionary
+- interactionTemplateDictionary
   - type: /Core/DictionaryEntry
   - minCount: 0
