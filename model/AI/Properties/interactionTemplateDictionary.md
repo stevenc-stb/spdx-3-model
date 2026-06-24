@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A Dictionary containing the template format used to structure inference interactions with the AI model.
+A Dictionary containing the template format used to structure interactions with the AI model.
 
 ## Description
 
-Links an inference template to a structured dictionary entry that defines template variables, placeholders, default values, or configuration parameters.
+Links a template to a structured dictionary entry that defines template variables, placeholders, default values, or configuration parameters.
 
 ## Metadata
 
