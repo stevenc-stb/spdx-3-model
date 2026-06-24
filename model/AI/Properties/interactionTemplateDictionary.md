@@ -1,6 +1,6 @@
 SPDX-License-Identifier: Community-Spec-1.0
 
-# inferenceTemplateDictionary
+# interactionTemplateDictionary
 
 ## Summary
 
@@ -12,6 +12,6 @@ Links an inference template to a structured dictionary entry that defines templa
 
 ## Metadata
 
-- name: inferenceTemplateDictionary
+- name: interactionTemplateDictionary
 - Nature: ObjectProperty
 - Range: /Core/DictionaryEntry
