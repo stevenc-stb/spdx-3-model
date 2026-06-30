@@ -8,7 +8,7 @@ responsibilityCategory classifies the nature or domain of a responsibility trans
 
 ## Description
 
-This property categorizes responsibility changes based on the type of rights, responsibilities, or control being transferred. 
+This property categorizes responsibility changes based on the type of rights, responsibilities, or control being transferred.
 
 ## Metadata
 
