@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A artifact that defines the structure, formatting, and variable placeholders for AI model interactions.
+An artifact that defines the structure, formatting, and variable placeholders for AI model interactions.
 
 ## Description
 
