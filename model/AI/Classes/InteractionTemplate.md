@@ -11,8 +11,7 @@ An artifact that defines the structure, formatting, and variable placeholders fo
 Represents a parameterized template specification used to construct prompts, payloads, or structured requests for AI models. It supports flexible template instantiation through either a raw text string with placeholder syntax or a structured dictionary of variables and configuration parameters.
 
 The /AI/InteractionTemplate is linked to an AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` field determines the template’s role:
-
-    'runtime' → inference (chat) template
+  * 'runtime' → inference (chat) template
     
 ## Metadata
 
