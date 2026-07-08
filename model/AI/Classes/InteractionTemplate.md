@@ -12,7 +12,7 @@ Represents a parameterized template specification used to construct prompts, pay
 
 The /AI/InteractionTemplate is linked to an AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` field determines the template’s role:
 
-* 'runtime' → inference (chat) template
+- 'runtime' → inference (chat) template
 
 ## Metadata
 
