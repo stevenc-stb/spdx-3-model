@@ -16,7 +16,7 @@ ProcessReadinessType enumerations are used to define the version state.
 
 ## Entries
 
-- draft: in production
+- draft: not yet finalized; under development or review
 - active: in use
 - obsolete: superseded or not valid at present
 - other: other
