@@ -12,13 +12,13 @@ Represents a parameterized template specification used to construct prompts, pay
 
 If the template’s role is:
 
-- Inference (chat) template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate.
+- Inference (chat) template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate.
 
-- training template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'trainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate/
+- training template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'trainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
 
-- pretrained template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'pretrainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate/
+- pretrained template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'pretrainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
 
-- finetuned template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'finetunedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate/
+- finetuned template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'finetunedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
 
 ## Metadata
 
