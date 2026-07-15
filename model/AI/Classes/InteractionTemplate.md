@@ -10,9 +10,15 @@ An artifact that defines the structure, formatting, and variable placeholders fo
 
 Represents a parameterized template specification used to construct prompts, payloads, or structured requests for AI models. It supports flexible template instantiation through either a raw text string with placeholder syntax or a structured dictionary of variables and configuration parameters.
 
-The /AI/InteractionTemplate is linked to an AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` field determines the template’s role:
+If the template’s role is: 
 
-- 'runtime' → inference (chat) template
+* Inference (chat) template:  The /AI/InteractionTemplate is linked to an `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'configures'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate 
+ 
+* training template: The /AI/InteractionTemplate is linked to an `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'trainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate
+
+* pretrained template: The /AI/InteractionTemplate is linked to an `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'pretrainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate
+
+* finetuned template: The /AI/InteractionTemplate is linked to an `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'finetunedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` = a class of type /AI/InteractionTemplate
 
 ## Metadata
 
