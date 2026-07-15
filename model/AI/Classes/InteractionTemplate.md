@@ -17,7 +17,6 @@ If the template’s role is:
 - training template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'trainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
 
 - pretrained template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'pretrainedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
-
 - finetuned template: `from` AIPackage or AIAgent via a /Core/LifecycleScopedRelationship with `relationshipType` = 'finetunedOn'. The `scope` = 'runtime', where `from` is class of type /AI/AIPackage or /AI/AIAgent and `to` a class of type /AI/InteractionTemplate/
 
 ## Metadata
