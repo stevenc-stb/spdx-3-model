@@ -36,7 +36,7 @@ name completes the sentence:
 - coordinatedBy: The `from` /Security/Vulnerability is coordinatedBy the `to` Agent(s) (vendor, researcher, or consumer agent).
 - copiedTo: The `from` Element has been copied to each `to` Element.
 - createdBy: The `from` Action or DefinedProcess is createdBy `to` Agent(s).
-- delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which shall be of type invokedBy), during a LifecycleScopeType (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
+- delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which shall be of type invokedBy), during a LifecycleScopeType period (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
 - dependsOn: The `from` Element depends on each `to` Element, during a LifecycleScopeType period.
 - descendantOf: The `from` Element is a descendant of each `to` Element.
 - describes: The `from` Element describes each `to` Element. To denote the root(s) of a tree of elements in a collection, the rootElement property shall be used.
