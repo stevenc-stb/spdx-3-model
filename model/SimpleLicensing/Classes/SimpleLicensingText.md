@@ -24,8 +24,3 @@ and is therefore defined by an SPDX data creator.
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-
-## External properties restrictions
-
-- /Core/Element/name
-  - minCount: 1
