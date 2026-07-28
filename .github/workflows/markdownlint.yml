@@ -28,4 +28,5 @@ jobs:
         with:
           globs: |
             **/*.md
+            !examples/**
             !License.md
