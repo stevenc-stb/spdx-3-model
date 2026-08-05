@@ -4,7 +4,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-A Need is condition, objective or capability desired by an Role.
+A Need is condition, objective or capability desired by a Role.
 
 ## Description
 
