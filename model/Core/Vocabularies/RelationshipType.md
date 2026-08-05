@@ -92,13 +92,13 @@ name completes the sentence:
 - performedBy: Every `from` Action is performedBy `to` Agent.
 - pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - providesSupportFor: The `from` Agent provides support for each `to` Artifact. The use of the `providesSupportFor` type is constrained to `SupportRelationship` classed relationships.
-- satisfies: The `from` Requirement satisfies `to` Need. Note: The Requirement is not generally intended to singularly satisfy a particular Need. It is more likely that a set of higher level Requirements is required to achieve a reasonable satisfaction of an expressed Need.
 - publishedBy: Designates a `from` /Security/Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` /Security/Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` /Security/Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
 - resolved: The `to` /SupplyChain/OutOfSpecAction is resolved in the `from` /SupplyChain/ResolutionAction.
 - runsOn: The `from` Element (the instructions) runs on each `to` /Hardware/Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
+- satisfies: The `from` Requirement satisfies `to` /FunctionalSafety/Need. Note: The Requirement is not generally intended to singularly satisfy a particular Need. It is more likely that a set of higher level Requirements is required to achieve a reasonable satisfaction of an expressed /FunctionalSafety/Need.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
 - tracedToDetail: The `from` Requirement is refined and further elaborated by each `to` Requirement, which contains more detailed implementation information.
 - trainedOn: The `from` Element has been trained on the `to` Element(s).
