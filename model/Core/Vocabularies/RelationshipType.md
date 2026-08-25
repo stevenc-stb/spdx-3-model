@@ -36,7 +36,7 @@ name completes the sentence:
 - coordinatedBy: The `from` /Security/Vulnerability is coordinatedBy the `to` Agent(s) (vendor, researcher, or consumer agent).
 - copiedTo: The `from` Element has been copied to each `to` Element.
 - createdBy: The `from` Action or DefinedProcess is createdBy `to` Agent(s).
-- delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which shall be of type invokedBy), during a LifecycleScopeType (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
+- delegatedTo: The `from` Agent is delegating an action to the Agent of the `to` Relationship (which shall be of type invokedBy), during a LifecycleScopeType period (e.g. the `to` invokedBy Relationship is being done on behalf of `from`).
 - dependsOn: The `from` Element depends on each `to` Element, during a LifecycleScopeType period.
 - descendantOf: The `from` Element is a descendant of each `to` Element.
 - describes: The `from` Element describes each `to` Element. To denote the root(s) of a tree of elements in a collection, the rootElement property shall be used.
@@ -55,7 +55,7 @@ name completes the sentence:
 - hasAssociatedVulnerability: Used to associate a `from` Artifact with each `to` /Security/Vulnerability.
 - hasConcludedLicense: The `from` Artifact is concluded by the SPDX data creator to be governed by each `to` /SimpleLicensing/AnyLicenseInfo. If the `to` of an Artifact's `hasConcludedLicense` is not the same as the `to` of its `hasDeclaredLicense`, a written explanation should be provided in the comment field of the `hasConcludedLicense` relationship.
 - hasContactPoint: The `from` Artifact has each `to` Agent as a contact point. The use of the `hasContactPoint` type is constrained to `ContactPointRelationship` classed relationships. The type of contact (i.e. security) may be specified using a `ContactPointRelationship` element.
-- hasDataFile: The `from` Element treats each `to` Element as a data file. A data file is an artifact that stores data required or optional for the `from` Element's functionality. A data file can be a database file, an index file, a log file, an AI model file, a calibration data file, a temporary file, a backup file, and more. For AI training dataset, test dataset, test artifact, configuration data, build input data, and build output data, please consider using the more specific relationship types: `trainedOn`, `testedOn`, `hasTest`, `configures`, `hasInput`, and `hasOutput`, respectively. This relationship does not imply dependency.
+- hasDataFile: The `from` Element treats each `to` Element as a data file. A data file is an artifact that stores data required or optional for the `from` Element's functionality. The `hasDataFile` relationship does not imply a dependency. Examples of data files include database files, index files, log files, AI model files, calibration data files, temporary files, and backup files. For configuration data, build input data, build output data, test artifacts, test datasets, and training datasets, the more specific relationship types `configures`, `hasInput`, `hasOutput`, `hasTest`, `testedOn`, and `trainedOn` shall be used, respectively.
 - hasDeclaredLicense: The `from` Artifact was discovered to actually contain each `to` /SimpleLicensing/AnyLicenseInfo (for example, as detected by automated tooling).
 - hasDeletedFile: Every `to` Element is a file deleted from the `from` Element (`from` hasDeletedFile `to`).
 - hasDependencyManifest: The `from` Element has manifest files that contain dependency information in each `to` Element.
@@ -73,7 +73,7 @@ name completes the sentence:
 - hasPrerequisite: The `from` Element has a prerequisite on each `to` Element, during a LifecycleScopeType period.
 - hasProvidedDependency: The `from` Element has a dependency on each `to` Element, dependency is not in the distributed artifact, but assumed to be provided, during a LifecycleScopeType period.
 - hasRequirement: The `from` Element has a requirement on each `to` Element, during a LifecycleScopeType period.
-- hasResolution: The `from` /SupplyChain/ResolutionAction point to the `to` /SupplyChain/OutOfSpecAction that is addressed.
+- hasResolution: The `from` /SupplyChain/ResolutionAction points to the `to` /SupplyChain/OutOfSpecAction that is addressed.
 - hasRoleIn: The `from` Element has a role in the `to` Element. The use of the hasRoleIn is constrained to `RoleRelationship` classed relationships.
 - hasSpecification: Every `to` Element is a specification for the `from` Element (`from` hasSpecification `to`), during a LifecycleScopeType period.
 - hasStaticLink: The `from` Element statically links in each `to` Element, during a LifecycleScopeType period.
@@ -87,14 +87,14 @@ name completes the sentence:
 - other: Every `to` Element is related to the `from` Element where the relationship type is not described by any of the SPDX relationship types (this relationship is directionless).
 - packagedBy: Every `to` Element is a packaged instance of the `from` Element (`from` packagedBy `to`).
 - patchedBy: Every `to` Element is a patch for the `from` Element (`from` patchedBy `to`).
+- performedBy: Every `from` Action is performedBy `to` Agent.
 - pretrainedOn: The `from` Element has been pretrained on the `to` Element(s).
 - providesSupportFor: The `from` Agent provides support for each `to` Artifact. The use of the `providesSupportFor` type is constrained to `SupportRelationship` classed relationships.
-- performedBy: Every `from` Action is performedBy `to` Agent.
 - publishedBy: Designates a `from` /Security/Vulnerability was made available for public use or reference by each `to` Agent.
 - reportedBy: Designates a `from` /Security/Vulnerability was first reported to a project, vendor, or tracking database for formal identification by each `to` Agent.
 - republishedBy: Designates a `from` /Security/Vulnerability's details were tracked, aggregated, and/or enriched to improve context (i.e. NVD) by each `to` Agent.
 - resolved: The `to` /SupplyChain/OutOfSpecAction is resolved in the `from` /SupplyChain/ResolutionAction.
-- runsOn: The `from` Element (the instructions) of runs on each `to` /Hardware/Hardware (processing element), during a LifecycleScopeType period.
+- runsOn: The `from` Element (the instructions) runs on each `to` /Hardware/Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
 - tracedToDetail: The `from` Requirement is refined and further elaborated by each `to` Requirement, which contains more detailed implementation information.
