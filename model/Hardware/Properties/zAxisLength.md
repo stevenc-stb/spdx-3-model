@@ -16,4 +16,4 @@ Z axis is the height of the object.
 
 - name: zAxisLength
 - Nature: ObjectProperty
-- Range: /Core/MeasureOfLength
+- Range: /Core/UnitOfMeasure
