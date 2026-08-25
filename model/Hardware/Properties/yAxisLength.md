@@ -14,4 +14,4 @@ This property specifies the length along the y-axis of a hardware component. The
 
 - name: yAxisLength
 - Nature: ObjectProperty
-- Range: /Core/MeasureOfLength
+- Range: /Core/UnitOfMeasure
