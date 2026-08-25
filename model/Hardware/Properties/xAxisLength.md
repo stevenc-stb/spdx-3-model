@@ -14,4 +14,4 @@ This property specifies the length along the x-axis of a hardware component. The
 
 - name: xAxisLength
 - Nature: ObjectProperty
-- Range: /Core/MeasureOfLength
+- Range: /Core/UnitOfMeasure
