@@ -5,7 +5,7 @@ SPDX-License-Identifier: Community-Spec-1.0
 ## Summary
 
 A QUDT (Quantity, Unit, Dimension and Type) unit applied to measurement criteria based on product type, region,
-and use. 
+and use.
 
 ## Description
 
