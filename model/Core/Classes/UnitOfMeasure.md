@@ -23,6 +23,6 @@ The QUDT, or "Quantity, Unit, Dimension and Type" schema defines the base classe
   - minCount: 1
   - maxCount: 1
 - unitQUDT
-  - type: xsd:string
+  - type: xsd:anyURI
   - minCount: 1
   - maxCount: 1
