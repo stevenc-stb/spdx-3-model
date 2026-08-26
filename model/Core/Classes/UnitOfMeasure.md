@@ -5,7 +5,8 @@ SPDX-License-Identifier: Community-Spec-1.0
 ## Summary
 
 UnitOfMeasure specify information structures through industry standards for
-Units of Measure, Quantity Kinds, Dimensions and Data Types.
+A Unit of Measure defines a standard used to quantify
+a dimension or property.
 
 ## Description
 
