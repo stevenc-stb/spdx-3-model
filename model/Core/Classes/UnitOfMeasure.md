@@ -4,13 +4,13 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-UnitOfMeasure specify information structures through industry standards for
-A Unit of Measure defines a standard used to quantify
-a dimension or property.
+A class that represents a measured quantity paired with a unit of measure from the QUDT ontology.
 
 ## Description
 
-The QUDT, or "Quantity, Unit, Dimension and Type" schema defines the base classes properties, and restrictions used for modeling physical quantities, units of measure, and their dimensions in various measurement systems.
+UnitOfMeasure class provides a structured way to express measurements: such as size, weight, volume, or other quantities.
+It combines a numerical value `quantity` with a unit reference `unitQUDT` that points to a URI in the QUDT (Quantity, Unit, Dimension and Type) ontology.
+The QUDT ontology and specifications are available at [www.qudt.org](https://www.qudt.org/).
 
 ## Metadata
 
