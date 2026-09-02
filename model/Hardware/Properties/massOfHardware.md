@@ -13,5 +13,5 @@ Mass is defined as an intrinsic property of a body for describing a physical har
 ## Metadata
 
 - name: massOfHardware
-- Nature: DataProperty
+- Nature: ObjectProperty
 - Range: /Core/MeasureOfMass
