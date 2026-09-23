@@ -4,11 +4,11 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The cryptographic algorithm category. 
+The cryptographic algorithm category.
 
 ## Description
 
-The classification of a cryptographic algorithm, specifying its fundamental type of operation. 
+The classification of a cryptographic algorithm, specifying its fundamental type of operation.
 
 ## Metadata
 
