@@ -4,15 +4,15 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The class that represents the cryptography algorithm. 
+The class that represents the cryptography algorithm.
 
 ## Description
 
 SimpileCryptographyAlgorithm is an class that defines a cryptographic algorithm used in SPDX documents.
 
- `providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType. 
- `usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType". 
- `supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType. 
+`providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType.
+`usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType".
+`supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType.
 
 ## Metadata
 
@@ -42,5 +42,3 @@ SimpileCryptographyAlgorithm is an class that defines a cryptographic algorithm 
   - minCount: 1
 - parameter
   - type: /Core/DictionaryEntry
-  
-
