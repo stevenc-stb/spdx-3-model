@@ -8,7 +8,7 @@ The class that represents the cryptography algorithm that is `NOT` found in the 
 
 ## Description
 
-CustomCryptographyAlgorithm that represents the cryptography algorithm that is `NOT` found in the cryptographic algorithm list. 
+CustomCryptographyAlgorithm that represents the cryptography algorithm that is `NOT` found in the cryptographic algorithm list.
 
 `providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType.
 `usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType".
