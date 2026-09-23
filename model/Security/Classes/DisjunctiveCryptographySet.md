@@ -8,7 +8,7 @@ Representing a set of CryptographyAlgorithm where only one(or more) of the eleme
 
 ## Description
 
-A ConjunctiveCryptographySet of two or more CryptographyAlgorithm represents a logical grouping of multiple CryptographyAlgorithm instances in a selection list. 
+A ConjunctiveCryptographySet of two or more CryptographyAlgorithm represents a logical grouping of multiple CryptographyAlgorithm instances in a selection list.
 It is represented in the SPDX Cryptography Algorithm List Expression Syntax by the `OR` operator.
 
 ## Metadata
