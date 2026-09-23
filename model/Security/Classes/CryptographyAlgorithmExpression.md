@@ -9,13 +9,11 @@ An SPDX Element containing an SPDX Cryptography Algorithm Expression string.
 ## Description
 
 A CryptographyAlgorithmExpression enables the representation, in a single string, of a
-combination of one or more Cryptography Algorithm, 
+combination of one or more Cryptography Algorithm.
 
 The syntax for a Cryptography Algorithm Expression string is set forth in the corresponding
-Annex (["Cryptography Algorithm Expression"]
-(TODO).
+Annex (["Cryptography Algorithm Expression"] (TODO).
 A CryptographyAlgorithmExpression string is not valid if it does not conform to the grammar.
-
 
 ## Metadata
 
@@ -33,4 +31,3 @@ A CryptographyAlgorithmExpression string is not valid if it does not conform to 
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-
