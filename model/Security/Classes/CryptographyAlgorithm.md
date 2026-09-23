@@ -4,15 +4,15 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The base class that represents the cryptography algorithm. 
+The base class that represents the cryptography algorithm.
 
 ## Description
 
 CryptographyAlgorithm is an abstract class that defines a cryptographic algorithm used in SPDX documents.
 
- `providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType. 
- `usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType". 
- `supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType. 
+`providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType.
+`usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType".
+`supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType.
 
 ## Metadata
 
