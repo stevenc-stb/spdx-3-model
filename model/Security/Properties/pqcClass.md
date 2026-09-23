@@ -8,7 +8,7 @@ The post-quantum cryptographic algorithm category, determined by the underlying 
 
 ## Description
 
-The mathematical family whose hard problem provides the security of a post-quantum cryptographic algorithm. This property is orthogonal to cryptoClass and cryptoSubClass. If set it marks the algorithm as post-quantum. 
+The mathematical family whose hard problem provides the security of a post-quantum cryptographic algorithm. This property is orthogonal to cryptoClass and cryptoSubClass. If set it marks the algorithm as post-quantum.
 
 ## Metadata
 
