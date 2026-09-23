@@ -8,7 +8,7 @@ Representing a set of CryptographyAlgorithm where all elements apply.
 
 ## Description
 
-A ConjunctiveCryptographySet of two or more CryptographyAlgorithm represents a logical grouping of multiple CryptographyAlgorithm instances. 
+A ConjunctiveCryptographySet of two or more CryptographyAlgorithm represents a logical grouping of multiple CryptographyAlgorithm instances.
 It is represented in the SPDX Cryptography Algorithm List Expression Syntax by the `AND` operator.
 
 ## Metadata
