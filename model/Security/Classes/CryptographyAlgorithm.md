@@ -26,4 +26,3 @@ CryptographyAlgorithm is an abstract class that defines a cryptographic algorith
   - type: xsd:string
   - minCount: 1
   - maxCount: 1
-
