@@ -4,15 +4,15 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 ## Summary
 
-The class that represents the cryptography algorithm that is `NOT` found in the cryptographic algorithm list. 
+The class that represents the cryptography algorithm that is `NOT` found in the cryptographic algorithm list.
 
 ## Description
 
 CustomCryptographyAlgorithm that represents the cryptography algorithm that is `NOT` found in the cryptographic algorithm list. 
 
- `providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType. 
- `usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType". 
- `supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType. 
+`providesAlgorithm` reationship  "(From) Element providesAlgorithm (To) CryptographyAlgorithm" during a LifecycleScopeType.
+`usedAlgorithm` reationship "(From) Element usedAlgorithm (To) CryptographyAlgorithm during a LifecycleScopeType".
+`supportsAlgorithm` reationship "(From) Element supportsAlgorithm (To) CryptographyAlgorithm during LifecycleScopeType.
 
 ## Metadata
 
@@ -24,4 +24,3 @@ CustomCryptographyAlgorithm that represents the cryptography algorithm that is `
 
 - /Security/CryptographyAlgorithm/cryptographicAlgorithmID
   - minCount: 0
-
