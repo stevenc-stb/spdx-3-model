@@ -63,7 +63,7 @@ and another SpdxDocument.
 - hasHost: The `from` /Build/Build was run on the `to` Element during a LifecycleScopeType period (e.g. the host that the build runs on).
 - hasInput: The `from` Element has each `to` Element as an input.
 - hasInstall: The `from` Element has each `to` Artifact installed (placed into position for use) into it during a LifecycleScopeType period. To express the Agent doing the install, link this relationship as the `from` in `performedBy`.
-- hasInstance: The `from` Software/AbstractPackage has more specific instances that are the `to` Element(s).
+- hasInstance: The `from` Software/GenericPackage has more specific instances that are the `to` Element(s).
 - hasMetadata: Every `to` Element is metadata about the `from` Element (`from` hasMetadata `to`).
 - hasOptionalComponent: Every `to` Element is an optional component of the `from` Element (`from` hasOptionalComponent `to`).
 - hasOptionalDependency: The `from` Element optionally depends on each `to` Element, during a LifecycleScopeType period.
@@ -72,7 +72,7 @@ and another SpdxDocument.
 - hasProvidedDependency: The `from` Element has a dependency on each `to` Element, dependency is not in the distributed artifact, but assumed to be provided, during a LifecycleScopeType period.
 - hasRequirement: The `from` Element has a requirement on each `to` Element, during a LifecycleScopeType period.
 - hasResolution: The `from` /SupplyChain/ResolutionAction points to the `to` /SupplyChain/OutOfSpecAction that is addressed.
-- hasRoleIn: The `from` Element has a role in the `to` Element. The use of the hasRoleIn is constrained to `RoleRelationship` classed relationships.
+- hasRoleIn: The `from` Element has a role in the `to` Element. The use of the `hasRoleIn` type is constrained to `RoleRelationship` classed relationships. The type of role can be specified using a `givenRole` property on the `to` Element.
 - hasSpecification: Every `to` Element is a specification for the `from` Element (`from` hasSpecification `to`), during a LifecycleScopeType period.
 - hasStaticLink: The `from` Element statically links in each `to` Element, during a LifecycleScopeType period.
 - hasTest: Every `to` Element is a test artifact for the `from` Element (`from` hasTest `to`), during a LifecycleScopeType period.
@@ -96,9 +96,11 @@ and another SpdxDocument.
 - runsOn: The `from` Element (the instructions) runs on each `to` /Hardware/Hardware (processing element), during a LifecycleScopeType period.
 - serializedInArtifact: The `from` SpdxDocument can be found in a serialized form in each `to` Artifact.
 - testedOn: The `from` Element has been tested on the `to` Element(s).
+- toolsAvailable: The `from` /AI/AIAgent has each `to` Element available for use as a tool, during a LifecycleScopeType period.
 - tracedToDetail: The `from` Requirement is refined and further elaborated by each `to` Requirement, which contains more detailed implementation information.
 - trainedOn: The `from` Element has been trained on the `to` Element(s).
 - underInvestigationFor: The `from` /Security/Vulnerability impact is being investigated for each `to` Element. The use of the `underInvestigationFor` type is constrained to `/Security/VexUnderInvestigationVulnAssessmentRelationship` classed relationships.
+- usesModel: The `from` /AI/AIAgent uses each `to` /AI/AIPackage as a model.
 - usesTool: The `from` Element uses each `to` Element as a tool, during a LifecycleScopeType period.
 - validatedOn: The `from` Element has been validated on the `to` Element(s).
 - verifiedBy: The `from` Requirement that has verification (test, review, analysis etc.) details defined in the `to` /FunctionalSafety/RequirementVerification.
@@ -211,7 +213,7 @@ and another SpdxDocument.
         }
 
 - dependsOn_type
-  - message: When relationship id dependsOn, class must be LifecycleScopedRelationship
+  - message: When relationship is dependsOn, class must be LifecycleScopedRelationship
   - query: <<<
 
         SELECT $this WHERE {
