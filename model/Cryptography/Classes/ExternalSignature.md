@@ -20,4 +20,3 @@ Represents a Signature that is stored externally to an SPDX graph.
 
 - /Cryptography/SignatureAnnotation/signatureStorage
   - minCount: 1
-
