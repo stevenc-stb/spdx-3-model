@@ -51,6 +51,14 @@ A fingerprint of a certificate can be stored in the verifiedUsing property.
   - type: Key
   - minCount: 0
   - maxCount: 1
+- serializedArtifact
+  - type: xsd:string
+  - minCount: 0
+  - maxCount: 1
+- serializedArtifactFormat
+  - type: SerializedFormatEnum
+  - minCount: 0
+  - maxCount: 1
 - signedBy
   - type: /Core/Agent
   - minCount: 0
