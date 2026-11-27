@@ -53,7 +53,8 @@ Every `Certificate` instance must have an associated `SignatureAnnotation` (to c
   - type: /Core/DateTime
   - minCount: 1
   - maxCount: 1
-- /Core/validUntilTime
-  - type: /Core/DateTime
+
+## External properties restrictions
+
+- /Core/Artifact/validUntilTime
   - minCount: 1
-  - maxCount: 1
